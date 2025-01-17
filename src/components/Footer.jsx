@@ -212,7 +212,7 @@ function Footer() {
                 >
                   Mindblue
                 </a>
-                . All Rights Reserved.
+                . <br />All Rights Reserved.
               </Typography>
             </div>
             <div className="flex gap-4 text-blue-gray-900 sm:justify-center">

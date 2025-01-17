@@ -3,7 +3,7 @@ import ServiceTemplate from "./ServiceTemplate.jsx";
 import forbes from "../../assets/Magazine/forbes-image.png";
 import business from "../../assets/Magazine/business.png";
 import fortune from "../../assets/Magazine/fortune.jpg";
-import ServiceImage from './ServiceImage.jsx';
+
 
 
 function MagazineService() {

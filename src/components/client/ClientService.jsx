@@ -3,7 +3,7 @@ import React from 'react'
 function ClientService({ imageSrc, imageAlt, title, description, buttonText, onButtonClick }) {
   return (
     <div>
-    <div className="flex flex-col h-full overflow-hidden rounded-lg shadow-lg text-primary bg-primary hover:scale-105 duration-300 hover:shadow-xl hover:shadow-gray-400">
+    <div className="flex flex-col h-full overflow-hidden rounded-lg shadow-lg text-primary bg-primary duration-300 hover:shadow-xl hover:shadow-gray-400">
       <div className="relative h-36">
         <img
           src={imageSrc}
