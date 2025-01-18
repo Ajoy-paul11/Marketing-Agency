@@ -36,7 +36,7 @@ function Genre() {
         <Link
           data-aos="fade-up"
           // to="/digital"
-          to="/digital-media"
+          to="/digital-service"
           className="flex flex-col items-center bg-[#f4f5ff] w-[150px]  py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={digtal} alt="digtal" width="56" height="56" className="genre-svg mix-blend-multiply" />
@@ -45,7 +45,7 @@ function Genre() {
         <Link
           data-aos="fade-down"
           // to="/magazine"
-          to="/magazine-media"
+          to="/magazine-service"
           className="flex flex-col items-center bg-[#f4f5ff] w-[150px]  py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={magazine} alt="magazine" width="56" height="56" className="genre-svg mix-blend-multiply" />
@@ -54,7 +54,7 @@ function Genre() {
         <Link
           data-aos="fade-up"
           // to="/newspaper"
-          to="/newspaper-media"
+          to="/newspaper-service"
           className="flex flex-col items-center bg-[#f4f5ff] w-[150px] py-8 rounded-md genre-box" // px-10
         >
           <img src={newspaper} alt="newspaper" width="56" height="56" className="genre-svg mix-blend-multiply" />
@@ -63,7 +63,7 @@ function Genre() {
         <Link
           data-aos="fade-down"
           // to="/radio"
-          to="/radio-media"
+          to="/radio-service"
           className="flex flex-col items-center bg-[#f4f5ff] w-[150px] py-8 rounded-md genre-box" // px-10
         >
           <img src={radio} alt="radio" width="56" height="56" className="genre-svg mix-blend-multiply" />
@@ -72,7 +72,7 @@ function Genre() {
         <Link
           data-aos="fade-up"
           // to="/tv"
-          to="/television-media"
+          to="/television-service"
           className="flex flex-col items-center bg-[#f4f5ff] w-[150px] py-8 rounded-md genre-box" // px-10
         >
           <img src={tv} alt="tv" width="56" height="56" className="genre-svg mix-blend-multiply" />
@@ -81,7 +81,7 @@ function Genre() {
         <Link
           data-aos="fade-down"
           // to="/tv"
-          to="/outdoor-media"
+          to="/outdoor-service"
           className="flex flex-col items-center bg-[#f4f5ff] w-[150px]  py-8 rounded-md genre-box"  // px-10
         >
           <img src={outdoor} alt="outdoor" width="56" height="56" className="genre-svg mix-blend-multiply" />
