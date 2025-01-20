@@ -10,18 +10,9 @@ import AccordionComponent from "./Accordion.jsx";
 import Contact from "./Contact.jsx";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import {
-//   Drawer,
-//   Button,
-//   Typography,
-//   IconButton,
-// } from "@material-tailwind/react";
+
 
 function Home() {
-  // const [open, setOpen] = React.useState(false);
-
-  // const openDrawer = () => setOpen(true);
-  // const closeDrawer = () => setOpen(false);
 
   useEffect(() => {
     Aos.init({
@@ -31,42 +22,7 @@ function Home() {
 
   return (
     <div className=" w-full">
-      {/* <React.Fragment>
-        <button onClick={openDrawer} className=" absolute top-[200px] left-0 z-50 w-[10px] h-auto bg-blue-900 text-[#f4f5ff] overflow-x-hidden">Open Drawer</button>
-        <Drawer open={open} onClose={closeDrawer} className="p-4">
-          <div className="mb-6 flex items-center justify-between">
-            <Typography variant="h5" color="blue-gray">
-              Material Tailwind
-            </Typography>
-            <IconButton variant="text" color="blue-gray" onClick={closeDrawer}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="h-5 w-5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </IconButton>
-          </div>
-          <Typography color="gray" className="mb-8 pr-4 font-normal">
-            Material Tailwind features multiple React and HTML components, all
-            written with Tailwind CSS classes and Material Design guidelines.
-          </Typography>
-          <div className="flex gap-2">
-            <Button size="sm" variant="outlined">
-              Documentation
-            </Button>
-            <Button size="sm">Get Started</Button>
-          </div>
-        </Drawer>
-      </React.Fragment> */}
+      
       <div className=" w-full max-h-fit bg-[#f4f5ff] flex flex-col lg:flex-row items-center justify-center gap-4 py-8">
         <section
           data-aos="fade-right"

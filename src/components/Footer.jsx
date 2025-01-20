@@ -1,26 +1,6 @@
 import { Typography } from "@material-tailwind/react";
-import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
 
-// const SITEMAP = [
-//   {
-//     title: "Help Center",
-//     links: ["Facebook", "Instagram", "LinkedIn", "Contact"],
-//   },
-//   {
-//     title: "Company",
-//     links: ["About", "Services", "Clients", "Portfolio"],
-//   },
-
-//   {
-//     title: "Resources",
-//     links: ["Blog", "Newsletter", "Free Products", "Affiliate Program"],
-//   },
-//   // {
-//   //   title: "Products",
-//   //   links: ["Templates", "UI Kits", "Icons", "Mockups"],
-//   // },
-// ];
 
 const currentYear = new Date().getFullYear();
 

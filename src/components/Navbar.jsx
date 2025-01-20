@@ -164,14 +164,7 @@ function NavList() {
               </Link>
             </li>
           </ul>
-          {/* <div className="py-1">
-            <Link
-              href="#"
-              className="text-sm hover:text-blue-500 block px-4 py-2 hover:scale-110 duration-300 transition-colors"
-            >
-              Sign out
-            </Link>
-          </div> */}
+          
         </div>
       </Typography>
       <Typography

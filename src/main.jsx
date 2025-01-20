@@ -46,30 +46,6 @@ const router = createBrowserRouter([
         path: "/about",
         element: <AboutPage />,
       },
-      // {
-      //   path: "/digital",
-      //   element: <Digital />,
-      // },
-      // {
-      //   path: "/magazine",
-      //   element: <Magazine />,
-      // },
-      // {
-      //   path: "/newspaper",
-      //   element: <Newspaper />,
-      // },
-      // {
-      //   path: "/radio",
-      //   element: <Radio />,
-      // },
-      // {
-      //   path: "/tv",
-      //   element: <Television />,
-      // },
-      // {
-      //   path: "/portfolio-product",
-      //   element: <ProductsTemplate />,
-      // },
       {
         path: "/contact",
         element: <Contact />,

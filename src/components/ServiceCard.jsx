@@ -61,11 +61,6 @@ export function CardWithLink({ img, title, description, modalTitle, modalDescrip
               handler={handleOpen}
               className=" fixed inset-0 z-50 flex items-center justify-center bg-[#f4f5ff]/80"
               size="md"
-              // animate={{
-              //   mount: { scale: 1, opacity: 1, y: 0 },
-              //   unmount: { scale: 0.9, opacity: 0, y: -100 },
-              // }}
-              // dismiss={{ outsidePress: true }}
             >
               <div className="relative w-full max-w-md p-6 bg-[#f4f5ff] rounded-lg shadow-xl">
                 <DialogHeader className="text-primary">
@@ -75,14 +70,6 @@ export function CardWithLink({ img, title, description, modalTitle, modalDescrip
                   {modalDescription}
                 </DialogBody>
                 <DialogFooter>
-                  {/* <Button
-                    variant="text"
-                    color="red"
-                    onClick={handleOpen}
-                    className="mr-4 px-3 py-1.5 bg-red-400 text-white"
-                  >
-                    <span>Cancel</span>
-                  </Button> */}
                   <Button
                     variant="gradient"
                     color="green"
