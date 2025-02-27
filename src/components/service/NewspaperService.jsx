@@ -1,9 +1,11 @@
 import React from 'react'
 import ServiceTemplate from './ServiceTemplate.jsx';
-import economic from "../../assets/Newspaper/economic.jpg";
-import hindu from "../../assets/Newspaper/hindu.jpg";
-import toi from "../../assets/Newspaper/toi.jpg";
-import hindustan from "../../assets/Newspaper/hindustan.jpg";
+import economic from "../../assets/Newspaper/economic2.jpg";
+import hindu from "../../assets/Newspaper/hindu2.jpg";
+import toi from "../../assets/Newspaper/TOI.png";
+import hindustan from "../../assets/Newspaper/hindustan2.jpg";
+import nbt from "../../assets/Newspaper/nbt2.jpg";
+import midDay from "../../assets/Newspaper/midday2.jpg";
 
 function NewspaperService() {
   return (
@@ -45,14 +47,14 @@ function NewspaperService() {
             description={"Article writing, Product promotion, Ad-Campaign, Product-Highlighting"}
           />
           <ServiceTemplate
-            img={economic}
-            title="Forbes India"
+            img={nbt}
+            title="Navbharat Times"
             type="We work with The Fortune India newspaper to promote brands products, and services"
             description={"Article writing, Product promotion, Ad-Campaign, Product-Highlighting"}
           />
           <ServiceTemplate
-            img={hindu}
-            title="Business Today"
+            img={midDay}
+            title="Mid-Day"
             type="We work with The Fortune India newspaper to promote brands products, and services"
             description={"Article writing, Product promotion, Ad-Campaign, Product-Highlighting"}
           />

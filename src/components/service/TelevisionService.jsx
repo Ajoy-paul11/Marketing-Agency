@@ -1,9 +1,11 @@
 import React from 'react'
 import ServiceTemplate from './ServiceTemplate.jsx';
-import aajtak from "../../assets/TV/aajtak.jpg";
-import colors from "../../assets/TV/colors.jpg";
-import suntv from "../../assets/TV/suntv.jpg";
-import starplus from "../../assets/TV/starplus.jpg";
+import aajtak from "../../assets/TV/aajtak2.jpg";
+import colors from "../../assets/TV/colors2.jpg";
+import suntv from "../../assets/TV/Sun_TV.png";
+import starplus from "../../assets/TV/starplus2.jpg";
+import sony from "../../assets/TV/sony2.jpg";
+import sonySab from "../../assets/TV/sonysab2.png";
 
 function TelevisionService() {
   return (
@@ -16,7 +18,7 @@ function TelevisionService() {
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
           <ServiceTemplate
             img={aajtak}
-            title="Big FM"
+            title="Aaj Tak"
             type="We help our clients to promote their products throught radio media."
             description={
               "Article writing, Product promotion, Ad-Campaign"
@@ -24,7 +26,7 @@ function TelevisionService() {
           />
           <ServiceTemplate
             img={colors}
-            title="Red FM"
+            title="Colors TV"
             type="We help our clients to promote their products throught radio media."
             description={
               "Article writing, Product promotion, Ad-Campaign"
@@ -32,7 +34,7 @@ function TelevisionService() {
           />
           <ServiceTemplate
             img={suntv}
-            title="Radio Mirchi"
+            title="Sun TV"
             type="We help our clients to promote their products throught radio media."
             description={
               "Article writing, Product promotion, Ad-Campaign"
@@ -40,19 +42,19 @@ function TelevisionService() {
           />
           <ServiceTemplate
             img={starplus}
-            title="Radio Mirchi"
+            title="Star Plus"
             type="We help our clients to promote their products throught radio media."
             description={"Article writing, Product promotion, Ad-Campaign"}
           />
           <ServiceTemplate
-            img={colors}
-            title="Big FM"
+            img={sony}
+            title="SONY"
             type="We help our clients to promote their products throught radio media."
             description={"3M Listeners"}
           />
           <ServiceTemplate
-            img={aajtak}
-            title="Red FM"
+            img={sonySab}
+            title="SONY SAB"
             type="We help our clients to promote their products throught radio media."
             description={"Ads, "}
           />

@@ -39,7 +39,7 @@ function OutdoorService() {
               "Search engine is helped to choose the specific words and target those audience easily."
             }
           />
-          <ServiceTemplate
+          {/* <ServiceTemplate
             img={outdoorImage}
             title="Big FM, Delhi"
             type="Hindi"
@@ -56,7 +56,7 @@ function OutdoorService() {
             title="Radio Mirchi, Delhi"
             type="Hindi"
             description={"4.5M Listeners"}
-          />
+          /> */}
         </div>
       </div>
     </div>

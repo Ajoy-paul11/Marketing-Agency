@@ -39,7 +39,7 @@ function Hyperlocal() {
               "Search engine is helped to choose the specific words and target those audience easily."
             }
           />
-          <ServiceTemplate
+          {/* <ServiceTemplate
             img={hyperImage}
             title="Big FM, Delhi"
             type="Hindi"
@@ -56,7 +56,7 @@ function Hyperlocal() {
             title="Radio Mirchi, Delhi"
             type="Hindi"
             description={"4.5M Listeners"}
-          />
+          /> */}
         </div>
       </div>
     </div>

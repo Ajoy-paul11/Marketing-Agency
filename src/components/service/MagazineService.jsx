@@ -1,8 +1,11 @@
 import React from 'react'
 import ServiceTemplate from "./ServiceTemplate.jsx";
-import forbes from "../../assets/Magazine/forbes-image.png";
-import business from "../../assets/Magazine/business.png";
-import fortune from "../../assets/Magazine/fortune.jpg";
+import forbes from "../../assets/Magazine/forbes2.png";
+import business from "../../assets/Magazine/business2.png";
+import fortune from "../../assets/Magazine/fortune2.jpg";
+import femina from "../../assets/Magazine/femina2.png";
+import vogue from "../../assets/Magazine/vogue2.jpg";
+import travel from "../../assets/Magazine/travel2.jpg";
 
 
 
@@ -40,20 +43,20 @@ function MagazineService() {
             }
           />
           <ServiceTemplate
-            img={fortune}
-            title="Fortune"
+            img={femina}
+            title="Femina"
             type="We provide the advertising services for Fortune to promote their products."
             description={"Article writing, Product promotion, Ad-Campaign"}
           />
           <ServiceTemplate
-            img={forbes}
-            title="Forbes India"
+            img={vogue}
+            title="Vogue"
             type="Hindi & Marathi"
             description={"3M Listeners"}
           />
           <ServiceTemplate
-            img={business}
-            title="Business Today"
+            img={travel}
+            title="Travel + Leisure"
             type="Hindi"
             description={"4.5M Listeners"}
           />

@@ -1,8 +1,9 @@
 import React from 'react'
 import ServiceTemplate from './ServiceTemplate.jsx';
-// import bigfm from "../../assets/Radio/bigfm.png";
-// import redfm from "../../assets/Radio/redfm.jpg";
-// import radiomirchi from "../../assets/Radio/radiomirchi.png";
+import bigfm from "../../assets/Radio/bigfm2.png";
+import redfm from "../../assets/Radio/redfm2.jpg";
+import radiomirchi from "../../assets/Radio/radiomirchi2.png";
+import radioCity from "../../assets/Radio/radiocity2.jpg";
 import radioImage from "../../assets/Radio/Radio-288-x-192.jpg";
 
 
@@ -16,7 +17,7 @@ function RadioService() {
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
           <ServiceTemplate
-            img={radioImage}
+            img={bigfm}
             title="Big FM"
             type="We help our clients to promote their products throught radio media."
             description={
@@ -24,7 +25,7 @@ function RadioService() {
             }
           />
           <ServiceTemplate
-            img={radioImage}
+            img={redfm}
             title="Red FM"
             type="We help our clients to promote their products throught radio media."
             description={
@@ -32,7 +33,7 @@ function RadioService() {
             }
           />
           <ServiceTemplate
-            img={radioImage}
+            img={radiomirchi}
             title="Radio Mirchi"
             type="We help our clients to promote their products throught radio media."
             description={
@@ -40,20 +41,20 @@ function RadioService() {
             }
           />
           <ServiceTemplate
-            img={radioImage}
-            title="Radio Mirchi"
+            img={radioCity}
+            title="Radio City"
             type="We help our clients to promote their products throught radio media."
             description={"Article writing, Product promotion, Ad-Campaign"}
           />
           <ServiceTemplate
             img={radioImage}
-            title="Big FM"
+            title="Lorem Ipsum"
             type="We help our clients to promote their products throught radio media."
             description={"3M Listeners"}
           />
           <ServiceTemplate
             img={radioImage}
-            title="Red FM"
+            title="Lorem Ipsum"
             type="We help our clients to promote their products throught radio media."
             description={"4.5M Listeners"}
           />

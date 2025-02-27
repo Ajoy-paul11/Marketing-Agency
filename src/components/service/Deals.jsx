@@ -4,7 +4,7 @@ import billboard from "../../assets/Outdoor/outdoor-billboard.jpg"
 import outdoor from "../../assets/Outdoor/outdoor-image.jpg"
 import outside from "../../assets/Outdoor/outdoor-ad.jpg"
 import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
-import dealImage from "../../assets/Deal/deal-img.webp"
+import dealImage from "../../assets/Deal/deal-img.jpg"
 
 
 function Deals() {
