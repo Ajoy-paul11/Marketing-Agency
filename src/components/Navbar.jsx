@@ -14,7 +14,7 @@ import logo from "../assets/mindblue-logo.png";
 function NavList() {
 
   return (
-    <ul className=" text-gray-700 my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 relative top-[4px]">
+    <ul className=" cta-text-color my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 relative top-[4px]">
       <Typography
         as="li"
         variant="h5"
@@ -47,7 +47,7 @@ function NavList() {
         color="blue-gray"
         className=" p-1  font-medium leading-normal primary-font antialiased relative group"
       >
-        <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center justify-between w-full md:w-auto">
+        <button className="cta-text-color hover:text-blue-700 font-medium flex items-center justify-between w-full md:w-auto">
           Services
           <svg
             className="w-4 h-4 ml-1"
@@ -64,9 +64,9 @@ function NavList() {
         </button>
         {/* Add invisible area to prevent gap */}
         <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute w-full h-4 left-0"></div>
-        <div className="hidden group-hover:block absolute bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow left-24 lg:left-0 w-80 top-[-75px] lg:top-[35px]">
+        <div className="hidden group-hover:block absolute bg-black/70 text-base z-10 list-none divide-y divide-gray-100 rounded shadow left-24 lg:left-0 w-80 top-[-75px] lg:top-[35px]">
           {/* lg:block */}
-          <ul className="py-1 grid grid-cols-2 lg:grid-cols-2">
+          <ul className="py-1 grid grid-cols-2 lg:grid-cols-2 cta-text-color">
             <li>
               <Link
                 to="/digital-service"
@@ -204,8 +204,8 @@ export function NavbarSimple() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-screen-2xl px-4 py-2 lg:px-8 lg:py-[0px]">
-      <div className="container mx-auto flex items-center justify-between text-blue-gray-900 relative top-[-5px]">
+    <Navbar className={`w-full xl:mx-auto px-4 py-2 lg:px-8 lg:py-[0px] bg-black rounded-none relative z-10  shadow-lg shadow-black/50 border-0 ${openNav ? "bg-black/90" : ""}`}>
+      <div className="w-full flex items-center justify-between relative top-[-5px]">
         <Typography
           variant="h3"
           className="mr-4 cursor-pointer primary-font text-primary relative top-[-3px]"
@@ -224,13 +224,13 @@ export function NavbarSimple() {
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <XMarkIcon className="h-6 w-6 text-primary" strokeWidth={2} />
+            <XMarkIcon className="h-6 w-6 cta-text" strokeWidth={2} />
           ) : (
-            <Bars3Icon className="h-6 w-6 text-primary" strokeWidth={2} />
+            <Bars3Icon className="h-6 w-6 cta-text" strokeWidth={2} />
           )}
         </IconButton>
       </div>
-      <Collapse open={openNav}>
+      <Collapse open={openNav} className=" bg-black/50">
         <NavList />
       </Collapse>
     </Navbar>

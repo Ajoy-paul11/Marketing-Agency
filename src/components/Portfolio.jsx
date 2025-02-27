@@ -28,12 +28,12 @@ function Portfolio() {
     <div id="portfolio" className="w-full max-h-fit">
       <div className="py-8 my-4">
         <h2
-          data-aos="fade-up"
+          data-aos="fade-down"
           className="text-3xl font-semibold text-primary font-secondary text-center mb-4"
         >
           Portfolio
         </h2>
-        <div data-aos="zoom-in" className="grid grid-cols-1 gap-x-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center bg-primary p-8 overflow-hidden xl:container xl:mx-auto">
+        <div data-aos="fade-down" className="grid grid-cols-1 gap-x-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center p-8 overflow-hidden xl:container xl:mx-auto ">
           <div  onClick={() => navigate("/portfolio-adhventha")}>
             <DefaultGallery img={adhventha} />
           </div>

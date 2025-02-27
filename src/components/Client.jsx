@@ -22,7 +22,7 @@ function Client() {
     <div id="clients" className=" w-full">
       <div
         // data-aos="zoom-in"
-        className=" py-4 bg-[#f4f5ff] max-w-screen-2xl mx-auto my-4"
+        className=" py-4  max-w-screen-2xl mx-auto my-4"
       >
         <h2 className=" text-3xl font-semibold text-primary font-secondary text-center mb-6 py-4">
           Our Clients

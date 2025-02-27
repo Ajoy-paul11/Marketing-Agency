@@ -10,6 +10,9 @@ import AccordionComponent from "./Accordion.jsx";
 import Contact from "./Contact.jsx";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import HeroSection from "./HeroSection.jsx";
+import AboutNew from "./AboutNew.jsx";
+import PricingCard from "./PricingCard.jsx";
 
 
 function Home() {
@@ -22,8 +25,8 @@ function Home() {
 
   return (
     <div className=" w-full">
-      
-      <div className=" w-full max-h-fit bg-[#f4f5ff] flex flex-col lg:flex-row items-center justify-center gap-4 py-8">
+      <HeroSection />
+      {/* <div className=" w-full max-h-fit bg-[#f4f5ff] flex flex-col lg:flex-row items-center justify-center gap-4 py-8">
         <section
           data-aos="fade-right"
           data-aos-delay="200"
@@ -44,12 +47,13 @@ function Home() {
         >
           <Animation />
         </section>
-      </div>
+      </div> */}
       <div className=" container mx-auto">
         <Genre />
       </div>
       <div className=" w-full my-8">
-        <About />
+        {/* <About /> */}
+        <AboutNew />
       </div>
       <div>
         <Service />
@@ -59,6 +63,9 @@ function Home() {
       </div>
       <div>
         <Client />
+      </div>
+      <div>
+        <PricingCard />
       </div>
       <div>
         <AccordionComponent />

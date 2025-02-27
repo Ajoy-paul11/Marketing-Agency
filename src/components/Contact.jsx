@@ -64,7 +64,7 @@ function Contact() {
     <div id="contact" className="w-full py-16 lg:px-32">
       <div>
         <h2
-          data-aos="fade-up"
+          data-aos="fade-down"
           className="text-3xl font-semibold text-primary font-secondary text-center mb-2"
         >
           Contact
@@ -73,15 +73,15 @@ function Contact() {
           data-aos="fade-up"
           className="text-center text-primary font-semibold text-lg mt-4 mb-8"
         >
-          Let us help you reach your customer with no hassle.
+          Let Us Help You Reach Your Customer With No Hassle.
         </p>
-        <div className=" lg:flex lg:gap-6 lg:justify-center bg-[#f4f5ff] p-8 rounded-lg">
+        <div className=" lg:flex lg:gap-6 lg:justify-center  p-8 rounded-lg">
           <div
-            data-aos="zoom-in"
-            className=" lg:w-[40%] flex flex-col gap-6 border-t-2 border-b-2 border-[#000080] py-8 font-secondary text-primary"
+            data-aos="fade-down"
+            className=" lg:w-[40%] flex flex-col gap-6 border-t-2 border-b-2 border-[#000080] py-8 font-secondary text-primary "
           >
             <div className="flex gap-4 items-center">
-              <div className="text-primary text-2xl p-4 bg-primary rounded-md">
+              <div className="text-primary text-2xl p-4 shadow-[0_0_10px_0_rgba(0,0,0,0.25)] rounded-md">
                 <FaLocationDot />
               </div>
               <div className="flex flex-col gap-1">
@@ -93,7 +93,7 @@ function Contact() {
               </div>
             </div>
             <div className="flex gap-4 items-center">
-              <div className="text-primary text-2xl p-4 bg-primary rounded-md">
+              <div className="text-primary text-2xl p-4 shadow-[0_0_10px_0_rgba(0,0,0,0.25)] rounded-md">
                 <IoCall />
               </div>
               <div className="flex flex-col gap-1">
@@ -102,7 +102,7 @@ function Contact() {
               </div>
             </div>
             <div className="flex gap-4 items-center">
-              <div className="text-primary text-2xl p-4 bg-primary rounded-md">
+              <div className="text-primary text-2xl p-4 shadow-[0_0_10px_0_rgba(0,0,0,0.25)] rounded-md">
                 <MdOutlineMailOutline />
               </div>
               <div className="flex flex-col gap-1">
@@ -112,13 +112,13 @@ function Contact() {
             </div>
           </div>
           <div
-            data-aos="zoom-in"
+            data-aos="fade-down"
             className=" lg:w-[60%] p-6 border-t-2 border-b-2 border-[#000080] py-8 font-secondary text-primary"
           >
             <Card color="transparent" shadow={false}>
               <form
                 onSubmit={handleSubmit(onSubmit)}
-                className=" mb-2 w-80 max-w-screen-lg sm:w-96"
+                className=" mb-2 w-80 max-w-screen-lg sm:w-96 "
               >
                 <div className="mb-1 flex flex-col gap-6">
                   <input
@@ -143,7 +143,7 @@ function Contact() {
                     placeholder="Type your name here..."
                     type="text"
                     {...register("name", { required: true, maxLength: 40 })}
-                    className=" !border-t-blue-gray-200 focus:!border-t-gray-900 h-10 rounded px-2"
+                    className=" !border-t-blue-gray-200 focus:!border-t-gray-900 h-10 rounded px-2 shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
                   />
                   <Typography variant="h6" className="-mb-3 text-primary">
                     Your Email
@@ -158,7 +158,7 @@ function Contact() {
                         message: "Please enter a valid email",
                       },
                     })}
-                    className=" !border-t-blue-gray-200 focus:!border-t-gray-900 h-10 rounded px-2"
+                    className=" !border-t-blue-gray-200 focus:!border-t-gray-900 h-10 rounded px-2 shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
                   />
                   <Typography variant="h6" className="-mb-3 text-primary">
                     Your Mobile Number
@@ -173,7 +173,7 @@ function Contact() {
                         message: "Please enter a valid 10 digit mobile number",
                       },
                     })}
-                    className=" !border-t-blue-gray-200 focus:!border-t-gray-900 h-10 rounded px-2"
+                    className=" !border-t-blue-gray-200 focus:!border-t-gray-900 h-10 rounded px-2 shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
                   />
                   <Typography variant="h6" className="-mb-3 text-primary">
                     Message
@@ -182,7 +182,7 @@ function Contact() {
                     rows={3}
                     placeholder="Type your query here..."
                     {...register("message", { required: true })}
-                    className=" !border-t-blue-gray-200 focus:!border-t-gray-900 rounded p-2"
+                    className=" !border-t-blue-gray-200 focus:!border-t-gray-900 rounded p-2 shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
                   ></textarea>
                 </div>
 

@@ -14,6 +14,8 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import { ToastContainer } from "react-toastify";
+import whatsApp from "./assets/whatsapp-img.png";
 
 function App() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -167,7 +169,19 @@ function App() {
         </div>
       </Dialog>
       <ScrollToTop />
+      <div className="w-full bg-black">
       <NavbarSimple />
+      </div>
+      <div>
+        <a href="https://wa.me/919035512390?text=Hello! I am writing this from Mindblue Website." target="_blank" rel="noreferrer">
+          <img
+            src={whatsApp}
+            alt="whatsapp"
+            className="fixed right-5 bottom-5 z-50 w-10 lg:w-14 h-10 lg:h-14 rounded-full"
+          />
+        </a>
+      </div>
+      <ToastContainer />
       <Outlet />
       <Footer />
     </div>

@@ -12,6 +12,7 @@
   --secondary-font: "Poppins", sans-serif;
   --text-color: #000080;
   --bg-color: #bdd5e7;
+  --cta-text-color: #bdd5e7;
 }
 
 * {
@@ -30,6 +31,10 @@
 
 .text-primary {
   color: var(--text-color);
+}
+
+.cta-text{
+  color: var(--cta-text-color);
 }
 
 .bg-primary {

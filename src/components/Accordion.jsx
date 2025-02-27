@@ -47,10 +47,10 @@ function AccordionComponent() {
       >
         Frequently Asked Questions
       </h2>
-      <div className=" w-full my-4 grid grid-cols-1 gap-8 md:grid-cols-2 bg-primary p-8">
+      <div className=" w-full my-4 grid grid-cols-1 gap-8 md:grid-cols-2 p-8">
         <Accordion
           data-aos="zoom-in"
-          className=" px-4 bg-[#f4f5ff] rounded"
+          className=" px-4 rounded "
           open={open === 1}
           icon={<Icon id={1} open={open} />}
         >
@@ -68,7 +68,7 @@ function AccordionComponent() {
         </Accordion>
         <Accordion
           data-aos="zoom-in"
-          className=" px-4 bg-[#f4f5ff] rounded"
+          className=" px-4 rounded "
           open={open === 2}
           icon={<Icon id={2} open={open} />}
         >
@@ -87,7 +87,7 @@ function AccordionComponent() {
         </Accordion>
         <Accordion
           data-aos="zoom-in"
-          className=" px-4 bg-[#f4f5ff] rounded"
+          className=" px-4 rounded "
           open={open === 3}
           icon={<Icon id={3} open={open} />}
         >
@@ -105,7 +105,7 @@ function AccordionComponent() {
         </Accordion>
         <Accordion
           data-aos="zoom-in"
-          className=" px-4 bg-[#f4f5ff] rounded"
+          className=" px-4 rounded "
           open={open === 4}
           icon={<Icon id={4} open={open} />}
         >
@@ -124,7 +124,7 @@ function AccordionComponent() {
         </Accordion>
         <Accordion
           data-aos="zoom-in"
-          className=" px-4 bg-[#f4f5ff] rounded"
+          className=" px-4 rounded "
           open={open === 5}
           icon={<Icon id={5} open={open} />}
         >
@@ -142,7 +142,7 @@ function AccordionComponent() {
         </Accordion>
         <Accordion
           data-aos="zoom-in"
-          className=" px-4 bg-[#f4f5ff] rounded"
+          className=" px-4 rounded"
           open={open === 6}
           icon={<Icon id={6} open={open} />}
         >

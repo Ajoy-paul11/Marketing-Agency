@@ -6,13 +6,13 @@ const currentYear = new Date().getFullYear();
 
 function Footer() {
   return (
-    <footer className="relative w-full text-primary bg-[#f4f5ff]">
+    <footer className="relative w-full text-white shadow-[0_0_10px_0_rgba(0,0,0,0.25)] bg-black/90">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-5">
           <div className="w-full">
             <Typography
               variant="small"
-              className="mb-4 text-primary font-bold uppercase opacity-60"
+              className="mb-4 text-white font-bold uppercase opacity-60"
             >
               Comapany
             </Typography>
@@ -54,7 +54,7 @@ function Footer() {
           <div className="w-full">
             <Typography
               variant="small"
-              className="mb-4 text-primary font-bold uppercase opacity-60"
+              className="mb-4 text-white font-bold uppercase opacity-60"
             >
               Services
             </Typography>
@@ -96,7 +96,7 @@ function Footer() {
           <div className="w-full">
             <Typography
               variant="small"
-              className="mb-4 text-primary font-bold uppercase opacity-60 "
+              className="mb-4 text-white font-bold uppercase opacity-60 "
             >
               Services
             </Typography>
@@ -138,7 +138,7 @@ function Footer() {
           <div className="w-full">
             <Typography
               variant="small"
-              className="mb-4 text-primary font-bold uppercase opacity-60 "
+              className="mb-4 text-white font-bold uppercase opacity-60 "
             >
               Services
             </Typography>
@@ -182,16 +182,15 @@ function Footer() {
             <div>
               <Typography
                 variant="small"
-                className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
+                className="mb-4 text-center font-normal text-blue-300 md:mb-0"
               >
                 &copy; {currentYear}{" "}
-                <a
-                  className="font-semibold text-primary"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/ajoypaul"
+                <Link
+                  to="/"
+                  className="font-semibold text-blue-300"
                 >
                   Mindblue
-                </a>
+                </Link>
                 . <br />All Rights Reserved.
               </Typography>
             </div>

@@ -11,6 +11,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import aboutBg from "../assets/about-page.jpg";
 
 function AboutPage() {
   useEffect(() => {
@@ -33,9 +34,9 @@ function AboutPage() {
   return (
     <div className=" w-full relative">
       <div
-        className='min-h-[90vh] w-full bg-[url("https://images.pexels.com/photos/7563612/pexels-photo-7563612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")] bg-no-repeat bg-opacity-30 bg-cover bg-center'
+        className={`min-h-[90vh] w-full bg-[url(${aboutBg})] bg-no-repeat bg-opacity-30 bg-cover bg-center`}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/7563612/pexels-photo-7563612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${aboutBg})`,
         }}
       ></div>
 

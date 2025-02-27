@@ -6,7 +6,6 @@ import { ThemeProvider } from "@material-tailwind/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home.jsx";
 import Contact from "./components/Contact.jsx";
-import { ToastContainer } from "react-toastify";
 import Amruth from "./components/client/Amruth.jsx";
 import DigiService from "./components/service/DigitalService.jsx";
 import MagazineService from "./components/service/MagazineService.jsx";
@@ -153,7 +152,6 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider>
       <RouterProvider router={router} />
-      <ToastContainer />
     </ThemeProvider>
   </StrictMode>
 );

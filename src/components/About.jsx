@@ -15,14 +15,14 @@ function About() {
   
   return (
     <div id="about" className=" w-full max-h-fit my-4">
-      <div  className="md:p-4">
+      <div  className="">
         <h2
           
           className=" text-3xl font-semibold text-primary font-secondary text-center mb-2"
         >
           About
         </h2>
-        <div data-aos="zoom-in" className=" flex flex-col lg:flex-row items-center justify-center bg-[#f4f5ff] py-8 p-4">
+        <div data-aos="fade-down" className=" flex flex-col lg:flex-row items-center justify-center py-8 p-4 shadow-[0_0_10px_0_rgba(0,0,0,0.25)]">
           <section className=" w-full lg:w-1/2 ">
           <div className=" lg:p-10">
             <div className="  grid grid-cols-3 gap-2 rounded-lg " style={{backgroundImage: `url(${aboutImage})`, backgroundPosition: 'center center'}}>

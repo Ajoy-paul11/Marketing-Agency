@@ -17,14 +17,14 @@ function Service() {
   return (
     <div id="services" className=" w-full max-h-fit">
       <h2
-        data-aos="fade-up"
+        data-aos="fade-down"
         className=" text-3xl font-semibold text-primary font-secondary text-center mb-2"
       >
         Services
       </h2>
       <div
-        data-aos="zoom-in"
-        className="  bg-[#f4f5ff] flex flex-col md:flex-row flex-wrap items-center justify-center gap-6 p-8"
+        data-aos="fade-down"
+        className="  flex flex-col md:flex-row flex-wrap items-center justify-center gap-6 p-8 "
       >
         <div>
           <CardWithLink

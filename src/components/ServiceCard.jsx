@@ -18,7 +18,7 @@ export function CardWithLink({ img, title, description, modalTitle, modalDescrip
 
   return (
     <div className=" relative">
-      <Card className="mt-6 w-72 text-primary bg-white h-[402px] font-secondary transform transition-transform duration-500 hover:-translate-y-3">
+      <Card className="mt-6 w-72 text-primary bg-white h-[402px] font-secondary transform transition-transform duration-500 hover:-translate-y-3 shadow-[0_0_10px_0_rgba(0,0,0,0.25)]">
         <div className=" flex flex-col flex-grow">
           <CardBody>
             <div>
