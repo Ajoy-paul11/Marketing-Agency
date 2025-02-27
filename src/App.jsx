@@ -173,7 +173,7 @@ function App() {
       <NavbarSimple />
       </div>
       <div>
-        <a href="https://wa.me/919035512390?text=Hello! I am writing this from Mindblue Website." target="_blank" rel="noreferrer">
+        <a href="https://wa.me/919859282632?text=Hello! I am writing this from Mindblue Website." target="_blank" rel="noreferrer">
           <img
             src={whatsApp}
             alt="whatsapp"

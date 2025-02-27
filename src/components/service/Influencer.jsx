@@ -1,10 +1,10 @@
 import React from 'react'
 import ServiceTemplate from './ServiceTemplate.jsx'
-import billboard from "../../assets/Outdoor/outdoor-billboard.jpg"
-import outdoor from "../../assets/Outdoor/outdoor-image.jpg"
-import outside from "../../assets/Outdoor/outdoor-ad.jpg"
-import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
-
+// import billboard from "../../assets/Outdoor/outdoor-billboard.jpg"
+// import outdoor from "../../assets/Outdoor/outdoor-image.jpg"
+// import outside from "../../assets/Outdoor/outdoor-ad.jpg"
+// import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
+import influencerService from "../../assets/Influencer/Influencer-288-x-192.jpg"
 
 function Influencer() {
   return (
@@ -16,7 +16,7 @@ function Influencer() {
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
           <ServiceTemplate
-            img={billboard}
+            img={influencerService}
             title="Outdoor Billboard"
             type="SEO helped these businesses to reach their targeted customers easily and helped to grab more data."
             description={
@@ -24,7 +24,7 @@ function Influencer() {
             }
           />
           <ServiceTemplate
-            img={outdoor}
+            img={influencerService}
             title="SMM"
             type="SMM helped brands to reach their audiences much faster improved the brand value."
             description={
@@ -32,7 +32,7 @@ function Influencer() {
             }
           />
           <ServiceTemplate
-            img={outside}
+            img={influencerService}
             title="SEM"
             type="SEM helped business through various search engine to gather more information about the customers"
             description={
@@ -40,19 +40,19 @@ function Influencer() {
             }
           />
           <ServiceTemplate
-            img={outdooradvertise}
+            img={influencerService}
             title="Big FM, Delhi"
             type="Hindi"
             description={"2.5M Listeners"}
           />
           <ServiceTemplate
-            img={billboard}
+            img={influencerService}
             title="Red FM, Mumbai"
             type="Hindi & Marathi"
             description={"3M Listeners"}
           />
           <ServiceTemplate
-            img={outdoor}
+            img={influencerService}
             title="Radio Mirchi, Delhi"
             type="Hindi"
             description={"4.5M Listeners"}

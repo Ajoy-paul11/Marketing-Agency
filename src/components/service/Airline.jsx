@@ -1,10 +1,10 @@
 import React from 'react'
 import ServiceTemplate from './ServiceTemplate.jsx'
-import billboard from "../../assets/Outdoor/outdoor-billboard.jpg"
-import outdoor from "../../assets/Outdoor/outdoor-image.jpg"
-import outside from "../../assets/Outdoor/outdoor-ad.jpg"
-import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
-
+// import billboard from "../../assets/Outdoor/outdoor-billboard.jpg"
+// import outdoor from "../../assets/Outdoor/outdoor-image.jpg"
+// import outside from "../../assets/Outdoor/outdoor-ad.jpg"
+// import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
+import airlineService from "../../assets/Airline/Airline-service-288-x-192.jpg"
 
 function Airline() {
   return (
@@ -16,7 +16,7 @@ function Airline() {
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
           <ServiceTemplate
-            img={billboard}
+            img={airlineService}
             title="Outdoor Billboard"
             type="SEO helped these businesses to reach their targeted customers easily and helped to grab more data."
             description={
@@ -24,7 +24,7 @@ function Airline() {
             }
           />
           <ServiceTemplate
-            img={outdoor}
+            img={airlineService}
             title="SMM"
             type="SMM helped brands to reach their audiences much faster improved the brand value."
             description={
@@ -32,7 +32,7 @@ function Airline() {
             }
           />
           <ServiceTemplate
-            img={outside}
+            img={airlineService}
             title="SEM"
             type="SEM helped business through various search engine to gather more information about the customers"
             description={
@@ -40,19 +40,19 @@ function Airline() {
             }
           />
           <ServiceTemplate
-            img={outdooradvertise}
+            img={airlineService}
             title="Big FM, Delhi"
             type="Hindi"
             description={"2.5M Listeners"}
           />
           <ServiceTemplate
-            img={billboard}
+            img={airlineService}
             title="Red FM, Mumbai"
             type="Hindi & Marathi"
             description={"3M Listeners"}
           />
           <ServiceTemplate
-            img={outdoor}
+            img={airlineService}
             title="Radio Mirchi, Delhi"
             type="Hindi"
             description={"4.5M Listeners"}

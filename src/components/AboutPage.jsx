@@ -56,7 +56,7 @@ function AboutPage() {
         </div>
         <div 
         data-aos="fade-left"
-        className=" ml-auto text-right absolute top-[425px] md:top-[480px] w-[80%] lg:top-[445px] lg:right-[-440px] xl:right-[-675px] xl:top-[510px] 2xl:top-[550px] 2xl:right-[-840px] font-secondary text-xl lg:w-[70%] xl:w-[60%] 2xl:w-[60%]">
+        className=" ml-auto text-right absolute top-[380px] md:top-[480px] w-[80%] lg:top-[445px] lg:right-[-440px] xl:right-[-675px] xl:top-[510px] 2xl:top-[550px] 2xl:right-[-840px] font-secondary text-xl lg:w-[70%] xl:w-[60%] 2xl:w-[60%]">
           The team at MindBlue is composed of creatives, planners, designers,
           developers, and tech savvy problem solvers capable of integrating a
           wide range of services resulting in a marketing engine that drives
@@ -68,7 +68,7 @@ function AboutPage() {
           // data-aos="fade-down"
           src={stroke}
           alt="doddle"
-          className=" absolute  w-[150px] top-[290px] left-[100px] md:w-[250px] md:top-[240px] md:left-[200px] lg:w-[240px] xl:w-[400px] lg:top-[310px] xl:top-[300px] lg:left-[320px] xl:left-[465px] 2xl:left-[660px]"
+          className=" absolute  w-[150px] top-[277px] left-[100px] md:w-[250px] md:top-[240px] md:left-[200px] lg:w-[240px] xl:w-[400px] lg:top-[310px] xl:top-[300px] lg:left-[320px] xl:left-[465px] 2xl:left-[660px]"
         />
       </div>
       <div className=" w-full bg-[#f4f5ff]">
