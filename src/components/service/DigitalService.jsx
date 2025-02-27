@@ -1,6 +1,7 @@
 import React from "react";
 import ServiceTemplate from "./ServiceTemplate.jsx";
 import seo from "../../assets/services/seo.png";
+import digitalImage from "../../assets/DigitalMedia/Digital-services-300-x-128.jpg";
 
 function DigiService() {
   return (
@@ -19,7 +20,7 @@ function DigiService() {
             }
           />
           <ServiceTemplate
-            img={seo}
+            img={digitalImage}
             title="SMM"
             type="SMM helped brands to reach their audiences much faster improved the brand value."
             description={
@@ -47,7 +48,7 @@ function DigiService() {
             description={"3M Listeners"}
           />
           <ServiceTemplate
-            img={seo}
+            img={digitalImage}
             title="Radio Mirchi, Delhi"
             type="Hindi"
             description={"4.5M Listeners"}

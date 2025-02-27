@@ -7,6 +7,17 @@ import client5 from "../assets/clients/client-5.png";
 import client6 from "../assets/clients/client-6.png";
 import client7 from "../assets/clients/client-7.png";
 import client8 from "../assets/clients/client-8.png";
+import adhventha from "../assets/portfolio/adhventha.png";
+import amrithnoni from "../assets/portfolio/amrithnoni.png";
+import applo from "../assets/portfolio/apollo.png";
+import featherlite from "../assets/portfolio/featherlite.png";
+import garuda from "../assets/portfolio/garudamall.png";
+import narayana from "../assets/portfolio/narayana.png"
+import nethra from "../assets/portfolio/netradhama.png";
+import npsnorth from "../assets/portfolio/nps.png";
+import raymond from "../assets/portfolio/raymond.png";
+import neuberg from "../assets/portfolio/neuberg.png";
+import transcend from "../assets/portfolio/transcend.png";
 import Marquee from "react-fast-marquee";
 
 import Aos from "aos";
@@ -28,14 +39,17 @@ function Client() {
           Our Clients
         </h2>
         <Marquee pauseOnHover={true} className="flex items-center">
-          <img className=" w-28 mr-20" src={client1} alt="client-logo" />
-          <img className=" w-28 mr-20" src={client2} alt="client-logo" />
-          <img className=" w-28 mr-20" src={client3} alt="client-logo" />
-          <img className=" w-28 mr-20" src={client4} alt="client-logo" />
-          <img className=" w-28 mr-20" src={client5} alt="client-logo" />
-          <img className=" w-28 mr-20" src={client6} alt="client-logo" />
-          <img className=" w-28 mr-20" src={client7} alt="client-logo" />
-          <img className=" w-28 mr-20" src={client8} alt="client-logo" />
+          <img className=" w-28 mr-20" src={adhventha} alt="client-logo" />
+          <img className=" w-28 mr-20" src={amrithnoni} alt="client-logo" />
+          <img className=" w-28 mr-20" src={applo} alt="client-logo" />
+          <img className=" w-28 mr-20" src={featherlite} alt="client-logo" />
+          <img className=" w-28 mr-20" src={garuda} alt="client-logo" />
+          <img className=" w-28 mr-20" src={narayana} alt="client-logo" />
+          <img className=" w-28 mr-20" src={nethra} alt="client-logo" />
+          <img className=" w-28 mr-20" src={npsnorth} alt="client-logo" />
+          <img className=" w-28 mr-20" src={raymond} alt="client-logo" />
+          <img className=" w-28 mr-20" src={neuberg} alt="client-logo" />
+          <img className=" w-28 mr-20" src={transcend} alt="client-logo" />
         </Marquee>
       </div>
     </div>
