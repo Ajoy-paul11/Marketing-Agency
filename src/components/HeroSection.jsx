@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
-import bgImage from "../assets/bg-image.jpg";
+import bgImage1 from "../assets/bg-image.jpg";
+import bgImage2 from "../assets/Home-1.jpg";
+import bgImage3 from "../assets/Home-2.jpg";
+import { FaArrowUp, FaArrowDown } from "react-icons/fa";
 
 
 function HeroSection() {
@@ -17,11 +20,48 @@ function HeroSection() {
             window.removeEventListener("resize", handleWindowResize);
         };
     }, []);
+
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    const images = [bgImage1, bgImage2, bgImage3];
+
+    const nextSlide = () => {
+        setCurrentSlide((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+    };
+
+    const prevSlide = () => {
+        setCurrentSlide((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+    };
+
+    useEffect(() => {
+        const timer = setInterval(nextSlide, 5000);
+
+        return () => clearInterval(timer);
+    }, [nextSlide]);
+
+
   return (
     <div className={` relative top-[-87px]`}>
       <div className=" w-full h-full">
         <div className=" w-full h-screen lg:h-full relative">
-          <img src={bgImage} alt="" className=" w-full h-full object-cover " />
+          {/* Slide Container Images */}
+          <div
+          className=" w-full h-full flex transition-transform duration-1000 ease-in-out"
+          style={{
+            transform: `translateX(-${currentSlide * 100}%)`,
+          }}
+          >
+            {images.map((image, index) => (
+              <div key={index}
+              className=" w-full h-full flex-shrink-0">
+                <img
+                src={image}
+                alt="background-image"
+                className=" object-cover w-full h-full"
+                />
+              </div>
+            ))}
+          </div>
           <div className=" w-full h-full absolute top-0 left-0 bg-black/90 ">
             <div className=" container mx-auto flex flex-col items-center justify-center h-full">
               <div className=" text-white  mb-4 font-secondary">

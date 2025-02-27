@@ -9,7 +9,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import CtaButton from "./CtaButton.jsx";
-import logo from "../assets/mindblue-logo.png";
+import logo from "../assets/Logo.png";
 
 function NavList() {
 
@@ -211,7 +211,7 @@ export function NavbarSimple() {
           className="mr-4 cursor-pointer primary-font text-primary relative top-[-3px]"
         >
           <Link to={"/"}>
-            <img src={logo} alt="logo-icon" className=" w-[120px]" />
+            <img src={logo} alt="logo-icon" className=" pt-1 mix-blend-luminosity hover:mix-blend-normal" />
           </Link>
         </Typography>
         <div className="hidden lg:block">
