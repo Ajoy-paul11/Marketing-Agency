@@ -51,13 +51,13 @@ function MagazineService() {
           <ServiceTemplate
             img={vogue}
             title="Vogue"
-            type="Hindi & Marathi"
+            type="We provide the advertising services for Fortune to promote their products."
             description={"73500"}
           />
           <ServiceTemplate
             img={travel}
             title="Travel + Leisure"
-            type="Hindi"
+            type="We provide the advertising services for Fortune to promote their products."
             description={"148000"}
           />
         </div>

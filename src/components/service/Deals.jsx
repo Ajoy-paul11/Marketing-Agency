@@ -15,29 +15,13 @@ function Deals() {
         <h2 className="text-3xl font-semibold text-orange-600 font-secondary px-4 mb-8">
           Deals services:
         </h2>
-        <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
+        <div className=" grid grid-cols-1 gap-y-4 justify-items-center lg:px-16">
           <ServiceTemplate
             img={dealImage}
-            title="Outdoor Billboard"
-            type="SEO helped these businesses to reach their targeted customers easily and helped to grab more data."
+            title="Deals with Agencies"
+            type="Elevate Your Agency’s Advertising Solutions."
             description={
-              "Google-ad-campaign, Facebook-ad-campaign, Social-Media-campaign"
-            }
-          />
-          <ServiceTemplate
-            img={dealImage}
-            title="SMM"
-            type="SMM helped brands to reach their audiences much faster improved the brand value."
-            description={
-              "Social-Media-Page handling, Ad-Campaign, Search-Campaign"
-            }
-          />
-          <ServiceTemplate
-            img={dealImage}
-            title="SEM"
-            type="SEM helped business through various search engine to gather more information about the customers"
-            description={
-              "Search engine is helped to choose the specific words and target those audience easily."
+              "N/A"
             }
           />
         </div>

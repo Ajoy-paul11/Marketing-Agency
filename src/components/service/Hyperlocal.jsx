@@ -14,49 +14,15 @@ function Hyperlocal() {
         <h2 className="text-3xl font-semibold text-orange-600 font-secondary px-4 mb-8">
           Hyperlocal Services:
         </h2>
-        <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
+        <div className=" grid grid-cols-1 gap-y-4 justify-items-center lg:px-16">
           <ServiceTemplate
             img={hyperImage}
-            title="Outdoor Billboard"
-            type="SEO helped these businesses to reach their targeted customers easily and helped to grab more data."
+            title="Hyperlocal Advertisements"
+            type="We provide hyperlocal advertisements to grow your business."
             description={
-              "Google-ad-campaign, Facebook-ad-campaign, Social-Media-campaign"
+              "N/A"
             }
           />
-          <ServiceTemplate
-            img={hyperImage}
-            title="SMM"
-            type="SMM helped brands to reach their audiences much faster improved the brand value."
-            description={
-              "Social-Media-Page handling, Ad-Campaign, Search-Campaign"
-            }
-          />
-          <ServiceTemplate
-            img={hyperImage}
-            title="SEM"
-            type="SEM helped business through various search engine to gather more information about the customers"
-            description={
-              "Search engine is helped to choose the specific words and target those audience easily."
-            }
-          />
-          {/* <ServiceTemplate
-            img={hyperImage}
-            title="Big FM, Delhi"
-            type="Hindi"
-            description={"2.5M Listeners"}
-          />
-          <ServiceTemplate
-            img={hyperImage}
-            title="Red FM, Mumbai"
-            type="Hindi & Marathi"
-            description={"3M Listeners"}
-          />
-          <ServiceTemplate
-            img={hyperImage}
-            title="Radio Mirchi, Delhi"
-            type="Hindi"
-            description={"4.5M Listeners"}
-          /> */}
         </div>
       </div>
     </div>

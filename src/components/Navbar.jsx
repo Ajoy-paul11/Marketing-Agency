@@ -117,6 +117,14 @@ function NavList() {
             </li>
             <li>
               <Link
+                to="/nontraditional-service"
+                className=" text-sm hover:text-blue-500 block px-2 lg:px-4 py-2 lg:hover:scale-110 duration-300 transition-colors"
+              >
+                Non-traditional
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/airline-service"
                 className=" text-sm hover:text-blue-500 block px-2 lg:px-4 py-2 lg:hover:scale-110 duration-300 transition-colors"
               >
@@ -139,14 +147,7 @@ function NavList() {
                 Influencer
               </Link>
             </li>
-            <li>
-              <Link
-                to="/nontraditional-service"
-                className=" text-sm hover:text-blue-500 block px-2 lg:px-4 py-2 lg:hover:scale-110 duration-300 transition-colors"
-              >
-                Non-traditional
-              </Link>
-            </li>
+            
             <li>
               <Link
                 to="/hyperlocal-service"

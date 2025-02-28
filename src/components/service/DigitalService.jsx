@@ -16,43 +16,41 @@ function DigiService() {
             title="SEO"
             type="SEO helped these businesses to reach their targeted customers easily and helped to grab more data."
             description={
-              "Google-ad-campaign, Facebook-ad-campaign, Social-Media-campaign"
+              "N/A"
             }
           />
           <ServiceTemplate
             img={digitalImage}
-            title="SMM"
+            title="Google Ads"
             type="SMM helped brands to reach their audiences much faster improved the brand value."
             description={
-              "Social-Media-Page handling, Ad-Campaign, Search-Campaign"
+              "200M Monthly Users"
             }
           />
           <ServiceTemplate
             img={seo}
-            title="SEM"
+            title="Meta Ads"
             type="SEM helped business through various search engine to gather more information about the customers"
             description={
-              "Search engine is helped to choose the specific words and target those audience easily."
+              "400.3M Monthly Users"
             }
           />
-          {/* <ServiceTemplate
+          <ServiceTemplate
             img={seo}
-            title="Big FM, Delhi"
-            type="Hindi"
-            description={"2.5M Listeners"}
+            title="Spotify Ads"
+            type="SEM helped business through various search engine to gather more information about the customers"
+            description={
+              "68.2M Monthly Users"
+            }
           />
           <ServiceTemplate
             img={seo}
-            title="Red FM, Mumbai"
-            type="Hindi & Marathi"
-            description={"3M Listeners"}
+            title="Hotstar Ads"
+            type="SEM helped business through various search engine to gather more information about the customers"
+            description={
+              "102.2M Monthly Users"
+            }
           />
-          <ServiceTemplate
-            img={digitalImage}
-            title="Radio Mirchi, Delhi"
-            type="Hindi"
-            description={"4.5M Listeners"}
-          /> */}
         </div>
       </div>
     </div>
