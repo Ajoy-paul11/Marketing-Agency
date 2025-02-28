@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import content from "../assets/gif/content.gif";
-import media from "../assets/gif/media.gif";
-import socialMarketing from "../assets/gif/socialMarketing.gif";
-import traditional from "../assets/gif/traditional.gif";
+import content from "../assets/gif/activity-feed.gif";
+import media from "../assets/gif/web-developer.gif";
+import socialMarketing from "../assets/gif/social-marketing.gif";
+import traditional from "../assets/gif/analysis.gif";
 import { CardWithLink } from "./ServiceCard.jsx";
 import Aos from "aos";
 import "aos/dist/aos.css";

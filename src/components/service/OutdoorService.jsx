@@ -18,45 +18,27 @@ function OutdoorService() {
           <ServiceTemplate
             img={outdoorImage}
             title="Outdoor Billboard"
-            type="SEO helped these businesses to reach their targeted customers easily and helped to grab more data."
+            type="Outdoor billboard is the best way to advertise your business."
             description={
-              "Google-ad-campaign, Facebook-ad-campaign, Social-Media-campaign"
+              "N/A"
             }
           />
           <ServiceTemplate
             img={outdoorImage}
-            title="SMM"
-            type="SMM helped brands to reach their audiences much faster improved the brand value."
+            title="Hoarding"
+            type="Hoarding is the best way to advertise your business."
             description={
-              "Social-Media-Page handling, Ad-Campaign, Search-Campaign"
+              "85-90K Unique Reach."
             }
           />
           <ServiceTemplate
             img={outdoorImage}
-            title="SEM"
-            type="SEM helped business through various search engine to gather more information about the customers"
+            title="Bus Shelter"
+            type="Bus Shelter is the best way to advertise your business."
             description={
-              "Search engine is helped to choose the specific words and target those audience easily."
+              "90-95K Unique Reach."
             }
           />
-          {/* <ServiceTemplate
-            img={outdoorImage}
-            title="Big FM, Delhi"
-            type="Hindi"
-            description={"2.5M Listeners"}
-          />
-          <ServiceTemplate
-            img={outdoorImage}
-            title="Red FM, Mumbai"
-            type="Hindi & Marathi"
-            description={"3M Listeners"}
-          />
-          <ServiceTemplate
-            img={outdoorImage}
-            title="Radio Mirchi, Delhi"
-            type="Hindi"
-            description={"4.5M Listeners"}
-          /> */}
         </div>
       </div>
     </div>

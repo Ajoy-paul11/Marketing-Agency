@@ -23,7 +23,7 @@ function MagazineService() {
             title="Forbes India"
             type="We provide the advertising services for Forbes India to promote their products."
             description={
-              "Article writing, Product promotion, Ad-Campaign"
+              "75000"
             }
           />
           <ServiceTemplate
@@ -31,7 +31,7 @@ function MagazineService() {
             title="Business Today"
             type="We provide the advertising services for Business Today to promote their products."
             description={
-              "Article writing, Product promotion, Ad-Campaign"
+              "195000"
             }
           />
           <ServiceTemplate
@@ -39,26 +39,26 @@ function MagazineService() {
             title="Fortune"
             type="We provide the advertising services for Fortune to promote their products."
             description={
-              "Article writing, Product promotion, Ad-Campaign"
+              "80000"
             }
           />
           <ServiceTemplate
             img={femina}
             title="Femina"
             type="We provide the advertising services for Fortune to promote their products."
-            description={"Article writing, Product promotion, Ad-Campaign"}
+            description={"178000"}
           />
           <ServiceTemplate
             img={vogue}
             title="Vogue"
             type="Hindi & Marathi"
-            description={"3M Listeners"}
+            description={"73500"}
           />
           <ServiceTemplate
             img={travel}
             title="Travel + Leisure"
             type="Hindi"
-            description={"4.5M Listeners"}
+            description={"148000"}
           />
         </div>
       </div>

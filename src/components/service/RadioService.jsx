@@ -21,7 +21,7 @@ function RadioService() {
             title="Big FM"
             type="We help our clients to promote their products throught radio media."
             description={
-              "Article writing, Product promotion, Ad-Campaign"
+              "2.2M Listeners"
             }
           />
           <ServiceTemplate
@@ -29,7 +29,7 @@ function RadioService() {
             title="Red FM"
             type="We help our clients to promote their products throught radio media."
             description={
-              "Article writing, Product promotion, Ad-Campaign"
+              "2.7M Listeners"
             }
           />
           <ServiceTemplate
@@ -37,14 +37,14 @@ function RadioService() {
             title="Radio Mirchi"
             type="We help our clients to promote their products throught radio media."
             description={
-              "Article writing, Product promotion, Ad-Campaign"
+              "4.3M Listeners"
             }
           />
           <ServiceTemplate
             img={radioCity}
             title="Radio City"
             type="We help our clients to promote their products throught radio media."
-            description={"Article writing, Product promotion, Ad-Campaign"}
+            description={"1.8M Listeners"}
           />
           <ServiceTemplate
             img={radioImage}

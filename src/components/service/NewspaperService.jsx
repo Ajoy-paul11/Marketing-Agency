@@ -21,7 +21,7 @@ function NewspaperService() {
             title=" The Economic Times"
             type="We work with The Economic Times newspaper to promote brands products, and services."
             description={
-              "Article writing, Product promotion, Ad-Campaign, Product-Highlighting"
+              "195000"
             }
           />
           <ServiceTemplate
@@ -29,34 +29,34 @@ function NewspaperService() {
             title="The Hindu"
             type="We work with The Hindu newspaper to promote brands products, and services."
             description={
-              "Article writing, Product promotion, Ad-Campaign, Product-Highlighting"
+              "121432"
             }
           />
           <ServiceTemplate
             img={toi}
             title="The Times of India"
-            type="We work with The Fortune India newspaper to promote brands products, and services."
+            type="We work with The Times of India newspaper to promote brands products, and services."
             description={
-              "Article writing, Product promotion, Ad-Campaign, Product-Highlighting"
+              "750000"
             }
           />
           <ServiceTemplate
             img={hindustan}
             title="Hindustan Times"
-            type="We work with The Fortune India newspaper to promote brands products, and services."
-            description={"Article writing, Product promotion, Ad-Campaign, Product-Highlighting"}
+            type="We work with The Hindustan Times newspaper to promote brands products, and services."
+            description={"686418"}
           />
           <ServiceTemplate
             img={nbt}
             title="Navbharat Times"
-            type="We work with The Fortune India newspaper to promote brands products, and services"
-            description={"Article writing, Product promotion, Ad-Campaign, Product-Highlighting"}
+            type="We work with The Navbharat Times newspaper to promote brands products, and services"
+            description={"310978"}
           />
           <ServiceTemplate
             img={midDay}
             title="Mid-Day"
-            type="We work with The Fortune India newspaper to promote brands products, and services"
-            description={"Article writing, Product promotion, Ad-Campaign, Product-Highlighting"}
+            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            description={"300000"}
           />
         </div>
       </div>

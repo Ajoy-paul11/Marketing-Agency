@@ -17,46 +17,52 @@ function NonTraditional() {
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
           <ServiceTemplate
             img={nonTradImage}
-            title="Outdoor Billboard"
-            type="SEO helped these businesses to reach their targeted customers easily and helped to grab more data."
+            title="AC Bus Branding"
+            type="AC Bus Branding is the best way to advertise your business."
             description={
-              "Google-ad-campaign, Facebook-ad-campaign, Social-Media-campaign"
+              "N/A"
             }
           />
           <ServiceTemplate
             img={nonTradImage}
-            title="SMM"
-            type="SMM helped brands to reach their audiences much faster improved the brand value."
+            title="Metroo Branding"
+            type="Metroo Branding is the best way to advertise your business."
             description={
-              "Social-Media-Page handling, Ad-Campaign, Search-Campaign"
+              "3M Daily Ridership"
             }
           />
           <ServiceTemplate
             img={nonTradImage}
-            title="SEM"
-            type="SEM helped business through various search engine to gather more information about the customers"
+            title="Auto Branding"
+            type="Auto Branding is the best way to advertise your business."
             description={
-              "Search engine is helped to choose the specific words and target those audience easily."
+              "150 Avg Distance/Day"
             }
           />
-          {/* <ServiceTemplate
+          <ServiceTemplate
             img={nonTradImage}
-            title="Big FM, Delhi"
-            type="Hindi"
-            description={"2.5M Listeners"}
+            title="Non-AC Bus Branding"
+            type="Non-AC Bus Branding is the best way to advertise your business."
+            description={
+              "N/A"
+            }
           />
           <ServiceTemplate
             img={nonTradImage}
-            title="Red FM, Mumbai"
-            type="Hindi & Marathi"
-            description={"3M Listeners"}
+            title="Cab Branding"
+            type="Cab Branding is the best way to advertise your business."
+            description={
+              "250 Avg Distance/Day"
+            }
           />
           <ServiceTemplate
             img={nonTradImage}
-            title="Radio Mirchi, Delhi"
-            type="Hindi"
-            description={"4.5M Listeners"}
-          /> */}
+            title="Apartment Branding"
+            type="Apartment Branding is the best way to advertise your business."
+            description={
+              "720 times/Day"
+            }
+          />
         </div>
       </div>
     </div>
