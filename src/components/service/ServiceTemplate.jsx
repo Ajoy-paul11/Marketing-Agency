@@ -18,7 +18,7 @@ function ServiceTemplate({ img, title, type, description }) {
   return (
     <Card
       data-aos="zoom-in"
-      className="mt-6 w-72 lg:w-64 xl:w-72 h-[372px] bg-[#f4f5ff] hover:shadow-xl hover:shadow-slate-500 hover:scale-105 duration-300 transition-colors flex flex-col shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
+      className="mt-6 w-72 lg:w-64 xl:w-72 h-[388px] bg-[#f4f5ff] hover:shadow-xl hover:shadow-slate-500 hover:scale-105 duration-300 transition-colors flex flex-col shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
     >
       <CardHeader className="relative h-48 overflow-hidden m-0 rounded-t-xl min-h-[192px] flex-shrink-0">
         <img

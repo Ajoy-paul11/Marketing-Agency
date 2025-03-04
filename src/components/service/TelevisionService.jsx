@@ -6,6 +6,10 @@ import suntv from "../../assets/TV/Sun_TV.png";
 import starplus from "../../assets/TV/starplus2.jpg";
 import sony from "../../assets/TV/sony2.jpg";
 import sonySab from "../../assets/TV/sonysab2.png";
+import newsfirst from "../../assets/TV/newsfirst-288-x-192.jpg"
+import power_tv from "../../assets/TV/power-tv-288-x-192.jpg"
+import tv9kannada from "../../assets/TV/tv-9kannada288-x-192.jpg"
+import zee_kannada from "../../assets/TV/zee-kannada-288-x-192.jpg"
 
 function TelevisionService() {
   return (
@@ -56,6 +60,38 @@ function TelevisionService() {
             type="We help our clients to promote their products throught radio media."
             description={
               "186.1M Viewers"
+            }
+          />
+          <ServiceTemplate
+            img={tv9kannada}
+            title="TV9 Kannada"
+            type="We help our clients to promote their products throught radio media."
+            description={
+              "56.1M Viewers"
+            }
+          />
+          <ServiceTemplate
+            img={zee_kannada}
+            title="Zee Kannada"
+            type="We help our clients to promote their products throught radio media."
+            description={
+              "46.8M Viewers"
+            }
+          />
+          <ServiceTemplate
+            img={newsfirst}
+            title="News 1st Kannada"
+            type="We help our clients to promote their products throught radio media."
+            description={
+              "44.6M Viewers"
+            }
+          />
+          <ServiceTemplate
+            img={power_tv}
+            title="Power TV"
+            type="We help our clients to promote their products throught radio media."
+            description={
+              "36.5M Viewers"
             }
           />
         </div>

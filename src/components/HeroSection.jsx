@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import bgImage1 from "../assets/bg-image.jpg";
 import bgImage2 from "../assets/Home-1.jpg";
 import bgImage3 from "../assets/Home-2.jpg";
-import { FaArrowUp, FaArrowDown } from "react-icons/fa";
 
 
 function HeroSection() {
@@ -62,14 +61,14 @@ function HeroSection() {
               </div>
             ))}
           </div>
-          <div className=" w-full h-full absolute top-0 left-0 bg-black/90 ">
+          <div className=" w-full h-full absolute top-0 left-0 bg-black/70 ">
             <div className=" container mx-auto flex flex-col items-center justify-center h-full">
               <div className=" text-white  mb-4 font-secondary">
                 <h1 className=" text-3xl lg:text-4xl xl:text-6xl font-bold mb-8 pl-4">
                   Seeking tangible results?
                 </h1>
                 <h1 className=" text-3xl lg:text-4xl xl:text-6xl font-bold mb-16 pl-4">
-                  Partner with the experts at MINDBLUE
+                  Partner with the experts at <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 "> MINDBLUE </span>
                 </h1>
                 <h5 className=" text-base lg:text-lg xl:text-2xl pl-2">
                   Discover and Purchase top-notch advertising solution with us

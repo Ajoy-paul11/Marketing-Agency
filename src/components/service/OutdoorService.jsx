@@ -5,6 +5,8 @@ import ServiceTemplate from './ServiceTemplate.jsx'
 // import outside from "../../assets/Outdoor/outdoor-ad.jpg"
 // import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
 import outdoorImage from "../../assets/Outdoor/Outdoor-288-x-192.jpg"
+import bus_shelter from "../../assets/Outdoor/bus-shelter-288-x-192.jpg"
+import hoarding from "../../assets/Outdoor/hoarding-288-x-192.jpg"
 
 function OutdoorService() {
   return (
@@ -24,7 +26,7 @@ function OutdoorService() {
             }
           />
           <ServiceTemplate
-            img={outdoorImage}
+            img={hoarding}
             title="Hoarding"
             type="Hoarding is the best way to advertise your business."
             description={
@@ -32,7 +34,7 @@ function OutdoorService() {
             }
           />
           <ServiceTemplate
-            img={outdoorImage}
+            img={bus_shelter}
             title="Bus Shelter"
             type="Bus Shelter is the best way to advertise your business."
             description={

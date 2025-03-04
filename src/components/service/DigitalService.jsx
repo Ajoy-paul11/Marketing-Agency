@@ -1,7 +1,11 @@
 import React from "react";
 import ServiceTemplate from "./ServiceTemplate.jsx";
 import seo from "../../assets/services/seo.png";
-import digitalImage from "../../assets/DigitalMedia/Digital-services-300-x-128.jpg";
+import g_ads from "../../assets/DigitalMedia/google-Ad-288-x-192.jpg"
+import meta from "../../assets/DigitalMedia/meta-288-x-192.jpg"
+import spotify from "../../assets/DigitalMedia/spotify-288-x-192.jpg"
+import hotstar from "../../assets/DigitalMedia/hotstar-288-x-192.jpg"
+
 
 function DigiService() {
   return (
@@ -14,39 +18,39 @@ function DigiService() {
           <ServiceTemplate
             img={seo}
             title="SEO"
-            type="SEO helped these businesses to reach their targeted customers easily and helped to grab more data."
+            type="We specialize in SEO strategies that drive organic traffic, improve visibility, and help you outrank your competitors."
             description={
               "N/A"
             }
           />
           <ServiceTemplate
-            img={digitalImage}
+            img={g_ads}
             title="Google Ads"
-            type="SMM helped brands to reach their audiences much faster improved the brand value."
+            type="At Mindblue, We create high-converting Google Ads campaigns that drive results across Search, Display, and Video Ads."
             description={
               "200M Monthly Users"
             }
           />
           <ServiceTemplate
-            img={seo}
+            img={meta}
             title="Meta Ads"
-            type="SEM helped business through various search engine to gather more information about the customers"
+            type=" We specialize in Meta Ads (Facebook & Instagram Ads) to help you reach your ideal customers and maximize conversions."
             description={
               "400.3M Monthly Users"
             }
           />
           <ServiceTemplate
-            img={seo}
+            img={spotify}
             title="Spotify Ads"
-            type="SEM helped business through various search engine to gather more information about the customers"
+            type="Spotify Ads offer a powerful way to connect with your audience while they listen to their favorite music and podcasts."
             description={
               "68.2M Monthly Users"
             }
           />
           <ServiceTemplate
-            img={seo}
+            img={hotstar}
             title="Hotstar Ads"
-            type="SEM helped business through various search engine to gather more information about the customers"
+            type="Hotstar Ads offer a powerful advertising platform to reach a highly engaged audience through premium content."
             description={
               "102.2M Monthly Users"
             }

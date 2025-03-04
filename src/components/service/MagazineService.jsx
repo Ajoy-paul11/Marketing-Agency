@@ -6,6 +6,11 @@ import fortune from "../../assets/Magazine/fortune2.jpg";
 import femina from "../../assets/Magazine/femina2.png";
 import vogue from "../../assets/Magazine/vogue2.jpg";
 import travel from "../../assets/Magazine/travel2.jpg";
+import grihshobha from "../../assets/Magazine/grihshobha-288-x-192.jpg"
+import indiatoday from "../../assets/Magazine/india-today-288-x-192.jpg"
+import outlook from "../../assets/Magazine/out-look-288-x-192.jpg"
+import sudha from "../../assets/Magazine/sudha-288-x-192.jpg"
+import taranga from "../../assets/Magazine/taranga-288-x-192.jpg"
 
 
 
@@ -18,6 +23,12 @@ function MagazineService() {
           Magazine Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
+        <ServiceTemplate
+            img={indiatoday}
+            title="India Today"
+            type="We provide the advertising services for Fortune to promote their products."
+            description={"550000"}
+          />
           <ServiceTemplate
             img={forbes}
             title="Forbes India"
@@ -59,6 +70,31 @@ function MagazineService() {
             title="Travel + Leisure"
             type="We provide the advertising services for Fortune to promote their products."
             description={"148000"}
+          />
+          
+          <ServiceTemplate
+            img={grihshobha}
+            title="Grihshobha"
+            type="We provide the advertising services for Fortune to promote their products."
+            description={"450000"}
+          />
+          <ServiceTemplate
+            img={outlook}
+            title="Outlook Business"
+            type="We provide the advertising services for Fortune to promote their products."
+            description={"170000"}
+          />
+          <ServiceTemplate
+            img={sudha}
+            title="Sudha"
+            type="We provide the advertising services for Fortune to promote their products."
+            description={"97000"}
+          />
+          <ServiceTemplate
+            img={taranga}
+            title="Taranga"
+            type="We provide the advertising services for Fortune to promote their products."
+            description={"90000"}
           />
         </div>
       </div>

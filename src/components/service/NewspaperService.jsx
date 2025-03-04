@@ -6,6 +6,10 @@ import toi from "../../assets/Newspaper/TOI.png";
 import hindustan from "../../assets/Newspaper/hindustan2.jpg";
 import nbt from "../../assets/Newspaper/nbt2.jpg";
 import midDay from "../../assets/Newspaper/midday2.jpg";
+import kannada_prabha from "../../assets/Newspaper/kannada-prabha-288-x-192.jpg"
+import prajavani from "../../assets/Newspaper/prajavani-288-x-192.jpg"
+import udayavani from "../../assets/Newspaper/udayavani-288-x-192.jpg"
+import vijaya_karnataka from "../../assets/Newspaper/vijaya-karnataka-288-x-192.jpg"
 
 function NewspaperService() {
   return (
@@ -53,10 +57,34 @@ function NewspaperService() {
             description={"310978"}
           />
           <ServiceTemplate
+            img={prajavani}
+            title="Prajavani"
+            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            description={"156000"}
+          />
+          <ServiceTemplate
+            img={vijaya_karnataka}
+            title="Vijaya Karnataka"
+            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            description={"216000"}
+          />
+          <ServiceTemplate
+            img={udayavani}
+            title="Udayavani"
+            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            description={"300000"}
+          />
+          <ServiceTemplate
             img={midDay}
             title="Mid-Day"
             type="We work with The Mid-Day newspaper to promote brands products, and services"
             description={"300000"}
+          />
+          <ServiceTemplate
+            img={kannada_prabha}
+            title="Kannada Prabha"
+            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            description={"45000"}
           />
         </div>
       </div>
