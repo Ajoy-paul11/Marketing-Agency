@@ -35,7 +35,7 @@ function Footer() {
               </Typography>
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/events"
+                  to="#"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Events
@@ -85,7 +85,7 @@ function Footer() {
               </Typography>
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/news-service"
+                  to="/newspaper-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Newspaper
@@ -197,7 +197,7 @@ function Footer() {
             <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
               <Typography
                 as="a"
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/MindBlue.in"
                 target="_blank"
                 className=" transition-opacity hover:opacity-60"
               >
@@ -216,7 +216,7 @@ function Footer() {
               </Typography>
               <Typography
                 as="a"
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/mindbluellp/"
                 target="_blank"
                 className=" transition-opacity hover:opacity-60"
               >
@@ -250,7 +250,7 @@ function Footer() {
               </Typography> */}
               <Typography
                 as="a"
-                href="https://www.linkedin.com/"
+                href="https://in.linkedin.com/company/mindbluellp"
                 target="_blank"
                 className=" transition-opacity hover:opacity-60"
               >
