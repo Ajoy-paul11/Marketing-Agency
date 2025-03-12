@@ -22,6 +22,7 @@ function App() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(!open);
 
+
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = async (data) => {
@@ -168,7 +169,6 @@ function App() {
           </div>
         </div>
       </Dialog>
-      <ScrollToTop />
       <div className="w-full bg-black">
       <NavbarSimple />
       </div>

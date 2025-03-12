@@ -47,7 +47,7 @@ function AccordionComponent() {
       >
         Frequently Asked Questions
       </h2>
-      <div className=" w-full my-4 grid grid-cols-1 gap-8 md:grid-cols-2 p-8">
+      <div className=" container mx-auto w-full my-4 grid grid-cols-1 gap-8 md:grid-cols-2 p-8">
         <Accordion
           data-aos="zoom-in"
           className=" px-4 rounded "
@@ -55,7 +55,7 @@ function AccordionComponent() {
           icon={<Icon id={1} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold"
+            className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(1)}
           >
             Digital Marketing Strategy
@@ -73,7 +73,7 @@ function AccordionComponent() {
           icon={<Icon id={2} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold"
+            className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(2)}
           >
             How to do Digital Marketing Plan
@@ -92,7 +92,7 @@ function AccordionComponent() {
           icon={<Icon id={3} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold"
+            className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(3)}
           >
             What services are available?
@@ -110,7 +110,7 @@ function AccordionComponent() {
           icon={<Icon id={4} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold"
+            className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(4)}
           >
             How to higher your conversion rate?
@@ -129,7 +129,7 @@ function AccordionComponent() {
           icon={<Icon id={5} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold"
+            className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(5)}
           >
             How to keep your website secure?
@@ -147,7 +147,7 @@ function AccordionComponent() {
           icon={<Icon id={6} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold"
+            className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(6)}
           >
             Traditional Marketing vs Digital Marketing

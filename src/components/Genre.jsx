@@ -25,7 +25,7 @@ function Genre() {
   });
 
   return (
-    <div className="container max-h-fit" data-aos="fade-down">
+    <div id="genre" className="container max-h-fit" data-aos="fade-down">
       <h2
         data-aos="fade-down"
         className="text-2xl xl:text-3xl font-semibold text-primary my-6 font-secondary px-8 ml-8 text-center"

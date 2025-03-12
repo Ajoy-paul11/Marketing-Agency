@@ -30,7 +30,7 @@ function Client() {
   //   });
   // });
   return (
-    <div id="clients" className=" w-full">
+    <div className=" w-full">
       <div
         // data-aos="zoom-in"
         className=" py-4  max-w-screen-2xl mx-auto my-4"

@@ -14,7 +14,7 @@ function About() {
   });
   
   return (
-    <div id="about" className=" w-full max-h-fit my-4">
+    <div className=" w-full max-h-fit my-4">
       <div  className="">
         <h2
           

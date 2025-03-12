@@ -3,7 +3,7 @@ import aboutImage from "../assets/about.jpg";
 
 function AboutNew() {
   return (
-    <div>
+    <div id="about">
       <div className=" w-full">
         <h2
           className=" text-3xl font-semibold text-primary font-secondary text-center mb-2"

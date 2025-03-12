@@ -15,7 +15,7 @@ function Service() {
   });
 
   return (
-    <div id="services" className=" w-full max-h-fit">
+    <div className=" w-full max-h-fit">
       <h2
         data-aos="fade-down"
         className=" text-3xl font-semibold text-primary font-secondary text-center mb-2"

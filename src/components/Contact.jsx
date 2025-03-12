@@ -61,7 +61,7 @@ function Contact() {
   };
 
   return (
-    <div id="contact" className="w-full py-16 lg:px-32">
+    <div className="w-full py-16 lg:px-32">
       <div>
         <h2
           data-aos="fade-down"
