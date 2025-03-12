@@ -10,6 +10,7 @@ import {
   DialogBody,
   DialogFooter,
 } from "@material-tailwind/react";
+import { RxCross1 } from "react-icons/rx";
 
 export function CardWithLink({ img, title, description, modalTitle, modalDescription }) {
   const [open, setOpen] = React.useState(false);
@@ -69,14 +70,14 @@ export function CardWithLink({ img, title, description, modalTitle, modalDescrip
                 <DialogBody className=" text-base text-primary font-secondary">
                   {modalDescription}
                 </DialogBody>
-                <DialogFooter>
+                <DialogFooter className=" absolute top-4 right-3">
                   <Button
                     variant="gradient"
                     color="green"
                     onClick={handleOpen}
-                    className="px-3 py-1.5 bg-green-400"
+                    className="p-1 rounded-full bg-blue-700"
                   >
-                    <span>Done</span>
+                    <RxCross1 />
                   </Button>
                 </DialogFooter>
               </div>
