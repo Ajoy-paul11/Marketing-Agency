@@ -14,6 +14,7 @@ import "aos/dist/aos.css";
 import { toast } from "react-toastify";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -61,7 +62,8 @@ function Contact() {
   };
 
   return (
-    <div className="w-full py-16 lg:px-32">
+    <div className="w-full py-16 lg:px-32 mt-[75px]">
+      <ScrollToTop />
       <div>
         <h2
           data-aos="fade-down"

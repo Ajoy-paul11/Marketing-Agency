@@ -10,12 +10,14 @@ import newsfirst from "../../assets/TV/newsfirst-288-x-192.jpg"
 import power_tv from "../../assets/TV/power-tv-288-x-192.jpg"
 import tv9kannada from "../../assets/TV/tv-9kannada288-x-192.jpg"
 import zee_kannada from "../../assets/TV/zee-kannada-288-x-192.jpg"
+import ScrollToTop from '../ScrollToTop.jsx';
 
 function TelevisionService() {
   return (
-    <div className="w-full">
+    <div className="w-full mt-[75px]">
+      <ScrollToTop />
       {/* container mx-auto */}
-      <div className=" px-4  xl:px-20 2xl:px-44 py-8 bg-[#f4f5ff]">
+      <div className=" px-4  xl:px-20 2xl:px-44 py-14 bg-[#f4f5ff]">
         <h2 className="text-3xl font-semibold text-orange-600 font-secondary px-4 mb-8">
           Television Services:
         </h2>
