@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
-import { useLocation, useNavigationType } from 'react-router-dom';
+import { useLocation, useNavigationType, useNavigate } from 'react-router-dom';
 
 function useScrollPositionRestoration() {
   const location = useLocation();
   const navigationType = useNavigationType();
+  const navigate = useNavigate(); // Add this line
   const [isNavigating, setIsNavigating] = useState(false);
 
   useEffect(() => {
@@ -18,9 +19,8 @@ function useScrollPositionRestoration() {
     window.addEventListener('scroll', saveScrollPosition);
     window.addEventListener('beforeunload', saveScrollPosition);
 
-    // **Corrected cleanup function:** 
     return () => {
-      window.removeEventListener('scroll', saveScrollPosition); // Remove the scroll listener
+      window.removeEventListener('scroll', saveScrollPosition);
       window.removeEventListener('beforeunload', saveScrollPosition);
     };
   }, [location.pathname, isNavigating]);
@@ -35,8 +35,26 @@ function useScrollPositionRestoration() {
           window.scrollTo(0, savedPosition);
         }, 200); // Adjust delay if needed
       }
-    }
+    } 
   }, [location.pathname, navigationType]);
+
+  // Update the isNavigating flag BEFORE navigating 
+  const handleNavigate = (to, options) => {
+    setIsNavigating(true);
+    navigate(to, options);
+  }
+
+  // Reset the flag after navigation is complete
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setIsNavigating(false);
+    }, 200); // Adjust delay if needed
+
+    return () => clearTimeout(timeoutId);
+  }, [location.pathname]); 
+
+  return { handleNavigate }; // Return the modified navigate function
 }
 
 export default useScrollPositionRestoration;
+

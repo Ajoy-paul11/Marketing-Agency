@@ -36,7 +36,7 @@ function Genre() {
         <Link
           // to="/digital"
           to="/digital-service"
-          className="flex flex-col items-center  w-[150px]  py-8 rounded-md genre-box hover:cursor-pointer shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer " // px-10
         >
           <img src={digtal} alt="digtal" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Digital</p>
@@ -44,7 +44,7 @@ function Genre() {
         <Link
           // to="/magazine"
           to="/magazine-service"
-          className="flex flex-col items-center w-[150px]  py-8 rounded-md genre-box hover:cursor-pointer shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer " // px-10
         >
           <img src={magazine} alt="magazine" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Magazine</p>
@@ -52,7 +52,7 @@ function Genre() {
         <Link
           // to="/newspaper"
           to="/newspaper-service"
-          className="flex flex-col items-center  w-[150px] py-8 rounded-md genre-box shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={newspaper} alt="newspaper" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Newspaper</p>
@@ -60,7 +60,7 @@ function Genre() {
         <Link
           // to="/radio"
           to="/radio-service"
-          className="flex flex-col items-center  w-[150px] py-8 rounded-md genre-box shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center  w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={radio} alt="radio" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Radio</p>
@@ -68,7 +68,7 @@ function Genre() {
         <Link
           // to="/tv"
           to="/television-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={tv} alt="tv" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Television</p>
@@ -76,49 +76,49 @@ function Genre() {
         <Link
           // to="/tv"
           to="/outdoor-service"
-          className="flex flex-col items-center w-[150px]  py-8 rounded-md genre-box shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"  // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer"  // px-10
         >
           <img src={outdoor} alt="outdoor" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Outdoor</p>
         </Link>
         <Link
           to="/airline-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer " // px-10
         >
           <img src={airplane} alt="digtal" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Airline/Airport</p>
         </Link>
         <Link
           to="/cinema-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"  // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer "  // px-10
         >
           <img src={cinema} alt="magazine" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Cinema</p>
         </Link>
         <Link
           to="/influencer-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={influencer} alt="newspaper" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Influencer</p>
         </Link>
         <Link
           to="/nontraditional-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={nonTradional} alt="radio" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Non Tradional</p>
         </Link>
         <Link
           to="/hyperlocal-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={gps} alt="tv" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Hyperlocal</p>
         </Link>
         <Link
           to="/deals-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box shadow-[0_0_10px_0_rgba(0,0,0,0.25)]" // px-10
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={deals} alt="outdoor" width="56" height="56" className="genre-svg mix-blend-multiply" />
           <p>Deals</p>

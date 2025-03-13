@@ -15,8 +15,11 @@ import { DefaultGallery } from "./GalleryComponent";
 import { useNavigate } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import  useScrollPositionRestoration  from "../hook/useScrollPositionRestoration.jsx";
 
 function Portfolio() {
+  const { handleNavigate } = useScrollPositionRestoration();
+
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -34,42 +37,42 @@ function Portfolio() {
           Portfolio
         </h2>
         <div data-aos="fade-down" className="grid grid-cols-1 gap-x-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center p-8 overflow-hidden xl:container xl:mx-auto ">
-          <div  onClick={() => navigate("/portfolio-adhventha")}>
+          <div  onClick={() => handleNavigate("/portfolio-adhventha")}>
             <DefaultGallery img={adhventha} />
           </div>
-          <div  onClick={() => navigate("/portfolio-amruth")}>
+          <div  onClick={() => handleNavigate("/portfolio-amruth")}>
             <DefaultGallery img={amrithnoni} />
           </div>
-          <div  onClick={() => navigate("/portfolio-apollo")}>
+          <div  onClick={() => handleNavigate("/portfolio-apollo")}>
             <DefaultGallery img={applo} />
           </div>
-          <div  onClick={() => navigate("/portfolio-featherlite")}>
+          <div  onClick={() => handleNavigate("/portfolio-featherlite")}>
             <DefaultGallery img={featherlite} />
           </div>
-          <div  onClick={() => navigate("/portfolio-garudamall")}>
+          <div  onClick={() => handleNavigate("/portfolio-garudamall")}>
             <DefaultGallery img={garuda} />
           </div>
-          <div  onClick={() => navigate("/portfolio-nethradhama")}>
+          <div  onClick={() => handleNavigate("/portfolio-nethradhama")}>
             <DefaultGallery img={nethra} />
           </div>
           <div
-            onClick={() => navigate("/portfolio-narayana")}
+            onClick={() => handleNavigate("/portfolio-narayana")}
           >
             <DefaultGallery img={narayana} />
           </div>
-          <div  onClick={() => navigate("/portfolio-nps")}>
+          <div  onClick={() => handleNavigate("/portfolio-nps")}>
             <DefaultGallery img={npsnorth} />
           </div>
-          <div  onClick={() => navigate("/portfolio-raymond")}>
+          <div  onClick={() => handleNavigate("/portfolio-raymond")}>
             <DefaultGallery img={raymond} />
           </div>
-          <div  onClick={() => navigate("/portfolio-hitachi")}>
+          <div  onClick={() => handleNavigate("/portfolio-hitachi")}>
             <DefaultGallery img={hitachi} />
           </div>
-          <div  onClick={() => navigate("/portfolio-neuberg")}>
+          <div  onClick={() => handleNavigate("/portfolio-neuberg")}>
             <DefaultGallery img={neuberg} />
           </div>
-          <div  onClick={() => navigate("/portfolio-transcend")}>
+          <div  onClick={() => handleNavigate("/portfolio-transcend")}>
             <DefaultGallery img={transcend} />
           </div>
         </div>
