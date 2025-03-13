@@ -10,6 +10,7 @@ import newsfirst from "../../assets/TV/newsfirst-288-x-192.jpg"
 import power_tv from "../../assets/TV/power-tv-288-x-192.jpg"
 import tv9kannada from "../../assets/TV/tv-9kannada288-x-192.jpg"
 import zee_kannada from "../../assets/TV/zee-kannada-288-x-192.jpg"
+import public_tv from "../../assets/TV/Public_TV_Kannada-288-x-192.jpg"
 import ScrollToTop from '../ScrollToTop.jsx';
 
 function TelevisionService() {
@@ -25,19 +26,19 @@ function TelevisionService() {
         <ServiceTemplate
             img={sony}
             title="SONY"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={"115M Viewers"}
           />
           <ServiceTemplate
             img={starplus}
             title="Star Plus"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={"121.3M Viewers"}
           />
           <ServiceTemplate
             img={suntv}
             title="Sun TV"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={
               "83.9M Viewers"
             }
@@ -45,7 +46,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={colors}
             title="Colors TV"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={
               "138.7M Viewers"
             }
@@ -53,13 +54,13 @@ function TelevisionService() {
           <ServiceTemplate
             img={sonySab}
             title="SONY SAB"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={"118.1M Viewers"}
           />
           <ServiceTemplate
             img={aajtak}
             title="Aaj Tak"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={
               "186.1M Viewers"
             }
@@ -67,7 +68,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={tv9kannada}
             title="TV9 Kannada"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={
               "56.1M Viewers"
             }
@@ -75,7 +76,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={zee_kannada}
             title="Zee Kannada"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={
               "46.8M Viewers"
             }
@@ -83,7 +84,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={newsfirst}
             title="News 1st Kannada"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={
               "44.6M Viewers"
             }
@@ -91,10 +92,18 @@ function TelevisionService() {
           <ServiceTemplate
             img={power_tv}
             title="Power TV"
-            type="We help our clients to promote their products throught radio media."
+            type="We help our clients to promote their products throught television media."
             description={
               "36.5M Viewers"
             }
+          />
+          <ServiceTemplate
+          img={public_tv}
+          title="Public TV"
+          type="We help our clients to promote their products throught television media."
+          description={
+            "39.2M Viewers"
+          }
           />
         </div>
       </div>
