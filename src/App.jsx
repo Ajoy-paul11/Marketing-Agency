@@ -57,7 +57,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setOpen(true);
-    }, 10000);
+    }, 30000);
 
     return () => clearTimeout(timer);
   }, []);

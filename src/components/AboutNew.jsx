@@ -49,7 +49,7 @@ function AboutNew() {
                 We do a lot amazing things at Mindblue, but behind every
                 outstanding deliverable is a solid process that keeps us true to
                 our overall goal our client's success. The team at Mindblue is
-                composed of creatives, planners, disigners, developers, and tech
+                composed of creatives, planners, designers, developers, and tech
                 savvy problem solvers capable of integrating a wide range of
                 services resulting in a marketing engine that drives results.
               </p>
