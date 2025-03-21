@@ -18,7 +18,7 @@ function Airline() {
           <ServiceTemplate
             img={airlineService}
             title="Domestic Airlines"
-            type="We provide all advertising services for Domestic Airlines to promote their products."
+            type="Engage travelers during flights with targeted in-flight ads, reaching a captive audience."
             description={
               "1M Monthly Passengers"
             }
@@ -26,7 +26,7 @@ function Airline() {
           <ServiceTemplate
             img={airlineService}
             title="Airport Advertising"
-            type="We provide all advertising services for Airport Advertising to promote their products."
+            type="Capture the attention of diverse travelers through strategically placed ads in high-traffic airport areas."
             
             description={
               "4M Monthly Passengers"

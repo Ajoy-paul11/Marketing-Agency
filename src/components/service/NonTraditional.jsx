@@ -20,7 +20,7 @@ function NonTraditional() {
           <ServiceTemplate
             img={nonTradImage}
             title="AC Bus Branding"
-            type="AC Bus Branding is the best way to advertise your business."
+            type="Promote your brand on air-conditioned buses, reaching urban commuters in comfort."
             description={
               "N/A"
             }
@@ -28,7 +28,7 @@ function NonTraditional() {
           <ServiceTemplate
             img={nonTradImage}
             title="Metro Branding"
-            type="Metroo Branding is the best way to advertise your business."
+            type="Enhance brand visibility by advertising within metro stations and trains, targeting daily urban travelers."
             description={
               "3M Daily Ridership"
             }
@@ -36,7 +36,7 @@ function NonTraditional() {
           <ServiceTemplate
             img={nonTradImage}
             title="Auto Branding"
-            type="Auto Branding is the best way to advertise your business."
+            type="Utilize auto-rickshaws as mobile billboards to penetrate densely populated areas effectively."
             description={
               "150 Avg Distance/Day"
             }
@@ -44,7 +44,7 @@ function NonTraditional() {
           <ServiceTemplate
             img={nonTradImage}
             title="Non-AC Bus Branding"
-            type="Non-AC Bus Branding is the best way to advertise your business."
+            type="Expand reach through advertisements on non-air-conditioned buses, engaging a broad passenger base."
             description={
               "N/A"
             }
@@ -52,7 +52,7 @@ function NonTraditional() {
           <ServiceTemplate
             img={nonTradImage}
             title="Cab Branding"
-            type="Cab Branding is the best way to advertise your business."
+            type="Leverage taxis for mobile advertising, ensuring brand presence across city landscapes."
             description={
               "250 Avg Distance/Day"
             }
@@ -60,7 +60,7 @@ function NonTraditional() {
           <ServiceTemplate
             img={nonTradImage}
             title="Apartment Branding"
-            type="Apartment Branding is the best way to advertise your business."
+            type="Target residential communities by placing advertisements within apartment complexes, reaching residents directly."
             description={
               "720 times/Day"
             }

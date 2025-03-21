@@ -18,7 +18,7 @@ function Hyperlocal() {
           <ServiceTemplate
             img={hyperImage}
             title="Hyperlocal Advertisements"
-            type="We provide hyperlocal advertisements to grow your business."
+            type="Hyperlocal advertising targets customers in a specific, limited geographic area to deliver highly relevant marketing messages."
             description={
               "N/A"
             }

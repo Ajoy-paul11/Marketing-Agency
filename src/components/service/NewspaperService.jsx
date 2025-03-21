@@ -24,8 +24,8 @@ function NewspaperService() {
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
           <ServiceTemplate
             img={economic}
-            title=" The Economic Times"
-            type="We work with The Economic Times newspaper to promote brands products, and services."
+            title="The Economic Times"
+            type="Engage India's business community with targeted financial news ads."
             description={
               "195000"
             }
@@ -33,7 +33,7 @@ function NewspaperService() {
           <ServiceTemplate
             img={hindu}
             title="The Hindu"
-            type="We work with The Hindu newspaper to promote brands products, and services."
+            type="Reach discerning readers seeking in-depth national and international coverage."
             description={
               "121432"
             }
@@ -41,7 +41,7 @@ function NewspaperService() {
           <ServiceTemplate
             img={toi}
             title="The Times of India"
-            type="We work with The Times of India newspaper to promote brands products, and services."
+            type="Connect with a diverse urban audience through India's largest English daily."
             description={
               "750000"
             }
@@ -49,43 +49,43 @@ function NewspaperService() {
           <ServiceTemplate
             img={hindustan}
             title="Hindustan Times"
-            type="We work with The Hindustan Times newspaper to promote brands products, and services."
+            type="Target North India's urban populace with comprehensive news coverage."
             description={"686418"}
           />
           <ServiceTemplate
             img={nbt}
             title="Navbharat Times"
-            type="We work with The Navbharat Times newspaper to promote brands products, and services"
+            type="Engage Hindi-speaking readers in metropolitan areas with trusted news content."
             description={"310978"}
           />
           <ServiceTemplate
             img={prajavani}
             title="Prajavani"
-            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            type="Reach Kannada-speaking audiences through Karnataka's leading daily."
             description={"156000"}
           />
           <ServiceTemplate
             img={vijaya_karnataka}
             title="Vijaya Karnataka"
-            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            type="Advertise to a vast readership in Karnataka's prominent Kannada newspaper."
             description={"216000"}
           />
           <ServiceTemplate
             img={udayavani}
             title="Udayavani"
-            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            type="Connect with coastal Karnataka's readers via this widely circulated Kannada daily."
             description={"300000"}
           />
           <ServiceTemplate
             img={midDay}
             title="Mid-Day"
-            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            type="Engage Mumbai's urban audience with this popular afternoon daily."
             description={"300000"}
           />
           <ServiceTemplate
             img={kannada_prabha}
             title="Kannada Prabha"
-            type="We work with The Mid-Day newspaper to promote brands products, and services"
+            type="Target informed Kannada readers with quality journalism and regional news."
             description={"45000"}
           />
         </div>

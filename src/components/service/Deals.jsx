@@ -19,7 +19,7 @@ function Deals() {
           <ServiceTemplate
             img={dealImage}
             title="Deals with Agencies"
-            type="Elevate Your Agency’s Advertising Solutions."
+            type="Partnering with agencies offers brands expertise and resources to boost visibility and engagement."
             description={
               "N/A"
             }

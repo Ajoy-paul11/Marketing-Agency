@@ -18,7 +18,7 @@ function Cinema() {
           <ServiceTemplate
             img={cinemaImage}
             title="Movie Intervals"
-            type="We help our clients to promote their products through cinema media."
+            type="Engage audiences during intermissions with impactful ads, capturing attention in a distraction-free environment."
             description={
               "Average seats: 200"
             }

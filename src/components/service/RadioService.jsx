@@ -22,7 +22,7 @@ function RadioService() {
         <ServiceTemplate
             img={redfm}
             title="Red FM"
-            type="We help our clients to promote their products throught radio media."
+            type="Engage urban youth with vibrant and contemporary programming."
             description={
               "2.7M Listeners"
             }
@@ -30,7 +30,7 @@ function RadioService() {
           <ServiceTemplate
             img={radiomirchi}
             title="Radio Mirchi"
-            type="We help our clients to promote their products throught radio media."
+            type="Connect with India's masses through popular music and entertainment."
             description={
               "4.3M Listeners"
             }
@@ -38,7 +38,7 @@ function RadioService() {
           <ServiceTemplate
             img={bigfm}
             title="Big FM"
-            type="We help our clients to promote their products throught radio media."
+            type="Reach diverse audiences with a mix of retro and modern content."
             description={
               "2.2M Listeners"
             }
@@ -47,7 +47,7 @@ function RadioService() {
           <ServiceTemplate
             img={radioCity}
             title="Radio City"
-            type="We help our clients to promote their products throught radio media."
+            type="Target metropolitan listeners with city-centric shows and music."
             description={"1.8M Listeners"}
           />
           
@@ -55,19 +55,19 @@ function RadioService() {
           <ServiceTemplate
             img={fever}
             title="Radio Fever"
-            type="We help our clients to promote their products throught radio media."
+            type="Appeal to young adults with energetic and trendy broadcasts."
             description={"1.9M Listeners"}
           />
           <ServiceTemplate
             img={radio_one}
             title="Radio One"
-            type="We help our clients to promote their products throught radio media."
+            type="Engage upscale urbanites with international music and lifestyle content."
             description={"1M Listeners"}
           />
           <ServiceTemplate
             img={air}
             title="All India Radio"
-            type="We help our clients to promote their products throught radio media."
+            type="Access nationwide listeners through India's extensive public broadcaster."
             description={"1.5M Listeners"}
           />
         </div>

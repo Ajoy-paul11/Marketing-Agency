@@ -18,7 +18,7 @@ function Influencer() {
           <ServiceTemplate
             img={influencerService}
             title="Influencer Marketing"
-            type="Influencer Marketing is the best way to advertise your business."
+            type="Influencer marketing partners with individuals with large followings to promote products or services."
             description={
               "N/A"
             }

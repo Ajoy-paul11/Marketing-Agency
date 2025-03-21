@@ -20,7 +20,7 @@ function OutdoorService() {
           <ServiceTemplate
             img={outdoorImage}
             title="Outdoor Billboard"
-            type="Outdoor billboard is the best way to advertise your business."
+            type="Capture high-traffic attention with prominent, large-scale displays."
             description={
               "N/A"
             }
@@ -28,7 +28,7 @@ function OutdoorService() {
           <ServiceTemplate
             img={hoarding}
             title="Hoarding"
-            type="Hoarding is the best way to advertise your business."
+            type="Dominate urban landscapes with expansive, eye-catching advertisements."
             description={
               "85-90K Unique Reach."
             }
@@ -36,7 +36,7 @@ function OutdoorService() {
           <ServiceTemplate
             img={bus_shelter}
             title="Bus Shelter"
-            type="Bus Shelter is the best way to advertise your business."
+            type="Engage commuters effectively with strategically placed transit ads."
             description={
               "90-95K Unique Reach."
             }

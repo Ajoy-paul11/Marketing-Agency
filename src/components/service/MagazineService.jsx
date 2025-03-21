@@ -28,13 +28,13 @@ function MagazineService() {
         <ServiceTemplate
             img={indiatoday}
             title="India Today"
-            type="We provide the advertising services for Fortune to promote their products."
+            type="Reach India's informed readers through impactful advertising."
             description={"550000"}
           />
           <ServiceTemplate
             img={forbes}
             title="Forbes India"
-            type="We provide the advertising services for Forbes India to promote their products."
+            type="Target business leaders with strategic ad placements."
             description={
               "75000"
             }
@@ -42,7 +42,7 @@ function MagazineService() {
           <ServiceTemplate
             img={business}
             title="Business Today"
-            type="We provide the advertising services for Business Today to promote their products."
+            type="Engage professionals via authoritative business content."
             description={
               "195000"
             }
@@ -50,7 +50,7 @@ function MagazineService() {
           <ServiceTemplate
             img={fortune}
             title="Fortune"
-            type="We provide the advertising services for Fortune to promote their products."
+            type="Connect with global influencers through premium advertising."
             description={
               "80000"
             }
@@ -58,44 +58,44 @@ function MagazineService() {
           <ServiceTemplate
             img={femina}
             title="Femina"
-            type="We provide the advertising services for Fortune to promote their products."
+            type="Influence modern women with compelling ad narratives."
             description={"178000"}
           />
           <ServiceTemplate
             img={vogue}
             title="Vogue"
-            type="We provide the advertising services for Fortune to promote their products."
+            type="Showcase luxury brands to fashion-forward audiences."
             description={"73500"}
           />
           <ServiceTemplate
             img={travel}
             title="Travel + Leisure"
-            type="We provide the advertising services for Fortune to promote their products."
+            type=" Inspire affluent travelers with captivating promotions."
             description={"148000"}
           />
           
           <ServiceTemplate
             img={grihshobha}
             title="Grihshobha"
-            type="We provide the advertising services for Fortune to promote their products."
+            type="Engage homemakers through culturally resonant advertising."
             description={"450000"}
           />
           <ServiceTemplate
             img={outlook}
             title="Outlook Business"
-            type="We provide the advertising services for Fortune to promote their products."
+            type="Reach discerning readers with insightful business ads."
             description={"170000"}
           />
           <ServiceTemplate
             img={sudha}
             title="Sudha"
-            type="We provide the advertising services for Fortune to promote their products."
+            type="Connect with Kannada readers through engaging advertisements."
             description={"97000"}
           />
           <ServiceTemplate
             img={taranga}
             title="Taranga"
-            type="We provide the advertising services for Fortune to promote their products."
+            type="Reach Kannada-speaking audiences with tailored advertising."
             description={"90000"}
           />
         </div>

@@ -26,19 +26,19 @@ function TelevisionService() {
         <ServiceTemplate
             img={sony}
             title="SONY"
-            type="We help our clients to promote their products throught television media."
+            type="Engage diverse audiences with a mix of dramas, reality shows, and entertainment content."
             description={"115M Viewers"}
           />
           <ServiceTemplate
             img={starplus}
             title="Star Plus"
-            type="We help our clients to promote their products throught television media."
+            type="Reach urban families through popular Hindi serials and reality programs."
             description={"121.3M Viewers"}
           />
           <ServiceTemplate
             img={suntv}
             title="Sun TV"
-            type="We help our clients to promote their products throught television media."
+            type="Connect with Tamil-speaking viewers via leading entertainment and news content."
             description={
               "83.9M Viewers"
             }
@@ -46,7 +46,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={colors}
             title="Colors TV"
-            type="We help our clients to promote their products throught television media."
+            type="Target Hindi-speaking audiences with a variety of dramas and reality shows."
             description={
               "138.7M Viewers"
             }
@@ -54,13 +54,13 @@ function TelevisionService() {
           <ServiceTemplate
             img={sonySab}
             title="SONY SAB"
-            type="We help our clients to promote their products throught television media."
+            type="Appeal to comedy lovers with light-hearted, family-friendly programming."
             description={"118.1M Viewers"}
           />
           <ServiceTemplate
             img={aajtak}
             title="Aaj Tak"
-            type="We help our clients to promote their products throught television media."
+            type="Reach informed Hindi-speaking viewers with 24/7 news coverage."
             description={
               "186.1M Viewers"
             }
@@ -68,7 +68,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={tv9kannada}
             title="TV9 Kannada"
-            type="We help our clients to promote their products throught television media."
+            type="Engage Kannada-speaking audiences with regional news and entertainment."
             description={
               "56.1M Viewers"
             }
@@ -76,7 +76,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={zee_kannada}
             title="Zee Kannada"
-            type="We help our clients to promote their products throught television media."
+            type="Advertise through popular Kannada serials and reality shows."
             description={
               "46.8M Viewers"
             }
@@ -84,7 +84,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={newsfirst}
             title="News 1st Kannada"
-            type="We help our clients to promote their products throught television media."
+            type="Connect with viewers seeking timely Kannada news updates."
             description={
               "44.6M Viewers"
             }
@@ -92,7 +92,7 @@ function TelevisionService() {
           <ServiceTemplate
             img={power_tv}
             title="Power TV"
-            type="We help our clients to promote their products throught television media."
+            type="Target regional audiences with a mix of news and entertainment content."
             description={
               "36.5M Viewers"
             }
@@ -100,7 +100,7 @@ function TelevisionService() {
           <ServiceTemplate
           img={public_tv}
           title="Public TV"
-          type="We help our clients to promote their products throught television media."
+          type="Reach Kannada viewers through comprehensive news coverage."
           description={
             "39.2M Viewers"
           }
