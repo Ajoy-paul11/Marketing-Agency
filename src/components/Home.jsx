@@ -1,18 +1,14 @@
-import React, { useEffect } from "react";
-import Example from "./Carousel.jsx";
-import Animation from "./Animation.jsx";
-import Genre from "./Genre.jsx";
-import About from "./About.jsx";
-import Service from "./Service.jsx";
-import Portfolio from "./Portfolio.jsx";
-import Client from "./Client.jsx";
+import React, { lazy } from "react";
+import HeroSection from "./HeroSection.jsx";
+const Genre = lazy(() => import("./Genre.jsx"));
+const AboutNew = lazy(() => import("./AboutNew.jsx"));
+const Service = lazy(() => import("./Service.jsx"));
+const Portfolio = lazy(() => import("./Portfolio.jsx"));
+const Client = lazy(() => import("./Client.jsx"));
+import PricingCard from "./PricingCard.jsx";
 import AccordionComponent from "./Accordion.jsx";
 import Contact from "./Contact.jsx";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import HeroSection from "./HeroSection.jsx";
-import AboutNew from "./AboutNew.jsx";
-import PricingCard from "./PricingCard.jsx";
+
 import useScrollPositionRestoration from "../hook/useScrollPositionRestoration.jsx";
 
 
@@ -28,7 +24,6 @@ function Home() {
         <Genre />
       </div>
       <div className=" w-full my-8">
-        {/* <About /> */}
         <AboutNew />
       </div>
       <div>

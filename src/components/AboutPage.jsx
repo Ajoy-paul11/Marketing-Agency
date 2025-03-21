@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Carousel } from "@material-tailwind/react";
 import stroke from "../assets/stroke.png";
 import { LuZap } from "react-icons/lu";
 import { FiTarget } from "react-icons/fi";
@@ -12,6 +11,7 @@ import { useNavigate } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import aboutBg from "../assets/about-page.jpg";
+import ScrollToTop from "./ScrollToTop";
 
 function AboutPage() {
   useEffect(() => {
@@ -33,6 +33,7 @@ function AboutPage() {
   
   return (
     <div className=" w-full relative">
+      <ScrollToTop />
       <div
         className={`min-h-[90vh] w-full bg-[url(${aboutBg})] bg-no-repeat bg-opacity-30 bg-cover bg-center`}
         style={{

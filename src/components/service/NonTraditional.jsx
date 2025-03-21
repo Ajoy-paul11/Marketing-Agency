@@ -27,7 +27,7 @@ function NonTraditional() {
           />
           <ServiceTemplate
             img={nonTradImage}
-            title="Metroo Branding"
+            title="Metro Branding"
             type="Metroo Branding is the best way to advertise your business."
             description={
               "3M Daily Ridership"

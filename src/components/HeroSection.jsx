@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import bgImage1 from "../assets/bg-image.jpg";
-import bgImage2 from "../assets/Home-1.jpg";
-import bgImage3 from "../assets/Home-2.jpg";
+
 
 
 function HeroSection() {
@@ -22,7 +20,11 @@ function HeroSection() {
 
     const [currentSlide, setCurrentSlide] = useState(0);
 
-    const images = [bgImage1, bgImage2, bgImage3];
+    const images = [
+      "https://ik.imagekit.io/ajoy/Home-1.jpg?updatedAt=1742543747808", 
+      "https://ik.imagekit.io/ajoy/Home-2.jpg?updatedAt=1742543748080", 
+      "https://ik.imagekit.io/ajoy/bg-image.jpg?updatedAt=1742543746473"
+    ];
 
     const nextSlide = () => {
         setCurrentSlide((prev) => (prev === images.length - 1 ? 0 : prev + 1));
@@ -53,6 +55,12 @@ function HeroSection() {
             {images.map((image, index) => (
               <div key={index}
               className=" w-full h-full flex-shrink-0">
+                <picture>
+                  <source srcSet={`${image}?w=480`} media="(max-width: 480px)"/>
+                  <source srcSet={`${image}?w=768`} media="(max-width: 768px)"/>
+                  <source srcSet={`${image}?w=1024`} media="(min-width: 769px)"/>
+                  <source srcSet={`${image}?w=1280`} media="(min-width: 1025px)"/>
+                </picture>
                 <img
                 src={image}
                 alt="background-image"

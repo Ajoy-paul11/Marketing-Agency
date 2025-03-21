@@ -83,7 +83,7 @@ function Contact() {
             className=" lg:w-[40%] flex flex-col gap-6 border-t-2 border-b-2 border-[#000080] py-8 font-secondary text-primary "
           >
             <div className="flex gap-4 items-center">
-              <div className="text-primary text-2xl p-4 shadow-[0_0_10px_0_rgba(0,0,0,0.25)] rounded-md">
+              <div className="text-primary text-2xl p-4 outline outline-[1px] outline-[#000080] rounded-md">
                 <FaLocationDot />
               </div>
               <div className="flex flex-col gap-1">
@@ -95,7 +95,7 @@ function Contact() {
               </div>
             </div>
             <div className="flex gap-4 items-center">
-              <div className="text-primary text-2xl p-4 shadow-[0_0_10px_0_rgba(0,0,0,0.25)] rounded-md">
+              <div className="text-primary text-2xl p-4 outline outline-[1px] outline-[#000080] rounded-md">
                 <IoCall />
               </div>
               <div className="flex flex-col gap-1">
@@ -104,7 +104,7 @@ function Contact() {
               </div>
             </div>
             <div className="flex gap-4 items-center">
-              <div className="text-primary text-2xl p-4 shadow-[0_0_10px_0_rgba(0,0,0,0.25)] rounded-md">
+              <div className="text-primary text-2xl p-4 outline outline-[1px] outline-[#000080] rounded-md">
                 <MdOutlineMailOutline />
               </div>
               <div className="flex flex-col gap-1">
