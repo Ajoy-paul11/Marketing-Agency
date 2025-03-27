@@ -19,42 +19,47 @@ function DigiService() {
           <ServiceTemplate
             img={seo}
             title="SEO"
-            type="We specialize in SEO strategies that drive organic traffic, improve visibility, and help you outrank your competitors."
+            type="We specialize in SEO strategies that drive organic traffic."
             description={
               "N/A"
             }
+            price={"15,000 Min Spend"}
           />
           <ServiceTemplate
             img={g_ads}
             title="Google Ads"
-            type="At Mindblue, We create high-converting Google Ads campaigns that drive results across Search, Display, and Video Ads."
+            type=" Google Ads campaigns that drive results across Search."
             description={
               "200M Monthly Users"
             }
+            price={"10,000 Min Spend"}
           />
           <ServiceTemplate
             img={meta}
             title="Meta Ads"
-            type=" We specialize in Meta Ads (Facebook & Instagram Ads) to help you reach your ideal customers and maximize conversions."
+            type=" We specialize in Meta Ads to help you reach your ideal customers."
             description={
-              "400.3M Monthly Users"
+              "399.3M Monthly Users"
             }
+            price={"10,000 Min Spend"}
           />
           <ServiceTemplate
             img={spotify}
             title="Spotify Ads"
-            type="Spotify Ads offer a powerful way to connect with your audience while they listen to their favorite music and podcasts."
+            type="Spotify Ads offer a powerful way to connect with your audience."
             description={
               "68.2M Monthly Users"
             }
+            price={"10,000 Min Spend"}
           />
           <ServiceTemplate
             img={hotstar}
             title="Hotstar Ads"
-            type="Hotstar Ads offer a powerful advertising platform to reach a highly engaged audience through premium content."
+            type="A powerful advertising platform to reach a highly engaged audience."
             description={
               "102.2M Monthly Users"
             }
+            price={"50,000 Min Spend"}
           />
         </div>
       </div>

@@ -30,6 +30,7 @@ function MagazineService() {
             title="India Today"
             type="Reach India's informed readers through impactful advertising."
             description={"550000"}
+            price={"2,81,750 Min Spend"}
           />
           <ServiceTemplate
             img={forbes}
@@ -38,6 +39,7 @@ function MagazineService() {
             description={
               "75000"
             }
+            price={"3,30,000 Min Spend"}
           />
           <ServiceTemplate
             img={business}
@@ -46,6 +48,7 @@ function MagazineService() {
             description={
               "195000"
             }
+            price={"1,75,950 Min Spend"}
           />
           <ServiceTemplate
             img={fortune}
@@ -54,24 +57,28 @@ function MagazineService() {
             description={
               "80000"
             }
+            price={" 2,00,000 Min Spend"}
           />
           <ServiceTemplate
             img={femina}
             title="Femina"
             type="Influence modern women with compelling ad narratives."
             description={"178000"}
+            price={"1,56,188 Min Spend"}
           />
           <ServiceTemplate
             img={vogue}
             title="Vogue"
             type="Showcase luxury brands to fashion-forward audiences."
             description={"73500"}
+            price={"2,53,000"}
           />
           <ServiceTemplate
             img={travel}
             title="Travel + Leisure"
             type=" Inspire affluent travelers with captivating promotions."
             description={"148000"}
+            price={"1,48,000 Min Spend"}
           />
           
           <ServiceTemplate
@@ -79,24 +86,29 @@ function MagazineService() {
             title="Grihshobha"
             type="Engage homemakers through culturally resonant advertising."
             description={"450000"}
+            price={"46,750 Min Spend"}
           />
           <ServiceTemplate
             img={outlook}
-            title="Outlook Business"
+            title="Outlook"
             type="Reach discerning readers with insightful business ads."
             description={"170000"}
+            price={"3,25,763 Min Spend"}
+
           />
           <ServiceTemplate
             img={sudha}
             title="Sudha"
             type="Connect with Kannada readers through engaging advertisements."
-            description={"97000"}
+            description={"98500"}
+            price={"72,600 Min Spend"}
           />
           <ServiceTemplate
             img={taranga}
             title="Taranga"
             type="Reach Kannada-speaking audiences with tailored advertising."
-            description={"90000"}
+            description={"85000"}
+            price={"60,500 Min Spend"}
           />
         </div>
       </div>

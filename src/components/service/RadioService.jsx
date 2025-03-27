@@ -24,31 +24,35 @@ function RadioService() {
             title="Red FM"
             type="Engage urban youth with vibrant and contemporary programming."
             description={
-              "2.7M Listeners"
+              "1.3M Listeners"
             }
+            price={"15,120 Min Spend"}
           />
           <ServiceTemplate
             img={radiomirchi}
             title="Radio Mirchi"
             type="Connect with India's masses through popular music and entertainment."
             description={
-              "4.3M Listeners"
+              "1.8M Listeners"
             }
+            price={"14,400 Min Spend"}
           />
           <ServiceTemplate
             img={bigfm}
             title="Big FM"
             type="Reach diverse audiences with a mix of retro and modern content."
             description={
-              "2.2M Listeners"
+              "2.4M Listeners"
             }
+            price={"13,680 Min Spend"}
           />
           
           <ServiceTemplate
             img={radioCity}
             title="Radio City"
             type="Target metropolitan listeners with city-centric shows and music."
-            description={"1.8M Listeners"}
+            description={"1.7M Listeners"}
+            price={"15,480 Min Spend"}
           />
           
           
@@ -56,19 +60,22 @@ function RadioService() {
             img={fever}
             title="Radio Fever"
             type="Appeal to young adults with energetic and trendy broadcasts."
-            description={"1.9M Listeners"}
+            description={"1.1M Listeners"}
+            price={"11,520 Min Spend"}
           />
           <ServiceTemplate
             img={radio_one}
             title="Radio One"
-            type="Engage upscale urbanites with international music and lifestyle content."
+            type="Engage urbanites with international music and lifestyle content."
             description={"1M Listeners"}
+            price={"9,360 Min Spend"}
           />
           <ServiceTemplate
             img={air}
             title="All India Radio"
             type="Access nationwide listeners through India's extensive public broadcaster."
-            description={"1.5M Listeners"}
+            description={"481K Listeners"}
+            price={"19,800 Min Spend"}
           />
         </div>
       </div>

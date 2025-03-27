@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { MdBusinessCenter } from "react-icons/md";
 import { FaUserAlt } from "react-icons/fa";
+import { LuIndianRupee } from "react-icons/lu";
 import {
   Card,
   CardHeader,
@@ -11,14 +12,14 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-function ServiceTemplate({ img, title, type, description }) {
+function ServiceTemplate({ img, title, type, description, price }) {
   useEffect(() => {
     Aos.init({ duration: 1200 });
   });
   return (
     <Card
       data-aos="zoom-in"
-      className="mt-6 w-72 lg:w-64 xl:w-72 h-[388px] bg-[#f4f5ff] hover:shadow-xl hover:shadow-slate-500 hover:scale-105 duration-300 transition-colors flex flex-col shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
+      className="mt-6 w-72 lg:w-64 xl:w-72 h-[380px] bg-[#f4f5ff] hover:shadow-xl hover:shadow-slate-500 hover:scale-105 duration-300 transition-colors flex flex-col shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
     >
       <CardHeader className="relative h-48 overflow-hidden m-0 rounded-t-xl min-h-[192px] flex-shrink-0">
         <img
@@ -33,16 +34,22 @@ function ServiceTemplate({ img, title, type, description }) {
         </Typography>
         <Typography className=" text-primary">{type}</Typography>
       </CardBody>
-      <CardFooter className="pt-0 p-2 px-4 mt-2">
-        <div className="flex items-center justify-start gap-4">
-          <div className=" w-8 flex-shrink-0">
+      <CardFooter className="pt-0 p-2 px-4">
+        <div className="flex items-center gap-6">
+          <div className=" flex flex-col gap-3">
             <FaUserAlt className="text-primary text-lg" />
+            <LuIndianRupee className="text-primary text-lg" />
           </div>
-          <p className=" text-base font-semibold text-primary line-clamp-3 lg:line-clamp-2 xl:line-clamp-3">
-            {" "}
+          <div className=" flex flex-col gap-3">
+            <p className=" text-base font-semibold text-primary">
             {description}
-          </p>
+            </p>
+            <p className=" text-base font-semibold text-primary">
+            {price}
+            </p>
+          </div>
         </div>
+          
       </CardFooter>
     </Card>
   );

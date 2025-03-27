@@ -27,66 +27,76 @@ function NewspaperService() {
             title="The Economic Times"
             type="Engage India's business community with targeted financial news ads."
             description={
-              "195000"
+              "45345"
             }
+            price={"14,860 Min Spend"}
           />
           <ServiceTemplate
             img={hindu}
             title="The Hindu"
-            type="Reach discerning readers seeking in-depth national and international coverage."
+            type="Reach discerning readers seeking national and international coverage."
             description={
               "121432"
             }
+            price={"25,120 Min Spend"}
           />
           <ServiceTemplate
             img={toi}
             title="The Times of India"
-            type="Connect with a diverse urban audience through India's largest English daily."
+            type="Connect with a urban audience through India's largest English daily."
             description={
-              "750000"
+              "366465"
             }
+            price={"59,040 Min Spend"}
           />
           <ServiceTemplate
             img={hindustan}
-            title="Hindustan Times"
+            title="Hindustan Times, Mumbai"
             type="Target North India's urban populace with comprehensive news coverage."
-            description={"686418"}
+            description={"625000"}
+            price={"59,400 Min Spend"}
           />
           <ServiceTemplate
             img={nbt}
             title="Navbharat Times"
-            type="Engage Hindi-speaking readers in metropolitan areas with trusted news content."
+            type="Engage Hindi-speaking readers in city areas with trusted news content."
             description={"310978"}
+            price={"35,100 Min Spend"}
           />
           <ServiceTemplate
             img={prajavani}
             title="Prajavani"
             type="Reach Kannada-speaking audiences through Karnataka's leading daily."
             description={"156000"}
+            price={"23,400 Min Spend"}
           />
           <ServiceTemplate
             img={vijaya_karnataka}
             title="Vijaya Karnataka"
-            type="Advertise to a vast readership in Karnataka's prominent Kannada newspaper."
-            description={"216000"}
+            type="Focus a vast readership in Karnataka's prominent newspaper."
+            description={"4,91,200"}
+            price={"61,560 Min Spend"}
           />
           <ServiceTemplate
             img={udayavani}
             title="Udayavani"
-            type="Connect with coastal Karnataka's readers via this widely circulated Kannada daily."
+            type="Connect with coastal Karnataka's readers via circulated Kannada daily."
             description={"300000"}
+            price={"17,600 Min Spend"}
+          />
+          <ServiceTemplate
+            img={kannada_prabha}
+            title="Kannada Prabha"
+            type="Target Kannada readers with top journalism and regional news."
+            description={"45000"}
+            price={"11,880 Min Spend"}
           />
           <ServiceTemplate
             img={midDay}
             title="Mid-Day"
             type="Engage Mumbai's urban audience with this popular afternoon daily."
             description={"300000"}
-          />
-          <ServiceTemplate
-            img={kannada_prabha}
-            title="Kannada Prabha"
-            type="Target informed Kannada readers with quality journalism and regional news."
-            description={"45000"}
+            price={"39,422 Min Spend"}
           />
         </div>
       </div>
