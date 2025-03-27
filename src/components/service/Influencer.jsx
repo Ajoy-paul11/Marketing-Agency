@@ -18,10 +18,11 @@ function Influencer() {
           <ServiceTemplate
             img={influencerService}
             title="Influencer Marketing"
-            type="Influencer marketing partners with individuals with large followings to promote products or services."
+            type="Influencer marketing with large followings to promote services."
             description={
-              "N/A"
+              "Varies by Influencer"
             }
+            price={"Based on Influencer"}
           />
         </div>
       </div>

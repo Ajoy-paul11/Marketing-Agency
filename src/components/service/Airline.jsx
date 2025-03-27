@@ -18,19 +18,21 @@ function Airline() {
           <ServiceTemplate
             img={airlineService}
             title="Domestic Airlines"
-            type="Engage travelers during flights with targeted in-flight ads, reaching a captive audience."
+            type="Engage travelers on flights with in-flight ads, reaching audience."
             description={
               "1M Monthly Passengers"
             }
+            price={"Based on Airline"}
           />
           <ServiceTemplate
             img={airlineService}
             title="Airport Advertising"
-            type="Capture the attention of diverse travelers through strategically placed ads in high-traffic airport areas."
+            type="Capture the attention of travelers through strategically placed ads."
             
             description={
               "4M Monthly Passengers"
             }
+            price={"On Request"}
           />
           
         </div>

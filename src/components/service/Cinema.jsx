@@ -17,11 +17,12 @@ function Cinema() {
         <div className=" grid grid-cols-1 gap-y-4 justify-items-center lg:px-16">
           <ServiceTemplate
             img={cinemaImage}
-            title="Movie Intervals"
-            type="Engage audiences during intermissions with impactful ads, capturing attention in a distraction-free environment."
+            title="Movie Theater"
+            type="Engage audiences with impactful ads, capturing their attention."
             description={
-              "Average seats: 200"
+              "No of Average Seats: 200"
             }
+            price={"Based on Theater"}
           />
         </div>
       </div>

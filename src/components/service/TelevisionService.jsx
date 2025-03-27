@@ -26,76 +26,78 @@ function TelevisionService() {
         <ServiceTemplate
             img={sony}
             title="SONY"
-            type="Engage diverse audiences with a mix of dramas, reality shows, and entertainment content."
-            description={"115M Viewers"}
+            type="Engage viewrs with dramas, reality shows, and entertainment content."
+            description={"116M Viewers"}
+            price={"10,00,000 Min Spend"}
           />
           <ServiceTemplate
             img={starplus}
             title="Star Plus"
             type="Reach urban families through popular Hindi serials and reality programs."
-            description={"121.3M Viewers"}
+            description={"115M Viewers"}
+            price={"5,00,000 Min Spend"}
+
           />
           <ServiceTemplate
             img={suntv}
             title="Sun TV"
-            type="Connect with Tamil-speaking viewers via leading entertainment and news content."
+            type="Connect with Tamil-speaking viewers via leading entertainment and news."
             description={
-              "83.9M Viewers"
+              "79M Viewers"
             }
+            price={"5,00,000 Min Spend"}
           />
           <ServiceTemplate
             img={colors}
             title="Colors TV"
-            type="Target Hindi-speaking audiences with a variety of dramas and reality shows."
+            type="Target Hindi-speaking viewers with a variety of dramas and reality shows."
             description={
-              "138.7M Viewers"
+              "119M Viewers"
             }
+            price={"5,00,000 Min Spend"}
           />
           <ServiceTemplate
             img={sonySab}
             title="SONY SAB"
-            type="Appeal to comedy lovers with light-hearted, family-friendly programming."
-            description={"118.1M Viewers"}
+            type="Appeal to comedy lovers with light-hearted, family-friendly program."
+            description={"115.5M Viewers"}
+            price={"5,00,000 Min Spend"}
           />
           <ServiceTemplate
             img={aajtak}
             title="Aaj Tak"
             type="Reach informed Hindi-speaking viewers with 24/7 news coverage."
             description={
-              "186.1M Viewers"
+              "178M Viewers"
             }
+            price={"18,000 Min Spend"}
           />
           <ServiceTemplate
             img={tv9kannada}
             title="TV9 Kannada"
-            type="Engage Kannada-speaking audiences with regional news and entertainment."
+            type="Engage Kannada-speaking viewers with news and entertainment."
             description={
-              "56.1M Viewers"
+              "48.9M Viewers"
             }
+            price={"17,500 Min Spend"}
           />
           <ServiceTemplate
             img={zee_kannada}
             title="Zee Kannada"
             type="Advertise through popular Kannada serials and reality shows."
             description={
-              "46.8M Viewers"
+              "46M Viewers"
             }
+            price={"5,00,000 Min Spend"}
           />
           <ServiceTemplate
             img={newsfirst}
             title="News 1st Kannada"
             type="Connect with viewers seeking timely Kannada news updates."
             description={
-              "44.6M Viewers"
+              "39.4M Viewers"
             }
-          />
-          <ServiceTemplate
-            img={power_tv}
-            title="Power TV"
-            type="Target regional audiences with a mix of news and entertainment content."
-            description={
-              "36.5M Viewers"
-            }
+            price={"8,625 Min Spend"}
           />
           <ServiceTemplate
           img={public_tv}
@@ -104,6 +106,16 @@ function TelevisionService() {
           description={
             "39.2M Viewers"
           }
+          price={"11,000 Min Spend"}
+          />
+          <ServiceTemplate
+            img={power_tv}
+            title="Power TV"
+            type="Target regional audiences with a mix of news and entertainment content."
+            description={
+              "31M Viewers"
+            }
+            price={"250 Min Spend"}
           />
         </div>
       </div>

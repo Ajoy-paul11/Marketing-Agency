@@ -24,14 +24,16 @@ function OutdoorService() {
             description={
               "N/A"
             }
+            price={"Location Based"}
           />
           <ServiceTemplate
             img={hoarding}
             title="Hoarding"
-            type="Dominate urban landscapes with expansive, eye-catching advertisements."
+            type="Dominate urban landscapes with eye-catching advertisements."
             description={
               "85-90K Unique Reach."
             }
+            price={"Location Based"}
           />
           <ServiceTemplate
             img={bus_shelter}
@@ -40,6 +42,7 @@ function OutdoorService() {
             description={
               "90-95K Unique Reach."
             }
+            price={"Location Based"}
           />
         </div>
       </div>

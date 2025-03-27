@@ -20,50 +20,56 @@ function NonTraditional() {
           <ServiceTemplate
             img={nonTradImage}
             title="AC Bus Branding"
-            type="Promote your brand on air-conditioned buses, reaching urban commuters in comfort."
+            type="Promote your brand on AC buses, reaching urban commuters."
             description={
-              "N/A"
+              "400 Estimated Fleets"
             }
+            price={"2,94,000 Min Spend"}
           />
           <ServiceTemplate
             img={nonTradImage}
             title="Metro Branding"
-            type="Enhance brand visibility by advertising within metro stations and trains, targeting daily urban travelers."
+            type="Enhance brand visibility by advertising in metro stations, trains."
             description={
-              "3M Daily Ridership"
+              "800K Daily Ridership"
             }
+            price={"1,15,000 Min Spend"}
           />
           <ServiceTemplate
             img={nonTradImage}
             title="Auto Branding"
-            type="Utilize auto-rickshaws as mobile billboards to penetrate densely populated areas effectively."
+            type="Utilize auto-rickshaws to penetrate densely populated areas effectively."
             description={
               "150 Avg Distance/Day"
             }
+            price={"9,900 Min Spend"}
           />
           <ServiceTemplate
             img={nonTradImage}
             title="Non-AC Bus Branding"
-            type="Expand reach through advertisements on non-air-conditioned buses, engaging a broad passenger base."
+            type="Expand reach via advertisements to broad passenger base."
             description={
-              "N/A"
+              "6.2K Estimated Fleets"
             }
+            price={"86,900 Min Spend"}
           />
           <ServiceTemplate
             img={nonTradImage}
             title="Cab Branding"
-            type="Leverage taxis for mobile advertising, ensuring brand presence across city landscapes."
+            type="Leverage taxis, ensuring brand presence across city landscapes."
             description={
               "250 Avg Distance/Day"
             }
+            price={"1,32,000 Min Spend"}
           />
           <ServiceTemplate
             img={nonTradImage}
             title="Apartment Branding"
-            type="Target residential communities by placing advertisements within apartment complexes, reaching residents directly."
+            type="Target residential complexes by placing advertisements."
             description={
               "720 times/Day"
             }
+            price={"On Request"}
           />
         </div>
       </div>
