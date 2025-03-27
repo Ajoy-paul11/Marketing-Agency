@@ -6,10 +6,12 @@ import ServiceTemplate from './ServiceTemplate.jsx'
 // import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
 import nonTradImage from "../../assets/NonTradional/Non-traditional-288-x-192.jpg"
 import ScrollToTop from '../ScrollToTop.jsx'
+import Category from '../Category.jsx'
 
 function NonTraditional() {
   return (
     <div className="w-full mt-[75px]">
+      <Category />
       <ScrollToTop />
       {/* container mx-auto */}
       <div className=" px-4  xl:px-20 2xl:px-44 py-14 bg-[#f4f5ff]">

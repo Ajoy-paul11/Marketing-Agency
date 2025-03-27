@@ -8,10 +8,12 @@ import air from "../../assets/Radio/all-india-radio-288-x-192.jpg"
 import fever from "../../assets/Radio/fever-288-x-192.jpg"
 import radio_one from "../../assets/Radio/radio-one-288-x-192.jpg"
 import ScrollToTop from '../ScrollToTop.jsx';
+import Category from '../Category.jsx';
 
 function RadioService() {
   return (
     <div className="w-full mt-[75px]">
+      <Category />
       <ScrollToTop />
       {/* container mx-auto */}
       <div className=" px-4  xl:px-20 2xl:px-44 py-14 bg-[#f4f5ff]">

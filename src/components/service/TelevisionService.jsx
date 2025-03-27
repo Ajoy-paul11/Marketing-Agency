@@ -12,10 +12,12 @@ import tv9kannada from "../../assets/TV/tv-9kannada288-x-192.jpg"
 import zee_kannada from "../../assets/TV/zee-kannada-288-x-192.jpg"
 import public_tv from "../../assets/TV/Public_TV_Kannada-288-x-192.jpg"
 import ScrollToTop from '../ScrollToTop.jsx';
+import Category from '../Category.jsx';
 
 function TelevisionService() {
   return (
     <div className="w-full mt-[75px]">
+      <Category />
       <ScrollToTop />
       {/* container mx-auto */}
       <div className=" px-4  xl:px-20 2xl:px-44 py-14 bg-[#f4f5ff]">
