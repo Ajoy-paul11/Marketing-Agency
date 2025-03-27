@@ -35,9 +35,9 @@ function Home() {
       <div>
         <Client />
       </div>
-      <div>
+      {/* <div>
         <PricingCard />
-      </div>
+      </div> */}
       <div>
         <AccordionComponent />
       </div>

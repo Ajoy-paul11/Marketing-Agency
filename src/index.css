@@ -46,7 +46,7 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.link {
+/* .link {
   display: none;
 }
 
@@ -65,4 +65,4 @@
   .box-link:hover .link {
     left: 135px;
   }
-}
+} */
