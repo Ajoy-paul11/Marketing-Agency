@@ -148,7 +148,7 @@ function NavList() {
               </Link>
             </li>
             
-            <li>
+            {/* <li>
               <Link
                 to="/hyperlocal-service"
                 className=" text-sm hover:text-blue-500 block px-2 lg:px-4 py-2 lg:hover:scale-110 duration-300 transition-colors"
@@ -163,7 +163,7 @@ function NavList() {
               >
                 Deals
               </Link>
-            </li>
+            </li> */}
           </ul>
           
         </div>

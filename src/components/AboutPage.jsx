@@ -35,9 +35,9 @@ function AboutPage() {
     <div className=" w-full relative">
       <ScrollToTop />
       <div
-        className={`min-h-[90vh] w-full bg-[url(${aboutBg})] bg-no-repeat bg-opacity-30 bg-cover bg-center`}
+        className={`min-h-[90vh] w-full bg-[url(${"https://ik.imagekit.io/ajoy/about-page.jpg?updatedAt=1743154190344"})] bg-no-repeat bg-opacity-30 bg-cover bg-center mt-[72px]`}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${aboutBg})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${"https://ik.imagekit.io/ajoy/about-page.jpg?updatedAt=1743154190344"})`,
         }}
       ></div>
 
@@ -52,7 +52,6 @@ function AboutPage() {
             We do a lot of amazing things at MindBlue, but behind every
             outstanding deliverable is a solid process that keeps us true to our
             overall goal our clients' success.
-            {/* We provide a 360-degree view of the consumer, enabling companies to predict new revenue streams, anticipate product trends and popularity, improve customer retention rates, and optimize investment decisions.  */}
           </div>
         </div>
         <div 
@@ -62,12 +61,11 @@ function AboutPage() {
           developers, and tech savvy problem solvers capable of integrating a
           wide range of services resulting in a marketing engine that drives
           results.
-          {/* We help businesses measure and improve the effectiveness of their marketing campaigns across channels through effective targeting and segmentation, content match-making, and testing. */}
         </div>
         <img
           data-aos="zoom-in"
           // data-aos="fade-down"
-          src={stroke}
+          src={"https://ik.imagekit.io/ajoy/stroke.png?updatedAt=1743154189724"}
           alt="doddle"
           className=" absolute  w-[150px] top-[277px] left-[100px] md:w-[250px] md:top-[240px] md:left-[200px] lg:w-[240px] xl:w-[400px] lg:top-[310px] xl:top-[300px] lg:left-[320px] xl:left-[465px] 2xl:left-[660px]"
         />
