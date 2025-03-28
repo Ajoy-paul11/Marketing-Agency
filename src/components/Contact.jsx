@@ -69,7 +69,7 @@ function Contact() {
           data-aos="fade-down"
           className="text-3xl font-semibold text-primary font-secondary text-center mb-2"
         >
-          Contact
+          Contact Us
         </h2>
         <p
           data-aos="fade-up"

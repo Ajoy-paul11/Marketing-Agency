@@ -58,12 +58,10 @@ function AccordionComponent() {
             className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(1)}
           >
-            Digital Marketing Strategy
+            Can you help with social media advertising?
           </AccordionHeader>
           <AccordionBody className=" text-primary text-base">
-            There are many strategy for digital marketing. We are here to help
-            you. We are here to help you. Digital presence is the key to success
-            for a business.
+          Yes, we specialize in creating and managing social media ad campaigns on platforms like Facebook, Instagram, LinkedIn. We optimize ads to ensure maximum ROI.
           </AccordionBody>
         </Accordion>
         <Accordion
@@ -76,13 +74,10 @@ function AccordionComponent() {
             className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(2)}
           >
-            How to do Digital Marketing Plan
+            Do you offer website design and development?
           </AccordionHeader>
           <AccordionBody className=" text-primary text-base">
-            We are here to help you. Digital presence is the key to success for
-            a business. Marketing plan is a detailed plan that outlines the
-            goals, objectives, and actions that are needed to achieve a specific
-            outcome.
+          Absolutely! We design and develop responsive, user-friendly websites that align with your brand and business goals. Our designs focus on enhancing user experience and conversions.
           </AccordionBody>
         </Accordion>
         <Accordion
@@ -95,12 +90,10 @@ function AccordionComponent() {
             className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(3)}
           >
-            What services are available?
+            How do you ensure brand consistency across campaigns?
           </AccordionHeader>
           <AccordionBody className=" text-primary text-base">
-            We are provide the best services for you. These services are SEO,
-            Web Development, Social Media Marketing, App Development, and more.
-            Based on demand and budget we will provide you the best services.
+          We maintain brand guidelines to ensure a consistent voice, tone, and visual style across all marketing materials. Our team collaborates closely with you to uphold your brand identity.
           </AccordionBody>
         </Accordion>
         <Accordion
@@ -113,13 +106,10 @@ function AccordionComponent() {
             className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(4)}
           >
-            How to higher your conversion rate?
+            Can you provide reports on campaign performance?
           </AccordionHeader>
           <AccordionBody className=" text-primary text-base">
-            Conversion rate is the percentage of visitors who convert into
-            customers. It based on the number of visitors and the number of
-            sales. We are here to help you. We helped many companies to increase
-            their conversion rate.
+          Yes, we provide detailed reports with key metrics and insights to track your campaign’s success. Our reports include actionable recommendations for further improvement.
           </AccordionBody>
         </Accordion>
         <Accordion
@@ -132,12 +122,10 @@ function AccordionComponent() {
             className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(5)}
           >
-            How to keep your website secure?
+            What platforms do you recommend for my business?
           </AccordionHeader>
           <AccordionBody className=" text-primary text-base">
-            To keep your website secure, you need to have a strong password, use
-            SSL certificates, and have regular backups. For these we have a team
-            of experts to help you.
+          It depends on your target audience and goals. We analyze your industry and customer behavior to recommend the most effective platforms for your campaigns.
           </AccordionBody>
         </Accordion>
         <Accordion
@@ -150,13 +138,10 @@ function AccordionComponent() {
             className=" text-primary font-semibold flex justify-between"
             onClick={() => handleOpen(6)}
           >
-            Traditional Marketing vs Digital Marketing
+            What is the cost of your marketing services?
           </AccordionHeader>
           <AccordionBody className=" text-primary text-base">
-            Traditional marketing is the old way of marketing. It is based on
-            physical contact with customers and it is used to sell products or
-            services. Digital marketing is the new way of marketing. It is based
-            on online platforms and it is used to sell products or services.
+          Our pricing varies depending on the scope of work, campaign complexity, and the channels used. We offer customized packages to fit different budgets and business needs.
           </AccordionBody>
         </Accordion>
       </div>

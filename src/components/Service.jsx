@@ -28,7 +28,7 @@ function Service() {
       >
         <div>
           <CardWithLink
-            img={traditional}
+            img={"https://ik.imagekit.io/ajoy/GIF/traditional-marketing.gif?updatedAt=1743142883382"}
             title={"Traditional Marketing"}
             description={
               "We Give our customers the best form of marketing that uses offline media to reach an audience."
@@ -41,7 +41,7 @@ function Service() {
         </div>
         <div>
           <CardWithLink
-            img={media}
+            img={"https://ik.imagekit.io/ajoy/GIF/media-buying.gif?updatedAt=1743142723280"}
             title={"Media Buying"}
             description={
               "Our goal is to identify and purchase ad space on channels that are relevant to the target audience at the optimal time, for the least amount of money."
@@ -54,7 +54,7 @@ function Service() {
         </div>
         <div>
           <CardWithLink
-            img={socialMarketing}
+            img={"https://ik.imagekit.io/ajoy/GIF/digital-marketing.gif?updatedAt=1743142750165"}
             title={"Digital Marketing"}
             description={
               "We help you build and manage digital media campaigns as per the objective required to meet your customers."
@@ -67,7 +67,7 @@ function Service() {
         </div>
         <div>
           <CardWithLink
-            img={content}
+            img={"https://ik.imagekit.io/ajoy/GIF/content.gif?updatedAt=1743142916499"}
             title={"Content"}
             description={
               "We create content in the form of Text, Video, Images, etc. to reach out & communicate to the Target Audience."

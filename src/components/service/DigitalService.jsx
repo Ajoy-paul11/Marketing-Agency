@@ -8,6 +8,7 @@ import hotstar from "../../assets/DigitalMedia/hotstar-288-x-192.jpg"
 import ScrollToTop from "../ScrollToTop.jsx";
 import Category from "../Category.jsx";
 
+
 function DigiService() {
   return (
     <div className="w-full mt-[75px]">
