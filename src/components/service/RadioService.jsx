@@ -1,16 +1,19 @@
-import React from 'react'
-import ServiceTemplate from './ServiceTemplate.jsx';
+import React from "react";
+import ServiceTemplate from "./ServiceTemplate.jsx";
 import bigfm from "../../assets/Radio/bigfm2.png";
 import redfm from "../../assets/Radio/redfm2.jpg";
 import radiomirchi from "../../assets/Radio/radiomirchi2.png";
 import radioCity from "../../assets/Radio/radiocity2.jpg";
-import air from "../../assets/Radio/all-india-radio-288-x-192.jpg"
-import fever from "../../assets/Radio/fever-288-x-192.jpg"
-import radio_one from "../../assets/Radio/radio-one-288-x-192.jpg"
-import ScrollToTop from '../ScrollToTop.jsx';
-import Category from '../Category.jsx';
+import air from "../../assets/Radio/all-india-radio-288-x-192.jpg";
+import fever from "../../assets/Radio/fever-288-x-192.jpg";
+import radio_one from "../../assets/Radio/radio-one-288-x-192.jpg";
+import ScrollToTop from "../ScrollToTop.jsx";
+import Category from "../Category.jsx";
+import { useNavigate } from "react-router-dom";
 
 function RadioService() {
+  const navigate = useNavigate();
+
   return (
     <div className="w-full mt-[75px]">
       <Category />
@@ -21,57 +24,60 @@ function RadioService() {
           Radio Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
-        <ServiceTemplate
-            img={redfm}
-            title="Red FM"
-            type="Engage urban youth with vibrant and contemporary programming."
-            description={
-              "1.3M Listeners"
-            }
-            price={"15,120 Min Spend"}
-          />
-          <ServiceTemplate
-            img={radiomirchi}
-            title="Radio Mirchi"
-            type="Connect with India's masses through popular music and entertainment."
-            description={
-              "1.8M Listeners"
-            }
-            price={"14,400 Min Spend"}
-          />
-          <ServiceTemplate
-            img={bigfm}
-            title="Big FM"
-            type="Reach diverse audiences with a mix of retro and modern content."
-            description={
-              "2.4M Listeners"
-            }
-            price={"13,680 Min Spend"}
-          />
-          
-          <ServiceTemplate
-            img={radioCity}
-            title="Radio City"
-            type="Target metropolitan listeners with city-centric shows and music."
-            description={"1.7M Listeners"}
-            price={"15,480 Min Spend"}
-          />
-          
-          
+          <div onClick={() => navigate("/redfm-pricing")}>
+            <ServiceTemplate
+              img={redfm}
+              title="Red FM"
+              type="Engage urban youth with vibrant and contemporary programming."
+              description={"1.3M Listeners"}
+              price={"15,120 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/radiomirchi-pricing")}>
+            <ServiceTemplate
+              img={radiomirchi}
+              title="Radio Mirchi"
+              type="Connect with India's masses through popular music and entertainment."
+              description={"1.8M Listeners"}
+              price={"14,400 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/bigfm-pricing")}>
+            <ServiceTemplate
+              img={bigfm}
+              title="Big FM"
+              type="Reach diverse audiences with a mix of retro and modern content."
+              description={"2.4M Listeners"}
+              price={"13,680 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/radiocity-pricing")}>
+            <ServiceTemplate
+              img={radioCity}
+              title="Radio City"
+              type="Target metropolitan listeners with city-centric shows and music."
+              description={"1.7M Listeners"}
+              price={"15,480 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/radiofever-pricing")}>
           <ServiceTemplate
             img={fever}
             title="Radio Fever"
             type="Appeal to young adults with energetic and trendy broadcasts."
             description={"1.1M Listeners"}
             price={"11,520 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/radioone-pricing")}>
           <ServiceTemplate
             img={radio_one}
             title="Radio One"
             type="Engage urbanites with international music and lifestyle content."
             description={"1M Listeners"}
             price={"9,360 Min Spend"}
-          />
+            />
+          </div>
           <ServiceTemplate
             img={air}
             title="All India Radio"
@@ -82,7 +88,7 @@ function RadioService() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default RadioService
+export default RadioService;

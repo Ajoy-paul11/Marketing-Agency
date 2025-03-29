@@ -21,6 +21,12 @@ import MetaAds from "./components/Insidepage/MetaAds.jsx";
 import GoogleAds from "./components/Insidepage/GoogleAds.jsx";
 import SpotifyAds from "./components/Insidepage/SpotifyAds.jsx";
 import HotstarAds from "./components/Insidepage/HotstarAds.jsx";
+import RedFMAds from "./components/Insidepage/RedFMAds.jsx";
+import MirchiAds from "./components/Insidepage/MirchiAds.jsx";
+import BigFMAds from "./components/Insidepage/BigFMAds.jsx";
+import RadioCityAds from "./components/Insidepage/RadioCityAds.jsx";
+import RadioFeverAds from "./components/Insidepage/RadioFeverAds.jsx";
+import RadioOneAds from "./components/Insidepage/RadioOneAds.jsx";
 
 // { In Future Implementations Scope}
 
@@ -111,6 +117,30 @@ const router = createBrowserRouter([
       {
         path: "hotstar-pricing",
         element: <HotstarAds />
+      },
+      {
+        path:"/redfm-pricing",
+        element: <RedFMAds />
+      },
+      {
+        path:"/radiomirchi-pricing",
+        element: <MirchiAds />
+      },
+      {
+        path: "/bigfm-pricing",
+        element: <BigFMAds />
+      },
+      {
+        path: "/radiocity-pricing",
+        element: <RadioCityAds />
+      },
+      {
+        path: "/radiofever-pricing",
+        element: <RadioFeverAds />
+      },
+      {
+        path: "/radioone-pricing",
+        element: <RadioOneAds />
       }
     ],
   },

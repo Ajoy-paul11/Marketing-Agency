@@ -15,7 +15,7 @@ function Insidepage({
         <h2 className=" text-2xl md:text-3xl font-semibold text-orange-600 font-secondary px-4 mb-8">
           {headerText}
         </h2>
-        <div className=" bg-gradient-to-b from-blue-600 to-blue-800 rounded-md p-1">
+        <div className=" bg-gradient-to-b from-blue-400 to-blue-800 rounded-md p-1">
           <div className=" w-full relative flex flex-col md:flex-row justify-between text-[#f4f5ff] lg:gap-10 xl:gap-20">
             <div className=" md:w-1/4 xl:w-2/6">
               <img src={image} alt="" className=" w-full h-full rounded" />
