@@ -18,6 +18,9 @@ import Influencer from "./components/service/Influencer.jsx";
 import NonTraditional from "./components/service/NonTraditional.jsx";
 import AboutPage from "./components/AboutPage.jsx";
 import MetaAds from "./components/Insidepage/MetaAds.jsx";
+import GoogleAds from "./components/Insidepage/GoogleAds.jsx";
+import SpotifyAds from "./components/Insidepage/SpotifyAds.jsx";
+import HotstarAds from "./components/Insidepage/HotstarAds.jsx";
 
 // { In Future Implementations Scope}
 
@@ -96,6 +99,18 @@ const router = createBrowserRouter([
       {
         path: "/meta-pricing",
         element: <MetaAds />
+      },
+      {
+        path: "/google-pricing",
+        element: <GoogleAds />
+      },
+      {
+        path: "spotify-pricing",
+        element: <SpotifyAds />
+      },
+      {
+        path: "hotstar-pricing",
+        element: <HotstarAds />
       }
     ],
   },
