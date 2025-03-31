@@ -27,6 +27,39 @@ import BigFMAds from "./components/Insidepage/BigFMAds.jsx";
 import RadioCityAds from "./components/Insidepage/RadioCityAds.jsx";
 import RadioFeverAds from "./components/Insidepage/RadioFeverAds.jsx";
 import RadioOneAds from "./components/Insidepage/RadioOneAds.jsx";
+import RedFMDelhi from "./components/Insidepage/RedFMDelhi.jsx";
+import MirchiDelhi from "./components/Insidepage/MirchiDelhi.jsx";
+import RedFMMumbai from "./components/Insidepage/RedFMMumbai.jsx";
+import MirchiMumbai from "./components/Insidepage/MirchiMumbai.jsx";
+import RedFMHydrabad from "./components/Insidepage/RedFMHydrabad.jsx";
+import RadioCityDelhi from "./components/Insidepage/RadioCityDelhi.jsx";
+import MirchiHyderbad from "./components/Insidepage/MirchiHyderbad.jsx";
+import RadioCityHyderabad from "./components/Insidepage/RadioCityHyderabad.jsx";
+import RadioFeverDelhi from "./components/Insidepage/RadioFeverDelhi.jsx";
+import RedFMPune from "./components/Insidepage/RedFMPune.jsx";
+import BigFMHyderabad from "./components/Insidepage/BigFMHyderabad.jsx";
+import MirchiPune from "./components/Insidepage/MirchiPune.jsx";
+import BigFMMumbai from "./components/Insidepage/BigFMMumbai.jsx";
+import RadioFeverHyderabad from "./components/Insidepage/RadioFeverHyderabad.jsx";
+import RadioCityPune from "./components/Insidepage/RadioCityPune.jsx";
+import RadioOneMumbai from "./components/Insidepage/RadioOneMumbai.jsx";
+import MirchiKolkata from "./components/Insidepage/MirchiKolkata.jsx";
+import MirchiChennai from "./components/Insidepage/MirchiChennai.jsx";
+import RadioCityMumbai from "./components/Insidepage/RadioCityMumbai.jsx";
+import BigFMChennai from "./components/Insidepage/BigFMChennai.jsx";
+import MirchiAhmedabad from "./components/Insidepage/MirchiAhmedabad.jsx";
+import RadioFeverPune from "./components/Insidepage/RadioFeverPune.jsx";
+import RedFMKolkata from "./components/Insidepage/RedFMKolkata.jsx";
+import BigFMKolkata from "./components/Insidepage/BigFMKolkata.jsx";
+import RedFMIndore from "./components/Insidepage/RedFMIndore.jsx";
+import RedFMAhamedabad from "./components/Insidepage/RedFMAhamedabad.jsx";
+import RedFMKochi from "./components/Insidepage/RedFMKochi.jsx";
+import RadioCityAhamedabad from "./components/Insidepage/RadioCityAhamedabad.jsx";
+import RadioCityChennai from "./components/Insidepage/RadioCityChennai.jsx";
+import RadioOneDelhi from "./components/Insidepage/RadioOneDelhi.jsx";
+import RadioFeverKolkata from "./components/Insidepage/RadioFeverKolkata.jsx";
+import RedFMGuwahati from "./components/Insidepage/RedFMGuwahati.jsx";
+import RedFMLucknow from "./components/Insidepage/RedFMLucknow.jsx";
 
 // { In Future Implementations Scope}
 
@@ -119,28 +152,168 @@ const router = createBrowserRouter([
         element: <HotstarAds />
       },
       {
-        path:"/redfm-pricing",
+        path:"/redfm-bengaluru",
         element: <RedFMAds />
       },
       {
-        path:"/radiomirchi-pricing",
+        path:"/radiomirchi-bengaluru",
         element: <MirchiAds />
       },
       {
-        path: "/bigfm-pricing",
+        path: "/redfm-delhi",
+        element: <RedFMDelhi />
+      },
+      {
+        path: "/radiomirchi-delhi",
+        element: <MirchiDelhi />
+      },
+      {
+        path: "/redfm-mumbai",
+        element: <RedFMMumbai />
+      },
+      {
+        path: "/radiomirchi-mumbai",
+        element: <MirchiMumbai />
+      },
+      {
+        path: "/redfm-hyderabad",
+        element: <RedFMHydrabad />
+      },
+      {
+        path: "/bigfm-bengaluru",
         element: <BigFMAds />
       },
       {
-        path: "/radiocity-pricing",
+        path: "/radiocity-bengaluru",
         element: <RadioCityAds />
       },
       {
-        path: "/radiofever-pricing",
+        path: "/radiocity-delhi",
+        element: <RadioCityDelhi />
+      },
+      {
+        path: "/radiomirchi-hyderabad", 
+        element: <MirchiHyderbad />
+      },
+      {
+        path: "/radiocity-hyderabad",
+        element: <RadioCityHyderabad />
+      },
+      {
+        path: "/radiofever-bengaluru",
         element: <RadioFeverAds />
       },
       {
-        path: "/radioone-pricing",
+        path: "/radiofever-delhi",
+        element: <RadioFeverDelhi />
+      },
+      {
+        path: "/radioone-bengaluru",
         element: <RadioOneAds />
+      },
+      {
+        path: "/redfm-pune",
+        element: <RedFMPune />
+      },
+      {
+        path: "/bigfm-hyderabad",
+        element: <BigFMHyderabad />
+      },
+      {
+        path: "/radiomirchi-pune",
+        element: <MirchiPune />
+      },
+      {
+        path: "/bigfm-mumbai",
+        element: <BigFMMumbai />
+      },
+      {
+        path: "/radiofever-hyderabad",
+        element: <RadioFeverHyderabad />
+      },
+      {
+        path: "/radiocity-pune",
+        element: <RadioCityPune />
+      },
+      {
+        path: "/radioone-mumbai",
+        element: <RadioOneMumbai />
+      },
+      {
+        path: "/radiomirchi-kolkata",
+        element: <MirchiKolkata />
+      },
+      {
+        path: "/radiomirchi-chennai",
+        element: <MirchiChennai />
+      },
+      {
+        path: "/radiocity-mumbai",
+        element: <RadioCityMumbai />
+      },
+      {
+        path: "/bigfm-chennai",
+        element: <BigFMChennai />
+      },
+      {
+        path: "/radiomirchi-ahmedabad",
+        element: <MirchiAhmedabad />
+      },
+      {
+        path: "/radiofever-pune",
+        element: <RadioFeverPune />
+      },
+      {
+        path: "/redfm-kolkata",
+        element: <RedFMKolkata />
+      },
+      {
+        path: "/bigfm-kolkata",
+        element: <BigFMKolkata />
+      },
+      {
+        path: "/redfm-indore",
+        element: <RedFMIndore />
+      },
+      {
+        path: "/redfm-ahmedabad",
+        element: <RedFMAhamedabad />
+      },
+      {
+        path: "/redfm-kochi",
+        element: <RedFMKochi />
+      },
+      {
+        path: "/radiocity-coimbatore",
+        element: <RadioCityAhamedabad />
+      },
+      {
+        path: "/radiocity-chennai",
+        element: <RadioCityChennai />
+      },
+      {
+        path: "/radiocity-ahamedabad",
+        element: <RadioCityAhamedabad />
+      },
+      {
+        path: "/radioone-mumbai",
+        element: <RadioOneMumbai />
+      },
+      {
+        path: "/radioone-delhi",
+        element: <RadioOneDelhi />
+      },
+      {
+        path: "/radiofever-kolkata",
+        element: <RadioFeverKolkata />
+      },
+      {
+        path: "/redfm-guwahati",
+        element: <RedFMGuwahati />
+      },
+      {
+        path: "/redfm-lucknow",
+        element: <RedFMLucknow />
       }
     ],
   },

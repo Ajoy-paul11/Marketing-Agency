@@ -21,7 +21,7 @@ function ServiceTemplate({ img, title, type, description, price }) {
   return (
     <Card
       data-aos="zoom-in"
-      className="mt-6 w-72 lg:w-64 xl:w-72 h-[380px] bg-[#f4f5ff] hover:shadow-xl hover:shadow-slate-500 hover:scale-105 duration-300 transition-colors flex flex-col shadow-[0_0_10px_0_rgba(0,0,0,0.25)]"
+      className="mt-6 w-72 lg:w-64 xl:w-72 h-[380px] bg-[#f4f5ff] hover:shadow-xl hover:shadow-slate-500 hover:scale-105 duration-300 transition-colors flex flex-col shadow-[0_0_10px_0_rgba(0,0,0,0.25)] hover:cursor-pointer"
     >
       <CardHeader className="relative h-48 overflow-hidden m-0 rounded-t-xl min-h-[192px] flex-shrink-0">
         <LazyLoadImage
@@ -34,7 +34,7 @@ function ServiceTemplate({ img, title, type, description, price }) {
               transitionDelay: "1s",
               width: "100%",
               height: "100%",
-            }
+            },
           }}
         />
       </CardHeader>
@@ -52,14 +52,11 @@ function ServiceTemplate({ img, title, type, description, price }) {
           </div>
           <div className=" flex flex-col gap-3">
             <p className=" text-base font-semibold text-primary">
-            {description}
+              {description}
             </p>
-            <p className=" text-base font-semibold text-primary">
-            {price}
-            </p>
+            <p className=" text-base font-semibold text-primary">{price}</p>
           </div>
         </div>
-          
       </CardFooter>
     </Card>
   );
