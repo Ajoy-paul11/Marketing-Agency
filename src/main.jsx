@@ -60,23 +60,40 @@ import RadioOneDelhi from "./components/Insidepage/RadioOneDelhi.jsx";
 import RadioFeverKolkata from "./components/Insidepage/RadioFeverKolkata.jsx";
 import RedFMGuwahati from "./components/Insidepage/RedFMGuwahati.jsx";
 import RedFMLucknow from "./components/Insidepage/RedFMLucknow.jsx";
-
-// { In Future Implementations Scope}
-
-// import Hyperlocal from "./components/service/Hyperlocal.jsx";
-// import Deals from "./components/service/Deals.jsx";
-// import Adhventha from "./components/client/Adhventha.jsx";
-// import Amruth from "./components/client/Amruth.jsx";
-// import Apollo from "./components/client/Apollo.jsx";
-// import Featherlite from "./components/client/Featherlite.jsx";
-// import GarudaMall from "./components/client/GarudaMall.jsx";
-// import Nethradhama from "./components/client/Nethradhama.jsx";
-// import Narayana from "./components/client/Narayana.jsx";
-// import Nps from "./components/client/Nps.jsx";
-// import Raymond from "./components/client/Raymond.jsx";
-// import Neuberg from "./components/client/Neuberg.jsx";
-// import Hitachi from "./components/client/Hitachi.jsx";
-// import Transcend from "./components/client/Transcend.jsx";
+import EconomictimesBengalure from "./components/Insidepage/Newspaper/EconomictimesBengalure.jsx";
+import TOIMumbai from "./components/Insidepage/Newspaper/TOIMumbai.jsx";
+import TOIDelhi from "./components/Insidepage/Newspaper/TOIDelhi.jsx";
+import TOIBangalore from "./components/Insidepage/Newspaper/TOIBangalore.jsx";
+import HindustantimesDelhi from "./components/Insidepage/Newspaper/HindustantimesDelhi.jsx";
+import TOIHyderabad from "./components/Insidepage/Newspaper/TOIHyderabad.jsx";
+import HinduBangalore from "./components/Insidepage/Newspaper/HinduBangalore.jsx";
+import HindustantimesMumbai from "./components/Insidepage/Newspaper/HindustantimesMumbai.jsx";
+import NavbharatDelhi from "./components/Insidepage/Newspaper/NavbharatDelhi.jsx";
+import EconomictimesMumbai from "./components/Insidepage/Newspaper/EconomictimesMumbai.jsx";
+import EconomictimesDelhi from "./components/Insidepage/Newspaper/EconomictimesDelhi.jsx";
+import MiddayMumbai from "./components/Insidepage/Newspaper/MiddayMumbai.jsx";
+import TOINoida from "./components/Insidepage/Newspaper/TOINoida.jsx";
+import HinduDelhi from "./components/Insidepage/Newspaper/HinduDelhi.jsx";
+import TOIPune from "./components/Insidepage/Newspaper/TOIPune.jsx";
+import HinduChennai from "./components/Insidepage/Newspaper/HinduChennai.jsx";
+import PrajavaniBangalore from "./components/Insidepage/Newspaper/PrajavaniBangalore.jsx";
+import NavbharatMumbai from "./components/Insidepage/Newspaper/NavbharatMumbai.jsx";
+import TOIKolkata from "./components/Insidepage/Newspaper/TOIKolkata.jsx";
+import TOIChennai from "./components/Insidepage/Newspaper/TOIChennai.jsx";
+import TOIAhmedabad from "./components/Insidepage/Newspaper/TOIAhmedabad.jsx";
+import EconomictimesChennai from "./components/Insidepage/Newspaper/EconomictimesChennai.jsx";
+import EconomictimesKolkata from "./components/Insidepage/Newspaper/EconomictimesKolkata.jsx";
+import EconomictimesHyderabad from "./components/Insidepage/Newspaper/EconomictimesHyderabad.jsx";
+import EconomictimesPune from "./components/Insidepage/Newspaper/EconomictimesPune.jsx";
+import EconomictimesKochi from "./components/Insidepage/Newspaper/EconomictimesKochi.jsx";
+import HinduMumbai from "./components/Insidepage/Newspaper/HinduMumbai.jsx";
+import HinduHyderabad from "./components/Insidepage/Newspaper/HinduHyderabad.jsx";
+import HinduCoimbatore from "./components/Insidepage/Newspaper/HinduCoimbatore.jsx";
+import HinduMangaluru from "./components/Insidepage/Newspaper/HinduMangaluru.jsx";
+import HinduMadurai from "./components/Insidepage/Newspaper/HinduMadurai.jsx";
+import VijayakarnatakaBangalore from "./components/Insidepage/Newspaper/VijayakarnatakaBangalore.jsx";
+import UdayavaniBangalore from "./components/Insidepage/Newspaper/UdayavaniBangalore.jsx";
+import KannadaprabhaBangalore from "./components/Insidepage/Newspaper/KannadaprabhaBangalore.jsx";
 
 const router = createBrowserRouter([
   {
@@ -314,6 +331,142 @@ const router = createBrowserRouter([
       {
         path: "/redfm-lucknow",
         element: <RedFMLucknow />
+      },
+      {
+        path: "/economictimes-bengalore",
+        element: <EconomictimesBengalure />
+      },
+      {
+        path: "/timesofindia-mumbai",
+        element: <TOIMumbai />
+      },
+      {
+        path: "/timesofindia-delhi",
+        element: <TOIDelhi />
+      },
+      {
+        path: "/timesofindia-bangalore",
+        element: <TOIBangalore />
+      },
+      {
+        path: "/hindustantimes-delhi",
+        element: <HindustantimesDelhi />
+      },
+      {
+        path: "/timesofindia-hyderabad",
+        element: <TOIHyderabad />
+      },
+      {
+        path: "/thehindu-bangalore",
+        element: <HinduBangalore />
+      },
+      {
+        path: "/hindustantimes-mumbai",
+        element: <HindustantimesMumbai />
+      },
+      {
+        path: "/navbharat-delhi",
+        element: <NavbharatDelhi />
+      },
+      {
+        path: "/economictimes-mumbai",
+        element: <EconomictimesMumbai />
+      },
+      {
+        path: "/economictimes-delhi",
+        element: <EconomictimesDelhi />
+      },
+      {
+        path: "/midday-mumbai",
+        element: <MiddayMumbai />
+      },
+      {
+        path: "/timesofindia-noida",
+        element: <TOINoida />
+      },
+      {
+        path: "/thehindu-delhi",
+        element: <HinduDelhi />
+      },
+      {
+        path: "/timesofindia-pune",
+        element: <TOIPune />
+      },
+      {
+        path: "/thehindu-chennai",
+        element: <HinduChennai />
+      },
+      {
+        path: "/prajavani-bangalore",
+        element: <PrajavaniBangalore />
+      },
+      {
+        path: "/navbharat-mumbai",
+        element: <NavbharatMumbai />
+      },
+      {
+        path: "/timesofindia-kolkata",
+        element: <TOIKolkata />
+      },
+      {
+        path: "/timesofindia-chennai",
+        element: <TOIChennai />
+      },
+      {
+        path: "/timesofindia-ahmedabad",
+        element: <TOIAhmedabad />
+      },
+      {
+        path: "/economictimes-chennai",
+        element: <EconomictimesChennai />
+      },
+      {
+        path: "/economictimes-kolkata",
+        element: <EconomictimesKolkata />
+      },
+      {
+        path: "/economictimes-hyderabad",
+        element: <EconomictimesHyderabad />
+      },
+      {
+        path: "/economictimes-pune",
+        element: <EconomictimesPune />
+      },
+      {
+        path: "/economictimes-kochi",
+        element: <EconomictimesKochi />
+      },
+      {
+        path: "/thehindu-mumbai",
+        element: <HinduMumbai />
+      },
+      {
+        path: "/thehindu-hyderabad",
+        element: <HinduHyderabad />
+      },
+      {
+        path: "/thehindu-coimbatore",
+        element: <HinduCoimbatore />
+      },
+      {
+        path: "/thehindu-mangaluru",
+        element: <HinduMangaluru />
+      },
+      {
+        path: "/thehindu-madurai",
+        element: <HinduMadurai />
+      },
+      {
+        path: "/vijayakarnataka-bangalore",
+        element: <VijayakarnatakaBangalore />
+      },
+      {
+        path: "/udayavani-bangalore",
+        element: <UdayavaniBangalore />
+      },
+      {
+        path: "/kannadaprabha-bangalore",
+        element: <KannadaprabhaBangalore />
       }
     ],
   },
