@@ -94,6 +94,17 @@ import HinduMadurai from "./components/Insidepage/Newspaper/HinduMadurai.jsx";
 import VijayakarnatakaBangalore from "./components/Insidepage/Newspaper/VijayakarnatakaBangalore.jsx";
 import UdayavaniBangalore from "./components/Insidepage/Newspaper/UdayavaniBangalore.jsx";
 import KannadaprabhaBangalore from "./components/Insidepage/Newspaper/KannadaprabhaBangalore.jsx";
+import IndiaToday from "./components/Insidepage/Magazine/IndiaToday.jsx";
+import ForbesIndia from "./components/Insidepage/Magazine/ForbesIndia.jsx";
+import BusinessToday from "./components/Insidepage/Magazine/BusinessToday.jsx";
+import FortuneIndia from "./components/Insidepage/Magazine/FortuneIndia.jsx";
+import FeminaMagazine from "./components/Insidepage/Magazine/FeminaMagazine.jsx";
+import VogueMagazine from "./components/Insidepage/Magazine/VogueMagazine.jsx";
+import TravelLeisure from "./components/Insidepage/Magazine/TravelLeisure.jsx";
+import Grihshoba from "./components/Insidepage/Magazine/Grihshoba.jsx";
+import OutlookMagazine from "./components/Insidepage/Magazine/outlookMagazine.jsx";
+import SudhaMagazine from "./components/Insidepage/Magazine/SudhaMagazine.jsx";
+import Taranga from "./components/Insidepage/Magazine/Taranga.jsx";
 
 const router = createBrowserRouter([
   {
@@ -467,6 +478,50 @@ const router = createBrowserRouter([
       {
         path: "/kannadaprabha-bangalore",
         element: <KannadaprabhaBangalore />
+      },
+      {
+        path: "/indiatoday-pricing",
+        element: <IndiaToday />
+      },
+      {
+        path: "/forbes-pricing",
+        element: <ForbesIndia />
+      },
+      {
+        path: "/businesstoday-pricing",
+        element: <BusinessToday />
+      },
+      {
+        path: "/fortuneindia-pricing",
+        element: <FortuneIndia />
+      },
+      {
+        path: "/femina-pricing",
+        element: <FeminaMagazine />
+      },
+      {
+        path: "/vogue-pricing",
+        element: <VogueMagazine />
+      },
+      {
+        path: "/travelleisure-pricing",
+        element: <TravelLeisure />
+      },
+      {
+        path: "/grihshobha-pricing",
+        element: <Grihshoba />
+      },
+      {
+        path: "/outlook-pricing",
+        element: <OutlookMagazine />
+      },
+      {
+        path: "/sudha-pricing",
+        element: <SudhaMagazine />
+      },
+      {
+        path: "/taranga-pricing",
+        element: <Taranga />
       }
     ],
   },
