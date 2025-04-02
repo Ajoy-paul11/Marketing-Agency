@@ -13,8 +13,11 @@ import zee_kannada from "../../assets/TV/zee-kannada-288-x-192.jpg"
 import public_tv from "../../assets/TV/Public_TV_Kannada-288-x-192.jpg"
 import ScrollToTop from '../ScrollToTop.jsx';
 import Category from '../Category.jsx';
+import { useNavigate } from 'react-router-dom';
 
 function TelevisionService() {
+  const navigate = useNavigate();
+
   return (
     <div className="w-full mt-[75px]">
       <Category />
@@ -25,21 +28,25 @@ function TelevisionService() {
           Television Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
+          <div onClick={() => navigate("/sonytv-pricing")}>
         <ServiceTemplate
             img={sony}
             title="SONY"
             type="Engage viewrs with dramas, reality shows, and entertainment content."
             description={"116M Viewers"}
             price={"10,00,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/starplus-pricing")}>
           <ServiceTemplate
             img={starplus}
             title="Star Plus"
             type="Reach urban families through popular Hindi serials and reality programs."
             description={"115M Viewers"}
             price={"5,00,000 Min Spend"}
-
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/suntv-pricing")}>
           <ServiceTemplate
             img={suntv}
             title="Sun TV"
@@ -48,7 +55,9 @@ function TelevisionService() {
               "79M Viewers"
             }
             price={"5,00,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/colorstv-pricing")}>
           <ServiceTemplate
             img={colors}
             title="Colors TV"
@@ -57,14 +66,19 @@ function TelevisionService() {
               "119M Viewers"
             }
             price={"5,00,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/sonysab-pricing")}>
+
           <ServiceTemplate
             img={sonySab}
             title="SONY SAB"
             type="Appeal to comedy lovers with light-hearted, family-friendly program."
             description={"115.5M Viewers"}
             price={"5,00,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/aajtak-pricing")}>
           <ServiceTemplate
             img={aajtak}
             title="Aaj Tak"
@@ -73,7 +87,9 @@ function TelevisionService() {
               "178M Viewers"
             }
             price={"18,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/tv9kannada-pricing")}>
           <ServiceTemplate
             img={tv9kannada}
             title="TV9 Kannada"
@@ -82,7 +98,9 @@ function TelevisionService() {
               "48.9M Viewers"
             }
             price={"17,500 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/zeekannada-pricing")}>
           <ServiceTemplate
             img={zee_kannada}
             title="Zee Kannada"
@@ -91,7 +109,9 @@ function TelevisionService() {
               "46M Viewers"
             }
             price={"5,00,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/newsfirst-pricing")}>
           <ServiceTemplate
             img={newsfirst}
             title="News 1st Kannada"
@@ -100,7 +120,9 @@ function TelevisionService() {
               "39.4M Viewers"
             }
             price={"8,625 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/publictv-pricing")}>
           <ServiceTemplate
           img={public_tv}
           title="Public TV"
@@ -110,6 +132,8 @@ function TelevisionService() {
           }
           price={"11,000 Min Spend"}
           />
+          </div>
+          <div onClick={() => navigate("/powertv-pricing")}>
           <ServiceTemplate
             img={power_tv}
             title="Power TV"
@@ -118,7 +142,8 @@ function TelevisionService() {
               "31M Viewers"
             }
             price={"250 Min Spend"}
-          />
+            />
+          </div>
         </div>
       </div>
     </div>

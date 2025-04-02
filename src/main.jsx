@@ -105,6 +105,16 @@ import Grihshoba from "./components/Insidepage/Magazine/Grihshoba.jsx";
 import OutlookMagazine from "./components/Insidepage/Magazine/outlookMagazine.jsx";
 import SudhaMagazine from "./components/Insidepage/Magazine/SudhaMagazine.jsx";
 import Taranga from "./components/Insidepage/Magazine/Taranga.jsx";
+import SonyTV from "./components/Insidepage/Television/SonyTV.jsx";
+import StarplusTV from "./components/Insidepage/Television/StarplusTV.jsx";
+import SunTV from "./components/Insidepage/Television/SunTV.jsx";
+import ColorsTV from "./components/Insidepage/Television/ColorsTV.jsx";
+import AajTakTV from "./components/Insidepage/Television/AajTakTV.jsx";
+import TV9KannadaTV from "./components/Insidepage/Television/TV9KannadaTV.jsx";
+import ZeeKannadaTV from "./components/Insidepage/Television/ZeeKannadaTV.jsx";
+import NewsFirstTV from "./components/Insidepage/Television/NewsFirstTV.jsx";
+import PublicTV from "./components/Insidepage/Television/PublicTV.jsx";
+import PowerTV from "./components/Insidepage/Television/PowerTV.jsx";
 
 const router = createBrowserRouter([
   {
@@ -522,6 +532,50 @@ const router = createBrowserRouter([
       {
         path: "/taranga-pricing",
         element: <Taranga />
+      },
+      {
+        path: "/sonytv-pricing",
+        element: <SonyTV />
+      },
+      {
+        path: "/starplus-pricing",
+        element: <StarplusTV />
+      },
+      {
+        path: "/suntv-pricing",
+        element: <SunTV />
+      },
+      {
+        path: "/colorstv-pricing",
+        element: <ColorsTV />
+      },
+      {
+        path: "/sonysab-pricing",
+        element: <SonyTV />
+      },
+      {
+        path: "/aajtak-pricing",
+        element: <AajTakTV />
+      },
+      {
+        path: "/tv9kannada-pricing",
+        element: <TV9KannadaTV />
+      },
+      {
+        path: "/zeekannada-pricing",
+        element: <ZeeKannadaTV />
+      },
+      {
+        path: "/newsfirst-pricing",
+        element: <NewsFirstTV />
+      },
+      {
+        path: "/publictv-pricing",
+        element: <PublicTV />
+      },
+      {
+        path: "/powertv-pricing",
+        element: <PowerTV />
       }
     ],
   },

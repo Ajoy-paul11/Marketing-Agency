@@ -153,40 +153,40 @@ function NewspaperService() {
               price={"1,02,880 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/prajavani-bangalore")}>  
-          <ServiceTemplate
-            img={prajavani}
-            title="Prajavani, Bangalore"
-            type="Reach Kannada-speaking audiences through Karnataka's leading daily."
-            description={"156000"}
-            price={"23,400 Min Spend"}
+          <div onClick={() => navigate("/prajavani-bangalore")}>
+            <ServiceTemplate
+              img={prajavani}
+              title="Prajavani, Bangalore"
+              type="Reach Kannada-speaking audiences through Karnataka's leading daily."
+              description={"156000"}
+              price={"23,400 Min Spend"}
             />
           </div>
           <div onClick={() => navigate("/vijayakarnataka-bangalore")}>
-          <ServiceTemplate
-            img={vijaya_karnataka}
-            title="Vijaya Karnataka, Bangalore"
-            type="Focus a vast readership in Karnataka's prominent newspaper."
-            description={"4,91,200"}
-            price={"61,560 Min Spend"}
+            <ServiceTemplate
+              img={vijaya_karnataka}
+              title="Vijaya Karnataka, Bangalore"
+              type="Focus a vast readership in Karnataka's prominent newspaper."
+              description={"4,91,200"}
+              price={"61,560 Min Spend"}
             />
           </div>
           <div onClick={() => navigate("/udayavani-bangalore")}>
-          <ServiceTemplate
-            img={udayavani}
-            title="Udayavani, Bangalore"
-            type="Connect with coastal Karnataka's readers via circulated Kannada daily."
-            description={"300000"}
-            price={"17,600 Min Spend"}
+            <ServiceTemplate
+              img={udayavani}
+              title="Udayavani, Bangalore"
+              type="Connect with coastal Karnataka's readers via circulated Kannada daily."
+              description={"300000"}
+              price={"17,600 Min Spend"}
             />
           </div>
           <div onClick={() => navigate("/kannadaprabha-bangalore")}>
-          <ServiceTemplate
-            img={kannada_prabha}
-            title="Kannada Prabha, Bangalore"
-            type="Target Kannada readers with top journalism and regional news."
-            description={"45000"}
-            price={"11,880 Min Spend"}
+            <ServiceTemplate
+              img={kannada_prabha}
+              title="Kannada Prabha, Bangalore"
+              type="Target Kannada readers with top journalism and regional news."
+              description={"45000"}
+              price={"11,880 Min Spend"}
             />
           </div>
           <div onClick={() => navigate("/midday-mumbai")}>
@@ -234,7 +234,7 @@ function NewspaperService() {
               price={"33,040 Min Spend"}
             />
           </div>
-          
+
           <div onClick={() => navigate("/economicstimes-chennai")}>
             <ServiceTemplate
               img={economic}
@@ -253,7 +253,7 @@ function NewspaperService() {
               price={"13,320 Min Spend"}
             />
           </div>
-          
+
           <div onClick={() => navigate("/economicstimes-kolkata")}>
             <ServiceTemplate
               img={economic}
@@ -290,7 +290,7 @@ function NewspaperService() {
               price={"19,000 Min Spend"}
             />
           </div>
-          
+
           <div onClick={() => navigate("/thehindu-mumbai")}>
             <ServiceTemplate
               img={hindu}
