@@ -124,6 +124,9 @@ import AutoBranding from "./components/Insidepage/NonTraditional/AutoBranding.js
 import NonACBusBranding from "./components/Insidepage/NonTraditional/NonACBusBranding.jsx";
 import CabBranding from "./components/Insidepage/NonTraditional/CabBranding.jsx";
 import ApartmentBranding from "./components/Insidepage/NonTraditional/ApartmentBranding.jsx";
+import KoramangalaInox from "./components/Insidepage/Cinema/KoramangalaInox.jsx";
+import AshoknagarInox from "./components/Insidepage/Cinema/AshoknagarInox.jsx";
+import Krishnarajapura from "./components/Insidepage/Cinema/Krishnarajapura.jsx";
 
 const router = createBrowserRouter([
   {
@@ -621,6 +624,18 @@ const router = createBrowserRouter([
       {
         path: "/apartment-pricing",
         element: <ApartmentBranding />
+      },
+      {
+        path: "/inoxkoramangala-pricing",
+        element: <KoramangalaInox />
+      },
+      {
+        path: "/inoxashoknagar-pricing",
+        element: <AshoknagarInox />
+      },
+      {
+        path: "/inoxkrishnarajapura-pricing",
+        element: <Krishnarajapura />
       }
     ],
   },
