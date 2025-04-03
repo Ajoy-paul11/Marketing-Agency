@@ -7,8 +7,11 @@ import ServiceTemplate from './ServiceTemplate.jsx'
 import nonTradImage from "../../assets/NonTradional/Non-traditional-288-x-192.jpg"
 import ScrollToTop from '../ScrollToTop.jsx'
 import Category from '../Category.jsx'
+import { useNavigate } from 'react-router-dom'
 
 function NonTraditional() {
+  const navigate = useNavigate();
+
   return (
     <div className="w-full mt-[75px]">
       <Category />
@@ -19,6 +22,7 @@ function NonTraditional() {
           Non Tradional Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
+          <div onClick={() => navigate("/acbus-pricing")}>
           <ServiceTemplate
             img={nonTradImage}
             title="AC Bus Branding"
@@ -27,7 +31,9 @@ function NonTraditional() {
               "400 Estimated Fleets"
             }
             price={"2,94,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/metrobranding-pricing")}>
           <ServiceTemplate
             img={nonTradImage}
             title="Metro Branding"
@@ -36,7 +42,9 @@ function NonTraditional() {
               "800K Daily Ridership"
             }
             price={"1,15,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/auto-pricing")}>
           <ServiceTemplate
             img={nonTradImage}
             title="Auto Branding"
@@ -45,7 +53,9 @@ function NonTraditional() {
               "150 Avg Distance/Day"
             }
             price={"9,900 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/nonacbus-pricing")}>
           <ServiceTemplate
             img={nonTradImage}
             title="Non-AC Bus Branding"
@@ -54,7 +64,9 @@ function NonTraditional() {
               "6.2K Estimated Fleets"
             }
             price={"86,900 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/cab-pricing")}>
           <ServiceTemplate
             img={nonTradImage}
             title="Cab Branding"
@@ -63,7 +75,9 @@ function NonTraditional() {
               "250 Avg Distance/Day"
             }
             price={"1,32,000 Min Spend"}
-          />
+            />
+          </div>
+          <div onClick={() => navigate("/apartment-pricing")}>
           <ServiceTemplate
             img={nonTradImage}
             title="Apartment Branding"
@@ -72,7 +86,8 @@ function NonTraditional() {
               "720 times/Day"
             }
             price={"On Request"}
-          />
+            />
+          </div>
         </div>
       </div>
     </div>

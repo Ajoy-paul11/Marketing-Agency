@@ -115,6 +115,15 @@ import ZeeKannadaTV from "./components/Insidepage/Television/ZeeKannadaTV.jsx";
 import NewsFirstTV from "./components/Insidepage/Television/NewsFirstTV.jsx";
 import PublicTV from "./components/Insidepage/Television/PublicTV.jsx";
 import PowerTV from "./components/Insidepage/Television/PowerTV.jsx";
+import OutdoorBillBoard from "./components/Insidepage/Outdoor/OutdoorBillBoard.jsx";
+import HoardingBoard from "./components/Insidepage/Outdoor/HoardingBoard.jsx";
+import BusShelter from "./components/Insidepage/Outdoor/BusShelter.jsx";
+import Busbranding from "./components/Insidepage/NonTraditional/Busbranding.jsx";
+import Metrobranding from "./components/Insidepage/NonTraditional/Metrobranding.jsx";
+import AutoBranding from "./components/Insidepage/NonTraditional/AutoBranding.jsx";
+import NonACBusBranding from "./components/Insidepage/NonTraditional/NonACBusBranding.jsx";
+import CabBranding from "./components/Insidepage/NonTraditional/CabBranding.jsx";
+import ApartmentBranding from "./components/Insidepage/NonTraditional/ApartmentBranding.jsx";
 
 const router = createBrowserRouter([
   {
@@ -576,6 +585,42 @@ const router = createBrowserRouter([
       {
         path: "/powertv-pricing",
         element: <PowerTV />
+      },
+      {
+        path: "/outdoorbillboard-pricing",
+        element: <OutdoorBillBoard />
+      },
+      {
+        path: "/hoarding-pricing",
+        element: <HoardingBoard />
+      },
+      {
+        path: "/busshelter-pricing",
+        element: <BusShelter />
+      },
+      {
+        path: "/acbus-pricing",
+        element: <Busbranding />
+      },
+      {
+        path: "/metrobranding-pricing",
+        element: <Metrobranding />
+      },
+      {
+        path: "/auto-pricing",
+        element: <AutoBranding />
+      },
+      {
+        path: "/nonacbus-pricing",
+        element: <NonACBusBranding />
+      },
+      {
+        path: "/cab-pricing",
+        element: <CabBranding />
+      },
+      {
+        path: "/apartment-pricing",
+        element: <ApartmentBranding />
       }
     ],
   },
