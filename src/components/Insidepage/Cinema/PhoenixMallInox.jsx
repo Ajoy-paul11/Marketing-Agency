@@ -2,7 +2,7 @@ import React from "react";
 import Insidepage from "../Insidepage";
 import cinema from "../../../assets/Cinema/Cinema-300-x-128.jpg";
 
-function KoramangalaInox() {
+function PhoenixMallInox() {
   const cardInfos = [
     {
       cardImage:
@@ -10,7 +10,7 @@ function KoramangalaInox() {
       item: "Slide Ad - On Screen",
       about:
         "In Slide ads one can advertise via an image creative with or without audio. Slide ads can be played either before the movie begins, during the movie interval or both. The duration of slide ads are in multiples of 10 seconds.",
-      price: "1,350 Per Second",
+      price: "1,275 Per Second",
     },
     {
       cardImage:
@@ -18,27 +18,27 @@ function KoramangalaInox() {
       item: "Video Ad - On Screen",
       about:
         "In Video Ads, one can advertise via a video creative. Video ads can be played either before the movie begins, during the movie interval or both. The duration of video ads are in multiples of 10 seconds.",
-      price: "1,350 Per Second",
+      price: "1,275 Per Second",
     },
   ];
   return (
     <section className=" w-full mt-[72px]">
       <Insidepage
         headerText={
-          "Advertising in PVR INOX Forum Mall, Screen - 1, Koramangala"
+          "Advertising in PVR INOX Phoenix Market City Mall, Screen - 4, Krishnarajapura"
         }
         image={cinema}
         title={
-          "About Advertising in PVR INOX Forum Mall, Screen - 1, Koramangala : "
+          "About Advertising in PVR INOX Phoenix Market City Mall, Screen - 4, Krishnarajapura : "
         }
         description={
-          "You will get the rate for advertising in Forum Mall, Koramangala VI Bk, Bengaluru in the Media Options and Pricing section of the website. The mentioned rates are for per second of airtime. So e.g. if the cost to advertise in Forum Mall, Koramangala VI Bk, Bengaluru is mentioned as Rs 300/sec and your ad is 10 sec long, the cost for playing your ad once on Forum Mall, Koramangala VI Bk, Bengaluru come to Rs 300 X 10 = Rs 3,000."
+          "You will get the rate for advertising in Phoenix Marketcity Mall, Whitefield Road, Hoodi, Bengaluru in the Media Options and Pricing section of the website. The mentioned rates are for per second of airtime. So e.g. if the cost to advertise in Phoenix Marketcity Mall, Whitefield Road, Hoodi, Bengaluru is mentioned as Rs 300/sec and your ad is 10 sec long, the cost for playing your ad once on Phoenix Marketcity Mall, Whitefield Road, Hoodi, Bengaluru come to Rs 300 X 10 = Rs 3,000."
         }
-        users={"347 No. of Seats"}
+        users={"128 No. of Seats"}
         cardInfos={cardInfos}
       />
     </section>
   );
 }
 
-export default KoramangalaInox;
+export default PhoenixMallInox;

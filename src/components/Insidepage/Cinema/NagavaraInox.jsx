@@ -2,7 +2,7 @@ import React from "react";
 import Insidepage from "../Insidepage";
 import cinema from "../../../assets/Cinema/Cinema-300-x-128.jpg";
 
-function KoramangalaInox() {
+function NagavaraInox() {
   const cardInfos = [
     {
       cardImage:
@@ -25,20 +25,20 @@ function KoramangalaInox() {
     <section className=" w-full mt-[72px]">
       <Insidepage
         headerText={
-          "Advertising in PVR INOX Forum Mall, Screen - 1, Koramangala"
+          "Advertising in PPVR INOX Elements Mall, Screen - 7, Nagavara"
         }
         image={cinema}
         title={
-          "About Advertising in PVR INOX Forum Mall, Screen - 1, Koramangala : "
+          "About Advertising in PVR INOX Elements Mall, Screen - 7, Nagavara : "
         }
         description={
-          "You will get the rate for advertising in Forum Mall, Koramangala VI Bk, Bengaluru in the Media Options and Pricing section of the website. The mentioned rates are for per second of airtime. So e.g. if the cost to advertise in Forum Mall, Koramangala VI Bk, Bengaluru is mentioned as Rs 300/sec and your ad is 10 sec long, the cost for playing your ad once on Forum Mall, Koramangala VI Bk, Bengaluru come to Rs 300 X 10 = Rs 3,000."
+          "PVR INOX Elements Mall, Screen - 7, Nagavara Ad is an engaging way for brands to reach out to customers during the trailers while entering the movie theatre, finding their seats, and settling in. Cinema ads deliver high-impact advertising option that offers a mass reach by catering to potential customers who spend a lot of dwell time in a theatre."
         }
-        users={"347 No. of Seats"}
+        users={"114 No. of Seats"}
         cardInfos={cardInfos}
       />
     </section>
   );
 }
 
-export default KoramangalaInox;
+export default NagavaraInox;

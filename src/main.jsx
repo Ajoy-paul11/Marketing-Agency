@@ -127,6 +127,19 @@ import ApartmentBranding from "./components/Insidepage/NonTraditional/ApartmentB
 import KoramangalaInox from "./components/Insidepage/Cinema/KoramangalaInox.jsx";
 import AshoknagarInox from "./components/Insidepage/Cinema/AshoknagarInox.jsx";
 import Krishnarajapura from "./components/Insidepage/Cinema/Krishnarajapura.jsx";
+import KrishnarajapuraCinpolis from "./components/Insidepage/Cinema/KrishnarajapuraCinpolis.jsx";
+import MaruthiSevanagar from "./components/Insidepage/Cinema/MaruthiSevanagar.jsx";
+import NagavaraInox from "./components/Insidepage/Cinema/NagavaraInox.jsx";
+import NeighbourhoodMall from "./components/Insidepage/Cinema/NeighbourhoodMall.jsx";
+import GarudaMall from "./components/Insidepage/Cinema/GarudaMall.jsx";
+import YeswantpurInox from "./components/Insidepage/Cinema/YeswantpurInox.jsx";
+import PhoenixMallInox from "./components/Insidepage/Cinema/PhoenixMallInox.jsx";
+import OrienMallInox from "./components/Insidepage/Cinema/OrienMallInox.jsx";
+import Koramangala7Inox from "./components/Insidepage/Cinema/Koramangala7Inox.jsx";
+import CinepolisHulimavi from "./components/Insidepage/Cinema/CinepolisHulimavi.jsx";
+import Koramangala6Inox from "./components/Insidepage/Cinema/Koramangala6Inox.jsx";
+import CineploisHulimavi2 from "./components/Insidepage/Cinema/CineploisHulimavi2.jsx";
+import MahadevapuraInox from "./components/Insidepage/Cinema/MahadevapuraInox.jsx";
 
 const router = createBrowserRouter([
   {
@@ -636,6 +649,58 @@ const router = createBrowserRouter([
       {
         path: "/inoxkrishnarajapura-pricing",
         element: <Krishnarajapura />
+      },
+      {
+        path: "/cinepoliskrishnarajapura-pricing",
+        element: <KrishnarajapuraCinpolis />
+      },
+      {
+        path: "/cinepolismaruthi-pricing",
+        element: <MaruthiSevanagar />
+      },
+      {
+        path: "/inoxnagavara-pricing",
+        element: <NagavaraInox />
+      },
+      {
+        path: "/inoxneighbourhoodmall-pricing",
+        element: <NeighbourhoodMall />
+      },
+      {
+        path: "/inoxgarudamall-pricing",
+        element: <GarudaMall />
+      },
+      {
+        path: "/inoxvaishnavi-pricing",
+        element: <YeswantpurInox />
+      },
+      {
+        path: "//inoxphoenix4-pricing",
+        element: <PhoenixMallInox />
+      },
+      {
+        path:"/inoxrajajinagar-pricing",
+        element: <OrienMallInox />
+      },
+      {
+        path: "/inoxkoramangala7-pricing",
+        element: <Koramangala7Inox />
+      },
+      {
+        path: "/hulimavucinepolis6-pricing",
+        element: <CinepolisHulimavi />
+      },
+      {
+        path: "/inoxkoramangala6-pricing",
+        element: <Koramangala6Inox />
+      },
+      {
+        path: "/hulimavucinepolis2-pricing",
+        element: <CineploisHulimavi2 />
+      },
+      {
+        path: '/mahadevapura-pricing',
+        element: <MahadevapuraInox />
       }
     ],
   },

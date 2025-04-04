@@ -47,6 +47,141 @@ function Cinema() {
               price={"9,260 Min Spend"}
             />
           </div>
+          <div onClick={() => navigate("/cinepoliskrishnarajapura-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="Cinepolis Nexus Shantiniketan, Screen-1, Krishnarajapura"
+              type=""
+              description={"No of Seats: 108"}
+              price={"1,900 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/cinepolismaruthi-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="Cinepolis Orien East Mall, Screen-1, Maruthi Sevanagar"
+              type=""
+              description={"No of Seats: 247"}
+              price={"3,640 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxnagavara-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Elements Mall, Screen-7, Nagavara"
+              type=""
+              description={"No of Seats: 114"}
+              price={"5,560 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxneighbourhoodmall-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Forum Neighbourhood Mall, Screen-4, Krishnarajapura"
+              type=""
+              description={"No of Seats: 51"}
+              price={"3,560 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxgarudamall-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Garuda Mall, Screen-2, Ashok Nagar"
+              type=""
+              description={"No of Seats: 66"}
+              price={"4,280 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxvaishnavi-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Vaishnavi Sapphire Mall, Screen-5, Yeswanthapur"
+              type=""
+              description={"No of Seats: 179"}
+              price={"6,560 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxphoenix4-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Phoenix Market City Mall, Screen-4, Krishnarajapura"
+              type=""
+              description={"No of Seats: 128"}
+              price={"12,110 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxrajajinagar-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Orion Mall, Screen-7, Rajajinagar"
+              type=""
+              description={"No of Seats: 387"}
+              price={"1,430 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxkoramangala7-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Forum Mall, Screen-7, Koramangala"
+              type=""
+              description={"No of Seats: 253"}
+              price={"5,420 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/hulimavucinepolis6-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="Cinepolis Royal Meenakshi Mall, Screen-6, Hulimavu"
+              type=""
+              description={"No of Seats: 302"}
+              price={"6,400 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxkoramangala6-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Forum Mall, Screen-6, Koramangala"
+              type=""
+              description={"No of Seats: 168"}
+              price={"5,420 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/hulimavucinepolis2-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="Cinepolis Royal Meenakshi Mall, Screen-2, Hulimavu"
+              type=""
+              description={"No of Seats: 129"}
+              price={"3,150 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/swagathmall-pricing")}>
+          <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Shree Garuda Swagath Mall, Screen-3, Jayanagar"
+              type=""
+              description={"No of Seats: 312"}
+              price={"5,700 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/mahadevapura-pricing")}>
+          <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX VR Mall, Screen-5, Mahadevapura"
+              type=""
+              description={"No of Seats: 255"}
+              price={"1,430 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxforumneighbourhood2-pricing")}>
+          <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Forum Neighbourhood Mall, Screen-2, Whitefield"
+              type=""
+              description={"No of Seats: 198"}
+              price={"5,770 Min Spend"}
+            />
+          </div>
           <ServiceTemplate
             img={cinemaImage}
             title="Cinema"
