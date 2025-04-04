@@ -140,6 +140,18 @@ import CinepolisHulimavi from "./components/Insidepage/Cinema/CinepolisHulimavi.
 import Koramangala6Inox from "./components/Insidepage/Cinema/Koramangala6Inox.jsx";
 import CineploisHulimavi2 from "./components/Insidepage/Cinema/CineploisHulimavi2.jsx";
 import MahadevapuraInox from "./components/Insidepage/Cinema/MahadevapuraInox.jsx";
+import SoulSpaceInox from "./components/Insidepage/Cinema/SoulSpaceInox.jsx";
+import MantriSquareInox from "./components/Insidepage/Cinema/MantriSquareInox.jsx";
+import RajajinagarInox2 from "./components/Insidepage/Cinema/RajajinagarInox2.jsx";
+import Lido1Inox from "./components/Insidepage/Cinema/Lido1Inox.jsx";
+import Lido2Inox from "./components/Insidepage/Cinema/Lido2Inox.jsx";
+import CentralInox from "./components/Insidepage/Cinema/CentralInox.jsx";
+import ElementsInox from "./components/Insidepage/Cinema/ElementsInox.jsx";
+import RocklineCarnival from "./components/Insidepage/Cinema/RocklineCarnival.jsx";
+import VaishnaviInox from "./components/Insidepage/Cinema/VaishnaviInox.jsx";
+import GalleriaMallInox from "./components/Insidepage/Cinema/GalleriaMallInox.jsx";
+import RocklineCarnival2 from "./components/Insidepage/Cinema/RocklineCarnival2.jsx";
+import Garudamall2 from "./components/Insidepage/Cinema/Garudamall2.jsx";
 
 const router = createBrowserRouter([
   {
@@ -701,6 +713,54 @@ const router = createBrowserRouter([
       {
         path: '/mahadevapura-pricing',
         element: <MahadevapuraInox />
+      },
+      {
+        path: "/inoxsoulspace-pricing",
+        element: <SoulSpaceInox />
+      },
+      {
+        path: "/inoxmantrisquare-pricing",
+        element: <MantriSquareInox />
+      },
+      {
+        path: "/inoxrajajinagar2-pricing",
+        element: <RajajinagarInox2 />
+      },
+      {
+        path: "/inoxlido1-pricing",
+        element: <Lido1Inox />
+      },
+      {
+        path: "/inoxlido3-pricing",
+        element: <Lido2Inox />
+      },
+      {
+        path: "/inoxcentral-pricing",
+        element: <CentralInox />
+      },
+      {
+        path: "/inoxelements-pricing",
+        element: <ElementsInox />
+      },
+      {
+        path: "/rockline-pricing",
+        element: <RocklineCarnival />
+      },
+      {
+        path: "/inoxvaishnavi2-pricing",
+        element: <VaishnaviInox />
+      },
+      {
+        path: "/inoxgalleriamall-pricing",
+        element: <GalleriaMallInox />
+      },
+      {
+        path: "/rockline2-pricing",
+        element: <RocklineCarnival2 />
+      },
+      {
+        path: "/garudamall3-pricing",
+        element: <Garudamall2 />
       }
     ],
   },

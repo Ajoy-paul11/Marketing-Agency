@@ -156,7 +156,7 @@ function Cinema() {
             />
           </div>
           <div onClick={() => navigate("/swagathmall-pricing")}>
-          <ServiceTemplate
+            <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Shree Garuda Swagath Mall, Screen-3, Jayanagar"
               type=""
@@ -165,7 +165,7 @@ function Cinema() {
             />
           </div>
           <div onClick={() => navigate("/mahadevapura-pricing")}>
-          <ServiceTemplate
+            <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX VR Mall, Screen-5, Mahadevapura"
               type=""
@@ -174,7 +174,7 @@ function Cinema() {
             />
           </div>
           <div onClick={() => navigate("/inoxforumneighbourhood2-pricing")}>
-          <ServiceTemplate
+            <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Forum Neighbourhood Mall, Screen-2, Whitefield"
               type=""
@@ -182,13 +182,114 @@ function Cinema() {
               price={"5,770 Min Spend"}
             />
           </div>
-          <ServiceTemplate
-            img={cinemaImage}
-            title="Cinema"
-            type="Engage audiences with impactful ads, capturing their attention."
-            description={"No of Average Seats: 200"}
-            price={"Based on Theater"}
-          />
+          <div onClick={() => navigate("/inoxsoulspace-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Soul Space Spirit Central Mall, Screen-4, Bellandur"
+              type=""
+              description={"No of Seats: 82"}
+              price={"5,560 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxmantrisquare-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Mantri Square Mall, Screen-6, Malleswaram"
+              type=""
+              description={"No of Seats: 332"}
+              price={"10,330 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxrajajinagar2-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Orion Mall, Screen-10, Rajajinagar"
+              type=""
+              description={"No of Seats: 353"}
+              price={"5,270 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxlido1-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Lido Mall, Screen-1, Jogupalya"
+              type=""
+              description={"No of Seats: 535"}
+              price={"5,420 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxlido3-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Lido Mall, Screen-3, Jogupalya"
+              type=""
+              description={"No of Seats: 314"}
+              price={"5,270 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxcentral-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Central Mall, Screen-2, J.P. Nagar"
+              type=""
+              description={"No of Seats: 251"}
+              price={"6,910 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxelements-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Elements Mall, Screen-2, Nagavara"
+              type=""
+              description={"No of Seats: 289"}
+              price={"5,700 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/rockline-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="Carnival Cinemas Rock Line Mall, Screen-2, T. Dasarahalli"
+              type=""
+              description={"No of Seats: 163"}
+              price={"1,772 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxvaishnavi2-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Vaishnavi Sapphire Mall, Screen-6, Yeshwanthpur"
+              type=""
+              description={"No of Seats: 131"}
+              price={"6,560 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/inoxgalleriamall-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX RMZ Galleria Mall, Screen-1, Yelahanka New Town"
+              type=""
+              description={"No of Seats: 272"}
+              price={"5,700 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/rockline2-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="Carnival Cinemas Rock Line Mall, Screen-4, T. Dasarahalli"
+              type=""
+              description={"No of Seats: 358"}
+              price={"3,574 Min Spend"}
+            />
+          </div>
+          <div onClick={() => navigate("/garudamall3-pricing")}>
+            <ServiceTemplate
+              img={cinemaImage}
+              title="PVR INOX Garuda Mall, Screen-5, Ashok Nagar"
+              type=""
+              description={"No of Seats: 214"}
+              price={"7,840 Min Spend"}
+            />
+          </div>
         </div>
       </div>
     </div>
