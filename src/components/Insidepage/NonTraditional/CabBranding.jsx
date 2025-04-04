@@ -23,7 +23,7 @@ function CabBranding() {
           {
             cardImage:
               "https://images.unsplash.com/photo-1637366099044-9e33e7f67705?q=80&w=1860&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            item: "Full Cab",
+            item: "Seat Back Branding",
             about:
               "As part of Seat Back Branding, 2 laminated cards will be hung on the back of the seat, one behind the driver’s seat and another behind the front passenger seat.",
             price: "1,452 Per Cab",

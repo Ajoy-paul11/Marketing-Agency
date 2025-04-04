@@ -24,7 +24,7 @@ function RadioService() {
           Radio Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
-          <div onClick={() => navigate("/redfm-bengalure")}>
+          <div onClick={() => navigate("/redfm-bengaluru")}>
             <ServiceTemplate
               img={redfm}
               title="Red FM, Bengaluru"
