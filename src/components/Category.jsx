@@ -33,8 +33,8 @@ function Category() {
             setCurrentCategory('outdoor')
         }else if(location.pathname === '/nontraditional-service') {
             setCurrentCategory('non-traditional')
-        }else if(location.pathname === '/airline-service') {
-            setCurrentCategory('airline')
+        // }else if(location.pathname === '/airline-service') {
+        //     setCurrentCategory('airline')
         }else if(location.pathname === '/cinema-service') {
             setCurrentCategory('cinema')
         }else if(location.pathname === '/influencer-service') {
@@ -106,14 +106,14 @@ function Category() {
                     navigate("/airline-service")
                 )
             }>
-                <img src={"https://ik.imagekit.io/ajoy/Genre/airplane.png?updatedAt=1743153140084"} alt="Airline" className=' w-4 xl:w-6'/>
+                {/* <img src={"https://ik.imagekit.io/ajoy/Genre/airplane.png?updatedAt=1743153140084"} alt="Airline" className=' w-4 xl:w-6'/>
                 <p>Airline</p>
             </div>
             <div className={` inline-flex gap-1 lg:text-sm text-sm items-center cursor-pointer pb-1 hover:scale-105  duration-300 ${currentCategory === 'cinema' ? ' border-b-2 border-[#000080]' : ''}` } onClick={
                 () => (
                     navigate("/cinema-service")
                 )
-            }>
+            }> */}
                 <img src={"https://ik.imagekit.io/ajoy/Genre/cinema.png?updatedAt=1743153140370"} alt="Cinema" className=' w-4 xl:w-6'/>
                 <p>Cinema</p>
             </div>
