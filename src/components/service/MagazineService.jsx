@@ -14,9 +14,11 @@ import taranga from "../../assets/Magazine/taranga-288-x-192.jpg";
 import ScrollToTop from "../ScrollToTop.jsx";
 import Category from "../Category.jsx";
 import { useNavigate } from "react-router-dom";
+import useStore from "../../store.js";
 
 function MagazineService() {
   const navigate = useNavigate();
+  const setMinSpend = useStore((state) => state.setMinSpend);
 
   return (
     <div className="w-full mt-[75px]">
@@ -28,7 +30,12 @@ function MagazineService() {
           Magazine Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
-          <div onClick={() => navigate("/indiatoday-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(281750);
+              navigate("/indiatoday-pricing");
+            }}
+          >
             <ServiceTemplate
               img={indiatoday}
               title="India Today"
@@ -37,7 +44,12 @@ function MagazineService() {
               price={"2,81,750 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/forbes-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(330000);
+              navigate("/forbes-pricing");
+            }}
+          >
             <ServiceTemplate
               img={forbes}
               title="Forbes India"
@@ -46,7 +58,12 @@ function MagazineService() {
               price={"3,30,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/businesstoday-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(175950);
+              navigate("/businesstoday-pricing");
+            }}
+          >
             <ServiceTemplate
               img={business}
               title="Business Today"
@@ -55,7 +72,12 @@ function MagazineService() {
               price={"1,75,950 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/fortuneindia-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(200000);
+              navigate("/fortuneindia-pricing");
+            }}
+          >
             <ServiceTemplate
               img={fortune}
               title="Fortune"
@@ -64,7 +86,12 @@ function MagazineService() {
               price={" 2,00,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/femina-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(156188);
+              navigate("/femina-pricing");
+            }}
+          >
             <ServiceTemplate
               img={femina}
               title="Femina"
@@ -73,7 +100,12 @@ function MagazineService() {
               price={"1,56,188 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/vogue-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(253000);
+              navigate("/vogue-pricing");
+            }}
+          >
             <ServiceTemplate
               img={vogue}
               title="Vogue"
@@ -82,7 +114,12 @@ function MagazineService() {
               price={"2,53,000"}
             />
           </div>
-          <div onClick={() => navigate("/travelleisure-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(148000);
+              navigate("/travelleisure-pricing");
+            }}
+          >
             <ServiceTemplate
               img={travel}
               title="Travel + Leisure"
@@ -91,7 +128,12 @@ function MagazineService() {
               price={"1,48,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/grihshobha-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(46750);
+              navigate("/grihshobha-pricing");
+            }}
+          >
             <ServiceTemplate
               img={grihshobha}
               title="Grihshobha"
@@ -100,7 +142,12 @@ function MagazineService() {
               price={"46,750 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/outlook-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(325763);
+              navigate("/outlook-pricing");
+            }}
+          >
             <ServiceTemplate
               img={outlook}
               title="Outlook"
@@ -109,7 +156,12 @@ function MagazineService() {
               price={"3,25,763 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/sudha-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(72600);
+              navigate("/sudha-pricing");
+            }}
+          >
             <ServiceTemplate
               img={sudha}
               title="Sudha"
@@ -118,7 +170,12 @@ function MagazineService() {
               price={"72,600 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/taranga-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(60500);
+              navigate("/taranga-pricing");
+            }}
+          >
             <ServiceTemplate
               img={taranga}
               title="Taranga"

@@ -13,9 +13,11 @@ import vijaya_karnataka from "../../assets/Newspaper/vijaya-karnataka-288-x-192.
 import ScrollToTop from "../ScrollToTop.jsx";
 import Category from "../Category.jsx";
 import { useNavigate } from "react-router-dom";
+import useStore from "../../store.js";
 
 function NewspaperService() {
   const navigate = useNavigate();
+  const setMinSpend = useStore((state) => state.setMinSpend);
 
   return (
     <div className="w-full mt-[75px]">
@@ -27,7 +29,7 @@ function NewspaperService() {
           Newspaper Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
-          <div onClick={() => navigate("/economictimes-bengalore")}>
+          <div onClick={() => { setMinSpend(14860); navigate("/economictimes-bengalore")}}>
             <ServiceTemplate
               img={economic}
               title={"Economic Times, Bangalore"}
@@ -36,7 +38,7 @@ function NewspaperService() {
               price={"14,860 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-mumbai")}>
+          <div onClick={() => { setMinSpend(101520); navigate("/timesofindia-mumbai")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Mumbai"
@@ -45,7 +47,7 @@ function NewspaperService() {
               price={"1,01,520 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/hindustantimes-delhi")}>
+          <div onClick={() => { setMinSpend(106560); navigate("/hindustantimes-delhi")}}>
             <ServiceTemplate
               img={hindustan}
               title="Hindustan Times, Delhi"
@@ -54,7 +56,7 @@ function NewspaperService() {
               price={"1,06,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-delhi")}>
+          <div onClick={() => { setMinSpend(74160); navigate("/timesofindia-delhi")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Delhi"
@@ -63,7 +65,7 @@ function NewspaperService() {
               price={"74,160 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/thehindu-bangalore")}>
+          <div onClick={() => { setMinSpend(25120); navigate("/thehindu-bangalore")}}>
             <ServiceTemplate
               img={hindu}
               title="The Hindu, Bangalore"
@@ -72,7 +74,7 @@ function NewspaperService() {
               price={"25,120 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-hyderabad")}>
+          <div onClick={() => { setMinSpend(24300); navigate("/timesofindia-hyderabad")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Hyderabad"
@@ -81,7 +83,7 @@ function NewspaperService() {
               price={"24,300 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-bangalore")}>
+          <div onClick={() => { setMinSpend(59040); navigate("/timesofindia-bangalore")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Bengalore"
@@ -90,7 +92,7 @@ function NewspaperService() {
               price={"59,040 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/hindustantimes-mumbai")}>
+          <div onClick={() => { setMinSpend(59400); navigate("/hindustantimes-mumbai")}}>
             <ServiceTemplate
               img={hindustan}
               title="Hindustan Times, Mumbai"
@@ -99,7 +101,7 @@ function NewspaperService() {
               price={"59,400 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/navbharat-delhi")}>
+          <div onClick={() => { setMinSpend(35100); navigate("/navbharat-delhi")}}>
             <ServiceTemplate
               img={nbt}
               title="Navbharat Times, Delhi"
@@ -108,7 +110,7 @@ function NewspaperService() {
               price={"35,100 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/economictimes-mumbai")}>
+          <div onClick={() => { setMinSpend(51200); navigate("/economictimes-mumbai")}}>
             <ServiceTemplate
               img={economic}
               title={"Economic Times, Mumbai"}
@@ -117,7 +119,7 @@ function NewspaperService() {
               price={"51,200 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/economictimes-delhi")}>
+          <div onClick={() => { setMinSpend(46900); navigate("/economictimes-delhi")}}>
             <ServiceTemplate
               img={economic}
               title={"Economic Times, Delhi"}
@@ -126,7 +128,7 @@ function NewspaperService() {
               price={"46,900 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/thehindu-delhi")}>
+          <div onClick={() => { setMinSpend(13780); navigate("/thehindu-delhi")}}>
             <ServiceTemplate
               img={hindu}
               title="The Hindu, Delhi"
@@ -135,7 +137,7 @@ function NewspaperService() {
               price={"13,780 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-pune")}>
+          <div onClick={() => { setMinSpend(43660); navigate("/timesofindia-pune")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Pune"
@@ -144,7 +146,7 @@ function NewspaperService() {
               price={"43,660 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/thehindu-chennai")}>
+          <div onClick={() => { setMinSpend(102880); navigate("/thehindu-chennai")}}>
             <ServiceTemplate
               img={hindu}
               title="The Hindu, Chennai"
@@ -153,7 +155,7 @@ function NewspaperService() {
               price={"1,02,880 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/prajavani-bangalore")}>
+          <div onClick={() => { setMinSpend(23400); navigate("/prajavani-bangalore")}}>
             <ServiceTemplate
               img={prajavani}
               title="Prajavani, Bangalore"
@@ -162,7 +164,7 @@ function NewspaperService() {
               price={"23,400 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/vijayakarnataka-bangalore")}>
+          <div onClick={() => { setMinSpend(61560); navigate("/vijayakarnataka-bangalore")}}>
             <ServiceTemplate
               img={vijaya_karnataka}
               title="Vijaya Karnataka, Bangalore"
@@ -171,7 +173,7 @@ function NewspaperService() {
               price={"61,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/udayavani-bangalore")}>
+          <div onClick={() => { setMinSpend(17600); navigate("/udayavani-bangalore")}}>
             <ServiceTemplate
               img={udayavani}
               title="Udayavani, Bangalore"
@@ -180,7 +182,7 @@ function NewspaperService() {
               price={"17,600 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/kannadaprabha-bangalore")}>
+          <div onClick={() => { setMinSpend(11880); navigate("/kannadaprabha-bangalore")}}>
             <ServiceTemplate
               img={kannada_prabha}
               title="Kannada Prabha, Bangalore"
@@ -189,7 +191,7 @@ function NewspaperService() {
               price={"11,880 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/midday-mumbai")}>
+          <div onClick={() => { setMinSpend(39422); navigate("/midday-mumbai")}}>
             <ServiceTemplate
               img={midDay}
               title="Mid-Day, Mumbai"
@@ -198,7 +200,7 @@ function NewspaperService() {
               price={"39,422 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-noida")}>
+          <div onClick={() => { setMinSpend(6660); navigate("/timesofindia-noida")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Noida"
@@ -207,7 +209,7 @@ function NewspaperService() {
               price={"6,660 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/navbharat-mumbai")}>
+          <div onClick={() => { setMinSpend(19960); navigate("/navbharat-mumbai")}}>
             <ServiceTemplate
               img={nbt}
               title="Navbharat Times, Mumbai"
@@ -216,7 +218,7 @@ function NewspaperService() {
               price={"19,960 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-chennai")}>
+          <div onClick={() => { setMinSpend(71460); navigate("/timesofindia-chennai")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Chennai"
@@ -225,7 +227,7 @@ function NewspaperService() {
               price={"71,460 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-kolkata")}>
+          <div onClick={() => { setMinSpend(33040); navigate("/timesofindia-kolkata")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Kolkata"
@@ -234,8 +236,7 @@ function NewspaperService() {
               price={"33,040 Min Spend"}
             />
           </div>
-
-          <div onClick={() => navigate("/economicstimes-chennai")}>
+          <div onClick={() => { setMinSpend(14140); navigate("/economicstimes-chennai")}}>
             <ServiceTemplate
               img={economic}
               title="Economic Times, Chennai"
@@ -244,7 +245,7 @@ function NewspaperService() {
               price={"14,140 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/timesofindia-ahmedabad")}>
+          <div onClick={() => { setMinSpend(13320); navigate("/timesofindia-ahmedabad")}}>
             <ServiceTemplate
               img={toi}
               title="Times of India, Ahmedabad"
@@ -254,7 +255,7 @@ function NewspaperService() {
             />
           </div>
 
-          <div onClick={() => navigate("/economicstimes-kolkata")}>
+          <div onClick={() => { setMinSpend(12880); navigate("/economicstimes-kolkata")}}>
             <ServiceTemplate
               img={economic}
               title="Economic Times, Kolkata"
@@ -263,7 +264,7 @@ function NewspaperService() {
               price={"12,880 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/economicstimes-hyderabad")}>
+          <div onClick={() => { setMinSpend(8200); navigate("/economicstimes-hyderabad")}}>
             <ServiceTemplate
               img={economic}
               title="Economic Times, Hyderabad"
@@ -272,7 +273,7 @@ function NewspaperService() {
               price={"8,200 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/economicstimes-pune")}>
+          <div onClick={() => { setMinSpend(6760); navigate("/economicstimes-pune")}}>
             <ServiceTemplate
               img={economic}
               title="Economic Times, Pune"
@@ -281,7 +282,7 @@ function NewspaperService() {
               price={"6,760 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/thehindu-coimbatore")}>
+          <div onClick={() => { setMinSpend(19000); navigate("/thehindu-coimbatore")}}>
             <ServiceTemplate
               img={hindu}
               title="The Hindu, Coimbatore"
@@ -291,7 +292,7 @@ function NewspaperService() {
             />
           </div>
 
-          <div onClick={() => navigate("/thehindu-mumbai")}>
+          <div onClick={() => { setMinSpend(8740); navigate("/thehindu-mumbai")}}>
             <ServiceTemplate
               img={hindu}
               title="The Hindu, Mumbai"
@@ -300,7 +301,7 @@ function NewspaperService() {
               price={"8,740 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/thehindu-hyderabad")}>
+          <div onClick={() => { setMinSpend(20620); navigate("/thehindu-hyderabad")}}>
             <ServiceTemplate
               img={hindu}
               title="The Hindu, Hyderabad"
@@ -309,7 +310,7 @@ function NewspaperService() {
               price={"20,620 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/economicstimes-kochi")}>
+          <div onClick={() => { setMinSpend(1560); navigate("/economicstimes-kochi")}}>
             <ServiceTemplate
               img={economic}
               title="Economic Times, Kochi"
@@ -318,7 +319,7 @@ function NewspaperService() {
               price={"1,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/thehindu-mangaluru")}>
+          <div onClick={() => { setMinSpend(2400); navigate("/thehindu-mangaluru")}}>
             <ServiceTemplate
               img={hindu}
               title="The Hindu, Mangaluru"
@@ -327,7 +328,7 @@ function NewspaperService() {
               price={"2,400 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/thehindu-madurai")}>
+          <div onClick={() => { setMinSpend(8760); navigate("/thehindu-madurai")}}>
             <ServiceTemplate
               img={hindu}
               title="The Hindu, Mangaluru"

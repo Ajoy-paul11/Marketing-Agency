@@ -7,9 +7,11 @@ import ServiceTemplate from "./ServiceTemplate.jsx";
 import cinemaImage from "../../assets/Cinema/Cinema-288-x-192.jpg";
 import Category from "../Category.jsx";
 import { useNavigate } from "react-router-dom";
+import useStore from "../../store.js";
 
 function Cinema() {
   const navigate = useNavigate();
+  const setMinSpend = useStore((state) => state.setMinSpend);
 
   return (
     <div className="w-full mt-[75px]">
@@ -20,7 +22,12 @@ function Cinema() {
           Cinema Services:
         </h2>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 justify-items-center lg:px-16">
-          <div onClick={() => navigate("/inoxkoramangala-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(12830);
+              navigate("/inoxkoramangala-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Forum Mall, Screen-1, Koramangala"
@@ -29,7 +36,12 @@ function Cinema() {
               price={"12,830 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxashoknagar-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(7130);
+              navigate("/inoxashoknagar-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Garuda Mall, Screen-3, Ashok Nagar"
@@ -38,7 +50,12 @@ function Cinema() {
               price={"7,130 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxkrishnarajapura-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(9260);
+              navigate("/inoxkrishnarajapura-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Phoenix Market City Mall, Screen-6, Krishnarajapura"
@@ -47,7 +64,12 @@ function Cinema() {
               price={"9,260 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/cinepoliskrishnarajapura-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(1900);
+              navigate("/cinepoliskrishnarajapura-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="Cinepolis Nexus Shantiniketan, Screen-1, Krishnarajapura"
@@ -56,7 +78,12 @@ function Cinema() {
               price={"1,900 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/cinepolismaruthi-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(3640);
+              navigate("/cinepolismaruthi-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="Cinepolis Orien East Mall, Screen-1, Maruthi Sevanagar"
@@ -65,7 +92,12 @@ function Cinema() {
               price={"3,640 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxnagavara-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5560);
+              navigate("/inoxnagavara-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Elements Mall, Screen-7, Nagavara"
@@ -74,7 +106,12 @@ function Cinema() {
               price={"5,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxneighbourhoodmall-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(3560);
+              navigate("/inoxneighbourhoodmall-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Forum Neighbourhood Mall, Screen-4, Krishnarajapura"
@@ -83,7 +120,12 @@ function Cinema() {
               price={"3,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxgarudamall-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(4280);
+              navigate("/inoxgarudamall-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Garuda Mall, Screen-2, Ashok Nagar"
@@ -92,7 +134,12 @@ function Cinema() {
               price={"4,280 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxvaishnavi-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(6560);
+              navigate("/inoxvaishnavi-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Vaishnavi Sapphire Mall, Screen-5, Yeswanthapur"
@@ -101,7 +148,12 @@ function Cinema() {
               price={"6,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxphoenix4-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(12110);
+              navigate("/inoxphoenix4-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Phoenix Market City Mall, Screen-4, Krishnarajapura"
@@ -110,7 +162,12 @@ function Cinema() {
               price={"12,110 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxrajajinagar-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(1430);
+              navigate("/inoxrajajinagar-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Orion Mall, Screen-7, Rajajinagar"
@@ -119,7 +176,12 @@ function Cinema() {
               price={"1,430 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxkoramangala7-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5420);
+              navigate("/inoxkoramangala7-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Forum Mall, Screen-7, Koramangala"
@@ -128,7 +190,12 @@ function Cinema() {
               price={"5,420 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/hulimavucinepolis6-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(6400);
+              navigate("/hulimavucinepolis6-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="Cinepolis Royal Meenakshi Mall, Screen-6, Hulimavu"
@@ -137,7 +204,12 @@ function Cinema() {
               price={"6,400 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxkoramangala6-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5420);
+              navigate("/inoxkoramangala6-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Forum Mall, Screen-6, Koramangala"
@@ -146,7 +218,12 @@ function Cinema() {
               price={"5,420 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/hulimavucinepolis2-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(3150);
+              navigate("/hulimavucinepolis2-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="Cinepolis Royal Meenakshi Mall, Screen-2, Hulimavu"
@@ -155,7 +232,12 @@ function Cinema() {
               price={"3,150 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/swagathmall-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5700);
+              navigate("/swagathmall-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Shree Garuda Swagath Mall, Screen-3, Jayanagar"
@@ -164,7 +246,12 @@ function Cinema() {
               price={"5,700 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/mahadevapura-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(1430);
+              navigate("/mahadevapura-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX VR Mall, Screen-5, Mahadevapura"
@@ -173,7 +260,12 @@ function Cinema() {
               price={"1,430 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxforumneighbourhood2-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5770);
+              navigate("/inoxforumneighbourhood2-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Forum Neighbourhood Mall, Screen-2, Whitefield"
@@ -182,7 +274,12 @@ function Cinema() {
               price={"5,770 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxsoulspace-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5560);
+              navigate("/inoxsoulspace-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Soul Space Spirit Central Mall, Screen-4, Bellandur"
@@ -191,7 +288,12 @@ function Cinema() {
               price={"5,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxmantrisquare-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(10330);
+              navigate("/inoxmantrisquare-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Mantri Square Mall, Screen-6, Malleswaram"
@@ -200,7 +302,12 @@ function Cinema() {
               price={"10,330 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxrajajinagar2-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5270);
+              navigate("/inoxrajajinagar2-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Orion Mall, Screen-10, Rajajinagar"
@@ -209,7 +316,12 @@ function Cinema() {
               price={"5,270 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxlido1-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5420);
+              navigate("/inoxlido1-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Lido Mall, Screen-1, Jogupalya"
@@ -218,7 +330,12 @@ function Cinema() {
               price={"5,420 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxlido3-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5270);
+              navigate("/inoxlido3-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Lido Mall, Screen-3, Jogupalya"
@@ -227,7 +344,12 @@ function Cinema() {
               price={"5,270 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxcentral-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(6910);
+              navigate("/inoxcentral-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Central Mall, Screen-2, J.P. Nagar"
@@ -236,7 +358,12 @@ function Cinema() {
               price={"6,910 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxelements-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5700);
+              navigate("/inoxelements-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Elements Mall, Screen-2, Nagavara"
@@ -245,7 +372,12 @@ function Cinema() {
               price={"5,700 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/rockline-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(1772);
+              navigate("/rockline-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="Carnival Cinemas Rock Line Mall, Screen-2, T. Dasarahalli"
@@ -254,7 +386,12 @@ function Cinema() {
               price={"1,772 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxvaishnavi2-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(6560);
+              navigate("/inoxvaishnavi2-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Vaishnavi Sapphire Mall, Screen-6, Yeshwanthpur"
@@ -263,7 +400,12 @@ function Cinema() {
               price={"6,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/inoxgalleriamall-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(5700);
+              navigate("/inoxgalleriamall-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX RMZ Galleria Mall, Screen-1, Yelahanka New Town"
@@ -272,7 +414,12 @@ function Cinema() {
               price={"5,700 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/rockline2-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(3574);
+              navigate("/rockline2-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="Carnival Cinemas Rock Line Mall, Screen-4, T. Dasarahalli"
@@ -281,7 +428,12 @@ function Cinema() {
               price={"3,574 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/garudamall3-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(7840);
+              navigate("/garudamall3-pricing");
+            }}
+          >
             <ServiceTemplate
               img={cinemaImage}
               title="PVR INOX Garuda Mall, Screen-5, Ashok Nagar"
