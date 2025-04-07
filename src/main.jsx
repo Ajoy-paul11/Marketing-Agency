@@ -152,6 +152,7 @@ import VaishnaviInox from "./components/Insidepage/Cinema/VaishnaviInox.jsx";
 import GalleriaMallInox from "./components/Insidepage/Cinema/GalleriaMallInox.jsx";
 import RocklineCarnival2 from "./components/Insidepage/Cinema/RocklineCarnival2.jsx";
 import Garudamall2 from "./components/Insidepage/Cinema/Garudamall2.jsx";
+import SeoAds from "./components/Insidepage/SeoAds.jsx";
 
 const router = createBrowserRouter([
   {
@@ -761,6 +762,10 @@ const router = createBrowserRouter([
       {
         path: "/garudamall3-pricing",
         element: <Garudamall2 />
+      },
+      {
+        path: "/seo-pricing",
+        element: <SeoAds />
       }
     ],
   },
