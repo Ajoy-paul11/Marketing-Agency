@@ -9,9 +9,11 @@ import bus_shelter from "../../assets/Outdoor/bus-shelter-288-x-192.jpg";
 import hoarding from "../../assets/Outdoor/hoarding-288-x-192.jpg";
 import Category from "../Category.jsx";
 import { useNavigate } from "react-router-dom";
+import useStore from "../../store.js";
 
 function OutdoorService() {
   const navigate = useNavigate();
+  const setMinSpend = useStore((state) => state.setMinSpend);
 
   return (
     <div className="w-full mt-[75px]">
@@ -22,7 +24,10 @@ function OutdoorService() {
           Outdoor Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
-          <div onClick={() => navigate("/outdoorbillboard-pricing")}>
+          <div onClick={() => {
+            setMinSpend(0);
+            navigate("/outdoorbillboard-pricing");
+            }}>
             <ServiceTemplate
               img={outdoorImage}
               title="Outdoor Billboard"
@@ -31,7 +36,10 @@ function OutdoorService() {
               price={"Location Based"}
             />
           </div>
-          <div onClick={() => navigate("/hoarding-pricing")}>
+          <div onClick={() => {
+            setMinSpend(0);
+            navigate("/hoarding-pricing");
+            }}>
             <ServiceTemplate
               img={hoarding}
               title="Hoarding"
@@ -40,7 +48,10 @@ function OutdoorService() {
               price={"Location Based"}
             />
           </div>
-          <div onClick={() => navigate("/busshelter-pricing")}>
+          <div onClick={() => {
+            setMinSpend(0);
+            navigate("/busshelter-pricing");
+            }}>
             <ServiceTemplate
               img={bus_shelter}
               title="Bus Shelter"

@@ -8,9 +8,11 @@ import ServiceTemplate from "./ServiceTemplate.jsx";
 import ScrollToTop from "../ScrollToTop.jsx";
 import Category from "../Category.jsx";
 import { useNavigate } from "react-router-dom";
+import useStore from "../../store.js";
 
 function DigiService() {
   const navigate = useNavigate();
+  const setMinSpend = useStore((state) => state.setMinSpend);
 
   return (
     <div className="w-full mt-[75px]">
@@ -21,18 +23,12 @@ function DigiService() {
           Digital Media:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
-          <div onClick={() => navigate("/seo-pricing")}>
-            <ServiceTemplate
-              img={
-                "https://ik.imagekit.io/ajoy/Digital/seo.png?updatedAt=1743156462113"
-              }
-              title="SEO"
-              type="We specialize in SEO strategies that drive organic traffic."
-              description={"N/A"}
-              price={"15,000 Min Spend"}
-            />
-          </div>
-          <div onClick={() => navigate("/google-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(10000);
+              navigate("/google-pricing");
+            }}
+          >
             <ServiceTemplate
               img={
                 "https://ik.imagekit.io/ajoy/Digital/google-Ad-288-x-192.jpg?updatedAt=1743156368085"
@@ -43,7 +39,12 @@ function DigiService() {
               price={"10,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/meta-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(10000);
+              navigate("/meta-pricing");
+            }}
+          >
             <ServiceTemplate
               img={
                 "https://ik.imagekit.io/ajoy/Digital/meta-288-x-192.jpg?updatedAt=1743156368150"
@@ -54,7 +55,12 @@ function DigiService() {
               price={"10,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/spotify-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(10000);
+              navigate("/spotify-pricing");
+            }}
+          >
             <ServiceTemplate
               img={
                 "https://ik.imagekit.io/ajoy/Digital/spotify-288-x-192.jpg?updatedAt=1743156368056"
@@ -65,7 +71,12 @@ function DigiService() {
               price={"10,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/hotstar-pricing")}>
+          <div
+            onClick={() => {
+              setMinSpend(50000);
+              navigate("/hotstar-pricing");
+            }}
+          >
             <ServiceTemplate
               img={
                 "https://ik.imagekit.io/ajoy/Digital/hotstar-288-x-192.jpg?updatedAt=1743156367808"
@@ -74,6 +85,22 @@ function DigiService() {
               type="A powerful advertising platform to reach a highly engaged audience."
               description={"102.2M Monthly Users"}
               price={"50,000 Min Spend"}
+            />
+          </div>
+          <div
+            onClick={() => {
+              setMinSpend(15000);
+              navigate("/seo-pricing");
+            }}
+          >
+            <ServiceTemplate
+              img={
+                "https://ik.imagekit.io/ajoy/Digital/seo.png?updatedAt=1743156462113"
+              }
+              title="SEO"
+              type="We specialize in SEO strategies that drive organic traffic."
+              description={"N/A"}
+              price={"15,000 Min Spend"}
             />
           </div>
         </div>

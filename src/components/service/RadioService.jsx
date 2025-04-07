@@ -10,9 +10,11 @@ import radio_one from "../../assets/Radio/radio-one-288-x-192.jpg";
 import ScrollToTop from "../ScrollToTop.jsx";
 import Category from "../Category.jsx";
 import { useNavigate } from "react-router-dom";
+import useStore from "../../store.js";
 
 function RadioService() {
   const navigate = useNavigate();
+  const setMinSpend = useStore((state) => state.setMinSpend);
 
   return (
     <div className="w-full mt-[75px]">
@@ -24,7 +26,12 @@ function RadioService() {
           Radio Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:px-16">
-          <div onClick={() => navigate("/redfm-bengaluru")}>
+          <div
+            onClick={() => {
+              setMinSpend(15120);
+              navigate("/redfm-bengaluru");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title="Red FM, Bengaluru"
@@ -33,7 +40,12 @@ function RadioService() {
               price={"15,120 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-bengaluru")}>
+          <div
+            onClick={() => {
+              setMinSpend(14400);
+              navigate("/radiomirchi-bengaluru");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title="Radio Mirchi, Bengaluru"
@@ -42,7 +54,12 @@ function RadioService() {
               price={"14,400 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-delhi")}>
+          <div
+            onClick={() => {
+              setMinSpend(10000);
+              navigate("/redfm-delhi");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title="Red FM, Delhi"
@@ -51,7 +68,12 @@ function RadioService() {
               price={"10,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-delhi")}>
+          <div
+            onClick={() => {
+              setMinSpend(10000);
+              navigate("/radiomirchi-delhi");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title="Radio Mirchi, Delhi"
@@ -60,7 +82,12 @@ function RadioService() {
               price={"10,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-mumbai")}>
+          <div
+            onClick={() => {
+              setMinSpend(30240);
+              navigate("/redfm-mumbai");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title="Red FM, Mumbai"
@@ -69,7 +96,12 @@ function RadioService() {
               price={"30,240 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-mumbai")}>
+          <div
+            onClick={() => {
+              setMinSpend(30960);
+              navigate("/radiomirchi-mumbai");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title="Radio Mirchi, Mumbai"
@@ -78,7 +110,12 @@ function RadioService() {
               price={"30,960 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-hyderabad")}>
+          <div
+            onClick={() => {
+              setMinSpend(14400);
+              navigate("/redfm-hyderabad");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title="Red FM, Hyderabad"
@@ -87,7 +124,12 @@ function RadioService() {
               price={"14,400 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/bigfm-bengaluru")}>
+          <div
+            onClick={() => {
+              setMinSpend(13680);
+              navigate("/bigfm-bengaluru");
+            }}
+          >
             <ServiceTemplate
               img={bigfm}
               title="Big FM, Bengaluru"
@@ -96,7 +138,12 @@ function RadioService() {
               price={"13,680 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/bigfm-delhi")}>
+          <div
+            onClick={() => {
+              setMinSpend(10000);
+              navigate("/bigfm-delhi");
+            }}
+          >
             <ServiceTemplate
               img={bigfm}
               title="Big FM, Delhi"
@@ -105,7 +152,12 @@ function RadioService() {
               price={"10,000 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiocity-bengaluru")}>
+          <div
+            onClick={() => {
+              setMinSpend(15480);
+              navigate("/radiocity-bengaluru");
+            }}
+          >
             <ServiceTemplate
               img={radioCity}
               title="Radio City, Bengaluru"
@@ -114,7 +166,12 @@ function RadioService() {
               price={"15,480 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiocity-delhi")}>
+          <div
+            onClick={() => {
+              setMinSpend(26640);
+              navigate("/radiocity-delhi");
+            }}
+          >
             <ServiceTemplate
               img={radioCity}
               title="Radio City, Delhi"
@@ -123,7 +180,12 @@ function RadioService() {
               price={"26,640 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-hyderabad")}>
+          <div
+            onClick={() => {
+              setMinSpend(14400);
+              navigate("/radiomirchi-hyderabad");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title="Radio Mirchi, Hyderabad"
@@ -132,7 +194,12 @@ function RadioService() {
               price={"14,400 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiocity-hyderabad")}>
+          <div
+            onClick={() => {
+              setMinSpend(11520);
+              navigate("/radiocity-hyderabad");
+            }}
+          >
             <ServiceTemplate
               img={radioCity}
               title="Radio City, Hyderabad"
@@ -141,43 +208,68 @@ function RadioService() {
               price={"11,520 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiofever-bengaluru")}>
-          <ServiceTemplate
-            img={fever}
-            title="Radio Fever, Bengaluru"
-            type="Appeal to young adults with energetic and trendy broadcasts."
-            description={"1.1M Listeners"}
-            price={"11,520 Min Spend"}
+          <div
+            onClick={() => {
+              setMinSpend(11520);
+              navigate("/radiofever-bengaluru");
+            }}
+          >
+            <ServiceTemplate
+              img={fever}
+              title="Radio Fever, Bengaluru"
+              type="Appeal to young adults with energetic and trendy broadcasts."
+              description={"1.1M Listeners"}
+              price={"11,520 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiofever-delhi")}>
-          <ServiceTemplate
-            img={fever}
-            title="Radio Fever, Delhi"
-            type="Appeal to young adults with energetic and trendy broadcasts."
-            description={"1.9M Listeners"}
-            price={"20,880 Min Spend"}
+          <div
+            onClick={() => {
+              setMinSpend(20880);
+              navigate("/radiofever-delhi");
+            }}
+          >
+            <ServiceTemplate
+              img={fever}
+              title="Radio Fever, Delhi"
+              type="Appeal to young adults with energetic and trendy broadcasts."
+              description={"1.9M Listeners"}
+              price={"20,880 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radioone-bengaluru")}>
-          <ServiceTemplate
-            img={radio_one}
-            title="Radio One, Bengaluru"
-            type="Engage urbanites with international music and lifestyle content."
-            description={"1M Listeners"}
-            price={"9,630 Min Spend"}
+          <div
+            onClick={() => {
+              setMinSpend(9630);
+              navigate("/radioone-bengaluru");
+            }}
+          >
+            <ServiceTemplate
+              img={radio_one}
+              title="Radio One, Bengaluru"
+              type="Engage urbanites with international music and lifestyle content."
+              description={"1M Listeners"}
+              price={"9,630 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-pune")}>
-          <ServiceTemplate
-            img={redfm}
-            title="Red FM, Pune"
-            type="Engage urban youth with vibrant and contemporary programming."
-            description={"1.2M Listeners"}
-            price={"10,080 Min Spend"}
+          <div
+            onClick={() => {
+              setMinSpend(10080);
+              navigate("/redfm-pune");
+            }}
+          >
+            <ServiceTemplate
+              img={redfm}
+              title="Red FM, Pune"
+              type="Engage urban youth with vibrant and contemporary programming."
+              description={"1.2M Listeners"}
+              price={"10,080 Min Spend"}
             />
           </div>
-          <div>
+          <div
+            onClick={() => {
+              setMinSpend(10080);
+              navigate("/bigfm-hyderabad");
+            }}
+          >
             <ServiceTemplate
               img={bigfm}
               title={"Big FM, Hyderabad"}
@@ -186,7 +278,12 @@ function RadioService() {
               price={"10,080 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-pune")}>
+          <div
+            onClick={() => {
+              setMinSpend(10080);
+              navigate("/radiomirchi-pune");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title={"Radio Mirchi, Pune"}
@@ -195,7 +292,12 @@ function RadioService() {
               price={"10,080 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/bigfm-mumbai")}>
+          <div
+            onClick={() => {
+              setMinSpend(21960);
+              navigate("/bigfm-mumbai");
+            }}
+          >
             <ServiceTemplate
               img={bigfm}
               title={"Big FM, Mumbai"}
@@ -204,7 +306,12 @@ function RadioService() {
               price={"21,960 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiofever-hyderabad")}>
+          <div
+            onClick={() => {
+              setMinSpend(8280);
+              navigate("/radiofever-hyderabad");
+            }}
+          >
             <ServiceTemplate
               img={fever}
               title={"Radio Fever, Hyderabad"}
@@ -213,7 +320,12 @@ function RadioService() {
               price={"8,280 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiocity-pune")}>
+          <div
+            onClick={() => {
+              setMinSpend(6840);
+              navigate("/radiocity-pune");
+            }}
+          >
             <ServiceTemplate
               img={radioCity}
               title={"Radio City, Pune"}
@@ -222,7 +334,12 @@ function RadioService() {
               price={"6,840 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radioone-mumbai")}>
+          <div
+            onClick={() => {
+              setMinSpend(15840);
+              navigate("/radioone-mumbai");
+            }}
+          >
             <ServiceTemplate
               img={radio_one}
               title={"Radio One, Mumbai"}
@@ -231,7 +348,12 @@ function RadioService() {
               price={"15,840 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-kolkata")}>
+          <div
+            onClick={() => {
+              setMinSpend(12600);
+              navigate("/radiomirchi-kolkata");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title={"Radio Mirchi, Kolkata"}
@@ -240,7 +362,12 @@ function RadioService() {
               price={"12,600 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-chennai")}>
+          <div
+            onClick={() => {
+              setMinSpend(13320);
+              navigate("/radiomirchi-chennai");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title={"Radio Mirchi, Chennai"}
@@ -249,7 +376,12 @@ function RadioService() {
               price={"13,320 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiocity-mumbai")}>
+          <div
+            onClick={() => {
+              setMinSpend(28440);
+              navigate("/radiocity-mumbai");
+            }}
+          >
             <ServiceTemplate
               img={radioCity}
               title={"Radio City, Mumbai"}
@@ -258,7 +390,12 @@ function RadioService() {
               price={"28,440 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/bigfm-chennai")}>
+          <div
+            onClick={() => {
+              setMinSpend(10080);
+              navigate("/bigfm-chennai");
+            }}
+          >
             <ServiceTemplate
               img={bigfm}
               title={"Big FM, Chennai"}
@@ -267,7 +404,12 @@ function RadioService() {
               price={"10,080 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-ahmedabad")}>
+          <div
+            onClick={() => {
+              setMinSpend(7560);
+              navigate("/radiomirchi-ahmedabad");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title={"Radio Mirchi, Ahmedabad"}
@@ -276,7 +418,12 @@ function RadioService() {
               price={"7,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiofever-pune")}>
+          <div
+            onClick={() => {
+              setMinSpend(5400);
+              navigate("/radiofever-pune");
+            }}
+          >
             <ServiceTemplate
               img={fever}
               title={"Radio Fever, Pune"}
@@ -285,7 +432,12 @@ function RadioService() {
               price={"5,400 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-kolkata")}>
+          <div
+            onClick={() => {
+              setMinSpend(12600);
+              navigate("/redfm-kolkata");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title={"Red FM, Kolkata"}
@@ -294,7 +446,12 @@ function RadioService() {
               price={"12,600 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/bigfm-kolkata")}>
+          <div
+            onClick={() => {
+              setMinSpend(9360);
+              navigate("/bigfm-kolkata");
+            }}
+          >
             <ServiceTemplate
               img={bigfm}
               title={"Big FM, Kolkata"}
@@ -303,7 +460,12 @@ function RadioService() {
               price={"9,360 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-indore")}> 
+          <div
+            onClick={() => {
+              setMinSpend(8280);
+              navigate("/redfm-indore");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title={"Red FM, Indore"}
@@ -312,7 +474,12 @@ function RadioService() {
               price={"8,280 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-ahamedabad")}>
+          <div
+            onClick={() => {
+              setMinSpend(7560);
+              navigate("/redfm-ahamedabad");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title={"Red FM, Ahmedabad"}
@@ -321,7 +488,12 @@ function RadioService() {
               price={"7,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-kochi")}>
+          <div
+            onClick={() => {
+              setMinSpend(8280);
+              navigate("/redfm-kochi");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title={"Red FM, Kochi"}
@@ -330,7 +502,12 @@ function RadioService() {
               price={"8,280 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiocity-coimbatore")}>
+          <div
+            onClick={() => {
+              setMinSpend(3240);
+              navigate("/radiocity-coimbatore");
+            }}
+          >
             <ServiceTemplate
               img={radioCity}
               title={"Radio City, Coimbatore"}
@@ -339,7 +516,12 @@ function RadioService() {
               price={"3,240 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiocity-chennai")}>
+          <div
+            onClick={() => {
+              setMinSpend(10440);
+              navigate("/radiocity-chennai");
+            }}
+          >
             <ServiceTemplate
               img={radioCity}
               title={"Radio City, Chennai"}
@@ -348,7 +530,12 @@ function RadioService() {
               price={"10,440 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiocity-ahmedabad")}>
+          <div
+            onClick={() => {
+              setMinSpend(7560);
+              navigate("/radiocity-ahmedabad");
+            }}
+          >
             <ServiceTemplate
               img={radioCity}
               title={"Radio City, Ahmedabad"}
@@ -357,7 +544,12 @@ function RadioService() {
               price={"7,560 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiofever-mumbai")}>
+          <div
+            onClick={() => {
+              setMinSpend(24840);
+              navigate("/radiofever-mumbai");
+            }}
+          >
             <ServiceTemplate
               img={fever}
               title={"Radio Fever, Mumbai"}
@@ -366,7 +558,12 @@ function RadioService() {
               price={"24,840 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radioone-delhi")}>
+          <div
+            onClick={() => {
+              setMinSpend(19800);
+              navigate("/radioone-delhi");
+            }}
+          >
             <ServiceTemplate
               img={radio_one}
               title={"Radio One, Delhi"}
@@ -375,7 +572,12 @@ function RadioService() {
               price={"19,800 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiofever-kolkata")}>
+          <div
+            onClick={() => {
+              setMinSpend(3960);
+              navigate("/radiofever-kolkata");
+            }}
+          >
             <ServiceTemplate
               img={fever}
               title={"Radio Fever, Kolkata"}
@@ -384,7 +586,12 @@ function RadioService() {
               price={"3,960 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-guwahati")}>
+          <div
+            onClick={() => {
+              setMinSpend(5040);
+              navigate("/redfm-guwahati");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title={"Red FM, Guwahati"}
@@ -393,7 +600,12 @@ function RadioService() {
               price={"5,040 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/radiomirchi-patna")}>
+          <div
+            onClick={() => {
+              setMinSpend(6480);
+              navigate("/radiomirchi-patna");
+            }}
+          >
             <ServiceTemplate
               img={radiomirchi}
               title={"Radio Mirchi, Patna"}
@@ -402,7 +614,12 @@ function RadioService() {
               price={"6,480 Min Spend"}
             />
           </div>
-          <div onClick={() => navigate("/redfm-lucknow")}>
+          <div
+            onClick={() => {
+              setMinSpend(6480);
+              navigate("/redfm-lucknow");
+            }}
+          >
             <ServiceTemplate
               img={redfm}
               title={"Red FM, Lucknow"}
@@ -411,13 +628,13 @@ function RadioService() {
               price={"6,480 Min Spend"}
             />
           </div>
-          <ServiceTemplate
+          {/* <ServiceTemplate
             img={air}
             title="All India Radio"
             type="Access nationwide listeners through India's extensive public broadcaster."
             description={"481K Listeners"}
             price={"19,800 Min Spend"}
-          />
+          /> */}
         </div>
       </div>
     </div>
