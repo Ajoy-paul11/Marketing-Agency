@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PriceCard from "./PriceCard";
 import Category from "../Category";
+import ScrollToTop from "../ScrollToTop";
 
 function Insidepage({
   headerText,
@@ -13,6 +14,7 @@ function Insidepage({
   return (
     <>
     <div className=" shadow-[0px_0px_10px_rgba(0,0,0,0.25)]">
+    <ScrollToTop />
     <Category />
     </div>
     <section className=" relative w-full py-10">

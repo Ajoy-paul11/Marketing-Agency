@@ -122,12 +122,7 @@ function Payment() {
                 <span className="font-medium">•</span>
                 <span>Your payment is secure and encrypted</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="font-medium">•</span>
-                <span>
-                  You will receive a receipt via email after successful payment
-                </span>
-              </li>
+              
               <li className="flex items-start gap-2">
                 <span className="font-medium">•</span>
                 <span>
