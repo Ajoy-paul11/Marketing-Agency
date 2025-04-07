@@ -1,15 +1,31 @@
 import React, { useState } from "react";
 import { LiaRupeeSignSolid } from "react-icons/lia";
+import useStore from "../../store";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 function PriceCard({ cardImage, price, item, about }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState("");
 
+  const minSpend = useStore((state) => state.minSpend);
+  const navigate = useNavigate();
+
+  const handlePaymentNavigation = () => {
+    if (minSpend === 0) {
+      toast.error("Please call us for pricing");
+      return;
+    }
+    navigate(`/payment?amount=${minSpend}`);
+  };
+
   const openModal = (modalImg) => {
     setModalImage(modalImg);
     setIsModalOpen(true);
   };
+
   const closeModal = () => setIsModalOpen(false);
+
   return (
     <>
       <div className="mt-6 w-full shadow-[0px_0px_10px_rgba(0,0,0,0.25)] rounded-lg flex flex-col ">
@@ -25,9 +41,11 @@ function PriceCard({ cardImage, price, item, about }) {
           <div className="mb-2 text-xl text-center font-semibold">{item}</div>
           <div className=" text-sm">{about}</div>
         </div>
-        <div className=" flex justify-between p-3 bg-blue-400 mx-2 mb-2 rounded text-sm  text-white">
+        <div className=" flex justify-between p-3 bg-blue-400 mx-2 mb-2 rounded text-sm items-center text-white">
           <div>Base Rate</div>
-          <div className=" inline-flex gap-0.5 items-center font-semibold">
+          <div 
+            onClick={handlePaymentNavigation}
+          className=" inline-flex gap-0.5 items-center font-semibold bg-white/90 text-black rounded-lg p-3 shadow-[0px_0px_5px_rgba(0,0,0,0.25)] hover:cursor-pointer hover:animate-ring-pulse">
             <LiaRupeeSignSolid /> {price}
           </div>
         </div>

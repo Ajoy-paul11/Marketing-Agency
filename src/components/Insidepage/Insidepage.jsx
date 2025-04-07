@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PriceCard from "./PriceCard";
+import Category from "../Category";
 
 function Insidepage({
   headerText,
@@ -10,6 +11,10 @@ function Insidepage({
   cardInfos,
 }) {
   return (
+    <>
+    <div className=" shadow-[0px_0px_10px_rgba(0,0,0,0.25)]">
+    <Category />
+    </div>
     <section className=" relative w-full py-10">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className=" text-2xl md:text-3xl font-semibold text-orange-600 font-secondary px-4 mb-8">
@@ -29,19 +34,20 @@ function Insidepage({
             </div>
           </div>
         </div>
-        <div className=" relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-10 py-10">
+        <div className=" relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5 md:gap-10 py-10">
           {cardInfos.map((cardInfo, index) => (
             <PriceCard
-              key={index}
-              cardImage={cardInfo.cardImage}
-              item={cardInfo.item}
-              price={cardInfo.price}
-              about={cardInfo.about}
+            key={index}
+            cardImage={cardInfo.cardImage}
+            item={cardInfo.item}
+            price={cardInfo.price}
+            about={cardInfo.about}
             />
           ))}
         </div>
       </div>
     </section>
+   </>
   );
 }
 

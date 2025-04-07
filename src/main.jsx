@@ -153,6 +153,7 @@ import GalleriaMallInox from "./components/Insidepage/Cinema/GalleriaMallInox.js
 import RocklineCarnival2 from "./components/Insidepage/Cinema/RocklineCarnival2.jsx";
 import Garudamall2 from "./components/Insidepage/Cinema/Garudamall2.jsx";
 import SeoAds from "./components/Insidepage/SeoAds.jsx";
+import Payment from "./components/Payment.jsx";
 
 const router = createBrowserRouter([
   {
@@ -766,6 +767,10 @@ const router = createBrowserRouter([
       {
         path: "/seo-pricing",
         element: <SeoAds />
+      },
+      {
+        path: "/payment",
+        element: <Payment />
       }
     ],
   },
