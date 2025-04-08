@@ -29,7 +29,7 @@ function Payment() {
   }
 
   return (
-    <div className=" container mx-auto py-10 px-4">
+    <div className=" container mx-auto py-10 px-4 mt-[65px]">
       <h1 className="text-3xl font-bold text-[#000080] mb-8">
         Complete Your Payment
       </h1>
