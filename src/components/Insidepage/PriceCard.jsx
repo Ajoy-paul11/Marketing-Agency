@@ -16,7 +16,8 @@ function PriceCard({ cardImage, price, item, about }) {
       toast.error("Please call us for pricing");
       return;
     }
-    navigate(`/payment?amount=${minSpend}`);
+    // navigate(`/payment?amount=${minSpend}`);
+    navigate("/payment");
   };
 
   const openModal = (modalImg) => {

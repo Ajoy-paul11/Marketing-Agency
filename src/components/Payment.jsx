@@ -3,17 +3,23 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { useSearchParams } from "react-router-dom";
+import useStore from "../store";
 
 function Payment() {
-  const [searchParams] = useSearchParams();
+  // const [searchParams] = useSearchParams();
   const [amount, setAmount] = useState(0);
+  const minSpend = useStore((state) => state.minSpend);
 
   useEffect(() => {
-    const amountParam = searchParams.get("amount");
-    if (amountParam) {
-      setAmount(parseInt(amountParam));
-    }
-  }, [searchParams]);
+    setAmount(minSpend);
+  }, [minSpend]);
+
+  // useEffect(() => {
+  //   const amountParam = searchParams.get("amount");
+  //   if (amountParam) {
+  //     setAmount(parseInt(amountParam));
+  //   }
+  // }, [searchParams]);
 
   const formatAmount = (amount) => {
     const num = Number.parseFloat(amount);
