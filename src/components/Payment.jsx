@@ -42,54 +42,53 @@ function Payment() {
   }, []);
 
   const handlePayment = async () => {
-    const options = {
-      amount,
-    };
 
     try {
       const orderResponse = await axios.post(
         `${import.meta.env.VITE_BACKEND_URL}/api/v1/create-order`,
-        options
+       {amount}
       );
       const data = orderResponse.data;
 
       console.log(data);
 
-      const paymentObject = new window.Razorpay({
+      const { id, amount: orderAmount, currency } = orderResponse.data;
+
+      const options = {
         key: import.meta.env.VITE_RAZORPAY_KEY_ID,
-        order_id: data.id,
-        ...data,
-
-        handler: (response) => {
-          console.log(response);
-
-          const paymentData = {
-            order_id: response.razorpay_order_id,
-            payment_id: response.razorpay_payment_id,
-            signature: response.razorpay_signature,
-          };
-
-          axios
-            .post(
-              `${import.meta.env.VITE_BACKEND_URL}/api/v1/verify-payment`,
-              paymentData
-            )
-            .then((res) => {
-              console.log(res.data);
-              if (res?.data?.success) {
-                toast.success("Payment Successful");
-              } else {
-                toast.error("Payment Failed");
-              }
-            })
-            .catch((error) => {
-              console.error(error);
+        amount: orderAmount,
+        currency: currency,
+        name: "Mindblue LLP",
+        description: "Payment Details",
+        order_id: id,
+        handler: function (response) {
+          axios.post(
+            `${import.meta.env.VITE_BACKEND_URL}/api/v1/verify-payment`,
+            {
+              order_id: response.razorpay_order_id,
+              payment_id: response.razorpay_payment_id,
+              signature: response.razorpay_signature,
+            }
+          ).then((res) => {
+            if (res?.data?.success) {
+              toast.success("Payment Successful");
+            } else {
               toast.error("Payment Failed");
-            });
+            }
+          }).catch((error) => {
+            console.error(error);
+            toast.error("Payment Failed");
+          });
         },
-      });
+        theme: {
+          color: "#000080"
+        }
+      }
+
+      const paymentObject = new window.Razorpay(options);
 
       paymentObject.open();
+      
     } catch (error) {
       console.error(error);
       toast.error("Payment did not Initiate");
