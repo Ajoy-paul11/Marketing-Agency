@@ -2,24 +2,17 @@ import React, { useState, useEffect } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { useSearchParams } from "react-router-dom";
 import useStore from "../store";
+import axios from "axios";
+import { toast } from "react-toastify";
 
 function Payment() {
-  // const [searchParams] = useSearchParams();
   const [amount, setAmount] = useState(0);
   const minSpend = useStore((state) => state.minSpend);
 
   useEffect(() => {
     setAmount(minSpend);
   }, [minSpend]);
-
-  // useEffect(() => {
-  //   const amountParam = searchParams.get("amount");
-  //   if (amountParam) {
-  //     setAmount(parseInt(amountParam));
-  //   }
-  // }, [searchParams]);
 
   const formatAmount = (amount) => {
     const num = Number.parseFloat(amount);
@@ -30,9 +23,78 @@ function Payment() {
     }).format(num);
   };
 
-  const handlePayment = () => {
-    
-  }
+  const loadScript = (src) => {
+    return new Promise((resolve) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.onload = () => {
+        resolve(true);
+      };
+      script.onerror = () => {
+        resolve(false);
+      };
+      document.body.appendChild(script);
+    });
+  };
+
+  useEffect(() => {
+    loadScript("https://checkout.razorpay.com/v1/checkout.js");
+  }, []);
+
+  const handlePayment = async () => {
+    const options = {
+      amount,
+    };
+
+    try {
+      const orderResponse = await axios.post(
+        `${import.meta.env.VITE_BACKEND_URL}/api/v1/create-order`,
+        options
+      );
+      const data = orderResponse.data;
+
+      console.log(data);
+
+      const paymentObject = new window.Razorpay({
+        key: import.meta.env.VITE_RAZORPAY_KEY_ID,
+        order_id: data.id,
+        ...data,
+
+        handler: (response) => {
+          console.log(response);
+
+          const paymentData = {
+            order_id: response.razorpay_order_id,
+            payment_id: response.razorpay_payment_id,
+            signature: response.razorpay_signature,
+          };
+
+          axios
+            .post(
+              `${import.meta.env.VITE_BACKEND_URL}/api/v1/verify-payment`,
+              paymentData
+            )
+            .then((res) => {
+              console.log(res.data);
+              if (res?.data?.success) {
+                toast.success("Payment Successful");
+              } else {
+                toast.error("Payment Failed");
+              }
+            })
+            .catch((error) => {
+              console.error(error);
+              toast.error("Payment Failed");
+            });
+        },
+      });
+
+      paymentObject.open();
+    } catch (error) {
+      console.error(error);
+      toast.error("Payment did not Initiate");
+    }
+  };
 
   return (
     <div className=" container mx-auto py-10 px-4 mt-[65px]">
@@ -128,7 +190,7 @@ function Payment() {
                 <span className="font-medium">•</span>
                 <span>Your payment is secure and encrypted</span>
               </li>
-              
+
               <li className="flex items-start gap-2">
                 <span className="font-medium">•</span>
                 <span>
