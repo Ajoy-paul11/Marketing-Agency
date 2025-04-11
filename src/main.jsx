@@ -154,6 +154,8 @@ import RocklineCarnival2 from "./components/Insidepage/Cinema/RocklineCarnival2.
 import Garudamall2 from "./components/Insidepage/Cinema/Garudamall2.jsx";
 import SeoAds from "./components/Insidepage/SeoAds.jsx";
 import Payment from "./components/Payment.jsx";
+import AirlinePricing from "./components/Insidepage/Airline/AirlinePricing.jsx";
+import AirportPricing from "./components/Insidepage/Airline/AirportPricing.jsx";
 
 const router = createBrowserRouter([
   {
@@ -767,6 +769,14 @@ const router = createBrowserRouter([
       {
         path: "/seo-pricing",
         element: <SeoAds />
+      },
+      {
+        path: "/airline-pricing",
+        element: <AirlinePricing />
+      },
+      {
+        path: "/airport-pricing",
+        element: <AirportPricing />
       },
       {
         path: "/payment",

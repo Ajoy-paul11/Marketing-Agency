@@ -5,10 +5,13 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import useStore from "../store";
 import axios from "axios";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 function Payment() {
   const [amount, setAmount] = useState(0);
   const minSpend = useStore((state) => state.minSpend);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     setAmount(minSpend);
@@ -71,7 +74,8 @@ function Payment() {
             }
           ).then((res) => {
             if (res?.data?.success) {
-              toast.success("Payment Successful");
+              toast.success("Payment Successful. Our Team will contact you soon.");
+              navigate("/");
             } else {
               toast.error("Payment Failed");
             }
