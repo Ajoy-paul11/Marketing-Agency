@@ -156,6 +156,9 @@ import SeoAds from "./components/Insidepage/SeoAds.jsx";
 import Payment from "./components/Payment.jsx";
 import AirlinePricing from "./components/Insidepage/Airline/AirlinePricing.jsx";
 import AirportPricing from "./components/Insidepage/Airline/AirportPricing.jsx";
+import ForumNeighbourhood from "./components/Insidepage/Cinema/ForumNeighbourhood.jsx";
+import SwagathMall from "./components/Insidepage/Cinema/SwagathMall.jsx";
+import GarudaBranding from "./components/Insidepage/NonTraditional/GarudaBranding.jsx";
 
 const router = createBrowserRouter([
   {
@@ -655,6 +658,10 @@ const router = createBrowserRouter([
         element: <ApartmentBranding />
       },
       {
+        path: '/garudamall-pricing',
+        element: <GarudaBranding />
+      },
+      {
         path: "/inoxkoramangala-pricing",
         element: <KoramangalaInox />
       },
@@ -715,8 +722,16 @@ const router = createBrowserRouter([
         element: <CineploisHulimavi2 />
       },
       {
+        path: '/swagathmall-pricing',
+        element: <SwagathMall />
+      },
+      {
         path: '/mahadevapura-pricing',
         element: <MahadevapuraInox />
+      },
+      {
+        path: '/inoxforumneighbourhood2-pricing',
+        element: <ForumNeighbourhood />
       },
       {
         path: "/inoxsoulspace-pricing",

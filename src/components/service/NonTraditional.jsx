@@ -106,6 +106,21 @@ function NonTraditional() {
             price={"On Request"}
             />
           </div>
+          <div onClick={() => {
+            setMinSpend(0);
+            navigate("/garudamall-pricing")}
+            }>
+          <ServiceTemplate
+            img={nonTradImage}
+            title="Garuda Mall, Bangalore"
+            type=" Target residential complexes by placing advertisements."
+            description={
+              "30K Avg Footfall, Weekly"
+            }
+            price={"1,25,000 Min Spend"}
+            />
+
+          </div>
         </div>
       </div>
     </div>

@@ -6,11 +6,19 @@ function Metrobranding() {
     const cardInfos = [
         {
           cardImage:
-            "https://images.unsplash.com/photo-1590657004813-b82c66b4c588?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://www.myhoardings.com/blog/wp-content/uploads/2021/07/Bengaluru-Metro-Interior-Branding.jpg",
           item: "Interior Train Branding",
           about:
             "Bengaluru Metro Train Interior Branding is displayed on the interior panels of the train. A total of 58 trains with 28 interior ad panels per train which are distributed in 6 coaches are available to place your advertisement. Each train with an average of 4 to 5 interior panels per coach is provided as part of Bengaluru Metro Train Interior Branding.",
-          price: "1,35,000 Per Month",
+          price: "7,97,500 Per Month",
+        },
+        {
+          cardImage:
+            "https://smartads.in/resources/assets/uploads/product_group/non-traditional/metro-train-bangalore-green-line.webp",
+          item: "Exterior Train Branding",
+          about:
+            "Bangalore Metro Train Exterior Branding is offered as a full train wrap on the outer surface of the train. Trains available for wrapping include Green Line (6 coaches) and Purple Line (6 Coaches) with 5300 sq. ft. of ad space per train. Trains on the Purple Line (Nagasandra - Silk Institute - 37 Stations) operate an average of 13 to 14 trips per day, while those on the Green Line (Whitefield Kadugodi - Challaghatta 32 Stations) make about 16 to 17 trips per day.",
+          price: "25,77,300 Per Month",
         },
       ];
       return (

@@ -36,7 +36,7 @@ function Insidepage({
             </div>
           </div>
         </div>
-        <div className=" relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5 md:gap-10 py-10">
+        <div className=" relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 xl:gap-20 py-10">
           {cardInfos.map((cardInfo, index) => (
             <PriceCard
             key={index}
