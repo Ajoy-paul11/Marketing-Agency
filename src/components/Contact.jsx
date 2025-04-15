@@ -48,7 +48,7 @@ function Contact() {
       
       if (result.success) {
         console.log(data);
-        toast.success("Message sent Successfully");
+        toast.success("Message sent Successfully", { theme: "colored" });
         reset();
         navigate("/");
       } else {

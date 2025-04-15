@@ -74,7 +74,7 @@ function Payment() {
             }
           ).then((res) => {
             if (res?.data?.success) {
-              toast.success("Payment Successful. Our Team will contact you soon.");
+              toast.success("Payment Successful. Our Team will contact you soon.", {theme: "colored"});
               navigate("/");
             } else {
               toast.error("Payment Failed");
