@@ -13,7 +13,10 @@ function PriceCard({ cardImage, price, item, about }) {
 
   const handlePaymentNavigation = () => {
     if (minSpend === 0) {
-      toast.error("Please call us for pricing");
+      toast.info("Please Call Us for Pricing", {
+        autoClose: 6000,
+        theme: "colored",
+      });
       return;
     }
     // navigate(`/payment?amount=${minSpend}`);
@@ -29,7 +32,7 @@ function PriceCard({ cardImage, price, item, about }) {
 
   return (
     <>
-      <div className="mt-6 w-full shadow-[0px_0px_10px_rgba(0,0,0,0.25)] rounded-lg flex flex-col ">
+      <div className="mt-6 w-full shadow-[0px_0px_10px_rgba(0,0,0,0.25)] rounded-lg flex flex-col">
         <div className="">
           <img
             src={cardImage}
@@ -44,9 +47,10 @@ function PriceCard({ cardImage, price, item, about }) {
         </div>
         <div className=" flex justify-between p-3 bg-blue-400 mx-2 mb-2 rounded text-sm items-center text-white">
           <div>Base Rate</div>
-          <div 
+          <div
             onClick={handlePaymentNavigation}
-          className=" inline-flex gap-0.5 items-center font-semibold bg-white/90 text-black rounded-lg p-3 shadow-[0px_0px_5px_rgba(0,0,0,0.25)] hover:cursor-pointer hover:animate-ring-pulse">
+            className=" inline-flex gap-0.5 items-center font-semibold bg-white/90 text-black rounded-lg p-3 shadow-[0px_0px_5px_rgba(0,0,0,0.25)] hover:cursor-pointer hover:animate-ring-pulse"
+          >
             <LiaRupeeSignSolid /> {price}
           </div>
         </div>
