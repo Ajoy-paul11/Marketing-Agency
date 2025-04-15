@@ -159,6 +159,9 @@ import AirportPricing from "./components/Insidepage/Airline/AirportPricing.jsx";
 import ForumNeighbourhood from "./components/Insidepage/Cinema/ForumNeighbourhood.jsx";
 import SwagathMall from "./components/Insidepage/Cinema/SwagathMall.jsx";
 import GarudaBranding from "./components/Insidepage/NonTraditional/GarudaBranding.jsx";
+import Disclaimer from "./components/Disclaimer.jsx";
+import Termsandconditions from "./components/Termsandconditions.jsx";
+import Privacypolicy from "./components/Privacypolicy.jsx";
 
 const router = createBrowserRouter([
   {
@@ -796,6 +799,18 @@ const router = createBrowserRouter([
       {
         path: "/payment",
         element: <Payment />
+      },
+      {
+        path: "/disclaimer",
+        element: <Disclaimer />
+      },
+      {
+        path: "/terms-and-conditions",
+        element: <Termsandconditions />
+      },
+      {
+        path: "/privacy-policy",
+        element: <Privacypolicy />
       }
     ],
   },

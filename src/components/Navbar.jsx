@@ -168,7 +168,7 @@ function NavList() {
           
         </div>
       </Typography>
-      <Typography
+      {/* <Typography
         as="li"
         variant="h5"
         color="blue-gray"
@@ -182,7 +182,7 @@ function NavList() {
         >
           Events
         </ScrollLink>
-      </Typography>
+      </Typography> */}
       <Link to="/contact">
         <CtaButton name={"Contact"} />
       </Link>

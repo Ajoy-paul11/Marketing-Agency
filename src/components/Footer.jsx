@@ -1,14 +1,13 @@
 import { Typography } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 
-
 const currentYear = new Date().getFullYear();
 
 function Footer() {
   return (
     <footer className="relative w-full text-white shadow-[0_0_10px_0_rgba(0,0,0,0.25)] bg-black/90">
-      <div className="mx-auto w-full max-w-7xl px-8">
-        <div className="mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-5">
+      <div className="mx-auto w-full max-w-7xl px-8 lg:px-4 xl:px-8">
+        <div className="mx-auto grid w-full grid-cols-1 gap-8 lg:gap-6 xl:gap-8 py-12 md:grid-cols-2 lg:grid-cols-6 ">
           <div className="w-full">
             <Typography
               variant="small"
@@ -177,6 +176,40 @@ function Footer() {
               </Typography>
             </ul>
           </div>
+          <div className="w-full">
+            <Typography
+              variant="small"
+              className="mb-4 text-white font-bold uppercase opacity-60 "
+            >
+              Policy
+            </Typography>
+            <ul className="space-y-1">
+              <Typography as="li" color="blue-gray" className="font-normal">
+                <Link
+                  to="/disclaimer"
+                  className="inline-block py-1 pr-2 transition-transform hover:scale-105"
+                >
+                  Disclaimer
+                </Link>
+              </Typography>
+              <Typography as="li" color="blue-gray" className="font-normal">
+                <Link
+                  to="/terms-and-conditions"
+                  className="inline-block py-1 pr-2 transition-transform hover:scale-105"
+                >
+                  T&C
+                </Link>
+              </Typography>
+              <Typography as="li" color="blue-gray" className="font-normal">
+                <Link
+                  to="/privacy-policy"
+                  className="inline-block py-1 pr-2 transition-transform hover:scale-105"
+                >
+                  Privacy Policy
+                </Link>
+              </Typography>
+            </ul>
+          </div>
 
           <div className="flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 gap-6">
             <div>
@@ -185,13 +218,20 @@ function Footer() {
                 className="mb-4 text-center font-normal text-blue-300 md:mb-0"
               >
                 &copy; {currentYear}{" "}
-                <Link
-                  to="/"
-                  className="font-semibold text-blue-300"
-                >
+                <Link to="/" className="font-semibold text-blue-300">
                   Mindblue
                 </Link>
-                . <br />All Rights Reserved.
+                . <br />
+                All Rights Reserved.
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                variant="small"
+                className="mb-4 text-center font-normal text-blue-300 md:mb-0"
+              >
+                Floor 6, Jain Heights Solus, <br /> No. 2, 1st A Cross J C Rd,
+                Bengaluru, Karnataka 560027
               </Typography>
             </div>
             <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
