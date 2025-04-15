@@ -162,6 +162,7 @@ import GarudaBranding from "./components/Insidepage/NonTraditional/GarudaBrandin
 import Disclaimer from "./components/Disclaimer.jsx";
 import Termsandconditions from "./components/Termsandconditions.jsx";
 import Privacypolicy from "./components/Privacypolicy.jsx";
+import Influencer1 from "./components/Insidepage/Influencer/Influencer1.jsx";
 
 const router = createBrowserRouter([
   {
@@ -795,6 +796,10 @@ const router = createBrowserRouter([
       {
         path: "/airport-pricing",
         element: <AirportPricing />
+      },
+      {
+        path: "/influencer1-pricing",
+        element: <Influencer1 />
       },
       {
         path: "/payment",

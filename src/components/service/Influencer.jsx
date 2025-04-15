@@ -6,8 +6,13 @@ import ServiceTemplate from './ServiceTemplate.jsx'
 // import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
 import influencerService from "../../assets/Influencer/Influencer-288-x-192.jpg"
 import Category from '../Category.jsx'
+import useStore from '../../store.js'
+import { useNavigate } from 'react-router-dom'
 
 function Influencer() {
+  const setMinSpend = useStore((state) => state.setMinSpend)
+  const navigate = useNavigate()
+
   return (
     <div className="w-full mt-[75px]">
       <Category />
@@ -17,6 +22,10 @@ function Influencer() {
           Influencer Services:
         </h2>
         <div className=" grid grid-cols-1 gap-y-4 justify-items-center lg:px-16">
+          <div onClick={() => {
+            setMinSpend(0)
+            navigate("/influencer1-pricing")
+          }}>
           <ServiceTemplate
             img={influencerService}
             title="Influencer Marketing"
@@ -25,7 +34,8 @@ function Influencer() {
               "Varies by Influencer"
             }
             price={"Based on Influencer"}
-          />
+            />
+          </div>
         </div>
       </div>
     </div>
