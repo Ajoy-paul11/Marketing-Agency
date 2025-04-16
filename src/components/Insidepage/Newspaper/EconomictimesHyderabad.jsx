@@ -1,80 +1,82 @@
-import React from 'react'
-import Insidepage from '../Insidepage'
-import economictimes from '../../../assets/Newspaper/economic.jpg'
+import React from "react";
+import Insidepage from "../Insidepage";
+import economictimes from "../../../assets/Newspaper/economic.jpg";
+import ScrollToTop from "../../ScrollToTop";
 
 function EconomictimesHyderabad() {
-    const cardInfos = [
-        {
-          cardImage:
-            "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          item: "Custom Sized Ads",
-          about:
-            "Custom Sized Ads are display advertisements that are showcased in newspapers as per the advertiser's requirement. These ads are customizable based on the advertiser's budget and are displayed on the front page, third page, back page, and any pages. Custom Sized Ads have a minimum size of approx. 240sq.cm on the front page and approx. 20sq. cm on all other pages.",
-          price: "455 Per Sq Cm",
-        },
-        {
-          cardImage:
-            "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          item: "Quarter Page",
-          about:
-            "Quarter Page Newspaper Ads are display ads that will cover a quarter (1/4) of the newspaper. Quarter Page Ads will take up approx. 400sq. cm for ad space.",
-          price: "1,82,000 Per Insert"
-        },
-        {
-          cardImage:
-            "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          item: "Half Page",
-          about:
-            "Half Page Newspaper Ads will cover half of the page and can be displayed on any page of the newspaper. Half Page Ads can be placed either horizontally or vertically across the page and have a total area of approx. 823 sq. cm of ad space. Compared to Quater Page Ads, Half Page Ads will have more ad space, in which advertisers can customize the content and make them eye-catching to the audience.",
-          price: "3,75,375 Per Insert"
-        },
-        {
-          cardImage:
-            "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          item: "Full Page",
-          about:
-            "Full Page Newspaper Ads cover an entire page of the newspaper. Full Page Ads can be placed anywhere on the newspaper, other than the front page because the front page always carries the latest news content. Full Page Ads will provide advertisers with good brand visibility as it takes up a large area in the newspaper, i.e. approx. 1726sq. cm.",
-          price: "7,80,780 Per Insert"
-        },
-        {
-          cardImage:
-            "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            item: "Jacket Front Side",
-            about:
-              "Jacket Page Ads are extra pages added before the front page of the newspaper. Jacket Front Side Ads are displayed on the front side of the extra page and will include advertisements that will cover an area of approx. 1579.2 sq. cm space, excluding the Masthead/Title Head",
-            price: "13,72,800 Per Insert"
-        },
-        {
-          cardImage:
-            "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            item: "Jacket Back Side",
-            about:
-              "Jacket Back Side Ads will be displayed on the back side of the extra page that is added to the newspaper's front page. Jacket Back Side Ads cover the entire page with a total area of approx. 1726 sq cm. As the availability of Jacket Back Side Ad only is comparatively rare, advertisers prefer to take Jacket Both Side Ads.",
-            price: " 13,72,800 Per Insert"
-        },
-        {
-          cardImage:
-            "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            item: "Jacket Both Side",
-            about:
-              "Jacket Both Sides Ads will be displayed on the extra page that is added to the front of the newspaper. Advertisers can choose to display their advertisement on both sides of the extra page. Jacket Both Sides will provide maximum visibility and will help increase brand recall.",
-            price: "27,45,600 Per Insert"
+  const cardInfos = [
+    {
+      cardImage:
+        "https://ik.imagekit.io/ajoy/Newspaper/newspaper-cusom-ad2.jpg?updatedAt=1744783526936",
+      item: "Custom Sized Ads",
+      about:
+        "Custom Sized Ads are display advertisements featured in newspapers according to the advertiser’s specific requirements. These ads are flexible in size, tailored to fit the advertiser’s budget, and can appear on the front page, third page, back page, or any other page. The minimum size for a Custom Sized Ad is approximately 240 sq. cm on the front page and around 20 sq. cm on all other pages.",
+      price: "455 Per Sq Cm",
+    },
+    {
+      cardImage:
+        "https://ik.imagekit.io/ajoy/Newspaper/news-quarter-page.jpg?updatedAt=1744782773705",
+      item: "Quarter Page",
+      about:
+        "Quarter Page Newspaper Ads are display advertisements that occupy one-fourth (1/4) of a newspaper page. These ads typically cover an area of approximately 400 sq. cm.",
+      price: "1,82,000 Per Insert",
+    },
+    {
+      cardImage:
+        "https://ik.imagekit.io/ajoy/Newspaper/news-half-page.webp?updatedAt=1744782772431",
+      item: "Half Page",
+      about:
+        "Half Page Newspaper Ads occupy 50% of a newspaper page and can be placed on any page. These ads can be positioned either horizontally or vertically and typically cover an area of approximately 823 sq. cm. Compared to Quarter Page Ads, Half Page Ads offer more space, allowing advertisers greater flexibility to customize content and create visually appealing designs that capture the audience's attention.",
+      price: "3,75,375 Per Insert",
+    },
+    {
+      cardImage:
+        "https://ik.imagekit.io/ajoy/Newspaper/news-full-page.webp?updatedAt=1744782773696",
+      item: "Full Page",
+      about:
+        "Full Page Newspaper Ads occupy an entire page of the newspaper. These ads can be placed on any page except the front page, as it is reserved for the latest news content. With a large ad space of approximately 1,726 sq. cm, Full Page Ads offer advertisers excellent brand visibility.",
+      price: "7,80,780 Per Insert",
+    },
+    {
+      cardImage:
+        "https://ik.imagekit.io/ajoy/Newspaper/news-jacket-frontpage.jpg?updatedAt=1744782772607",
+      item: "Jacket Front Side",
+      about:
+        "Jacket Page Ads are additional pages inserted before the newspaper’s front page. The front side of the jacket carries Jacket Front Side Ads, which typically occupy around 1,579.2 sq. cm of space, excluding the Masthead or Title Head.",
+      price: "13,72,800 Per Insert",
+    },
+    {
+      cardImage:
+        "https://ik.imagekit.io/ajoy/Newspaper/news-jacket-backpage.jpg?updatedAt=1744782772696",
+      item: "Jacket Back Side",
+      about:
+        "Jacket Back Side Ads will be displayed on the back side of the extra page that is added to the newspaper's front page. Jacket Back Side Ads cover the entire page with a total area of approx. 1726 sq cm. As the availability of Jacket Back Side Ad only is comparatively rare, advertisers prefer to take Jacket Both Side Ads.",
+      price: " 13,72,800 Per Insert",
+    },
+    {
+      cardImage:
+        "https://ik.imagekit.io/ajoy/Newspaper/news-jacket-fullpage.jpg?updatedAt=1744782772478",
+      item: "Jacket Both Side",
+      about:
+        "Jacket Both Sides Ads are featured on the extra page placed at the front of the newspaper, with advertisements displayed on both the front and back sides. This format offers maximum visibility and helps enhance brand recall for advertisers.",
+      price: "27,45,600 Per Insert",
+    },
+  ];
+  return (
+    <section className=" w-full mt-[72px]">
+      <ScrollToTop />
+      <Insidepage
+        headerText={"Advertising in Economic Times, Hyderabad"}
+        image={economictimes}
+        title={"About Advertising in Economic Times, Hyderabad : "}
+        description={
+          "Economic Times Hyderabad is targeted to reach Hyderabad’s business and finance hub and delivers information that is relevant to the local economy and industry trends. Advertising with this edition will help brands seize the opportunity to amplify their image and build on their visibility and grow themselves in the largest city and capital of the state of Telangana. "
         }
-      ];
-      return (
-        <section className=" w-full mt-[72px]">
-          <Insidepage
-            headerText={"Advertising in Economic Times, Hyderabad"}
-            image={economictimes}
-            title={"About Advertising in Economic Times, Hyderabad : "}
-            description={
-              "Economic Times Hyderabad is targeted to reach Hyderabad’s business and finance hub and delivers information that is relevant to the local economy and industry trends. Advertising with this edition will help brands seize the opportunity to amplify their image and build on their visibility and grow themselves in the largest city and capital of the state of Telangana. "
-            }
-            users={"15.9K Circulation"}
-            cardInfos={cardInfos}
-          />
-        </section>
-      );
+        users={"15.9K Circulation"}
+        cardInfos={cardInfos}
+      />
+    </section>
+  );
 }
 
-export default EconomictimesHyderabad
+export default EconomictimesHyderabad;
