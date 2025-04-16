@@ -9,7 +9,7 @@ function TOIAhmedabad() {
             "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           item: "Custom Sized Ads",
           about:
-            "Custom Sized Ads are display advertisements that are showcased in newspapers as per the advertiser's requirement. These ads are customizable based on the advertiser's budget and are displayed on the front page, third page, back page, and any pages. Custom Sized Ads have a minimum size of approx. 240sq.cm on the front page and approx. 20sq. cm on all other pages.",
+            "Custom Sized Ads are display advertisements featured in newspapers according to the advertiser’s specific requirements. These ads are flexible in size, tailored to fit the advertiser’s budget, and can appear on the front page, third page, back page, or any other page. The minimum size for a Custom Sized Ad is approximately 240 sq. cm on the front page and around 20 sq. cm on all other pages.",
           price: "740 Per Sq Cm",
         },
         {
@@ -17,7 +17,7 @@ function TOIAhmedabad() {
             "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           item: "Quarter Page",
           about:
-            "Quarter Page Newspaper Ads are display ads that will cover a quarter (1/4) of the newspaper. Quarter Page Ads will take up approx. 400sq. cm for ad space.",
+            "Quarter Page Newspaper Ads are display advertisements that occupy one-fourth (1/4) of a newspaper page. These ads typically cover an area of approximately 400 sq. cm.",
           price: "2,96,000 Per Insert"
         },
         {
@@ -25,7 +25,7 @@ function TOIAhmedabad() {
             "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           item: "Half Page",
           about:
-            "Half Page Newspaper Ads will cover half of the page and can be displayed on any page of the newspaper. Half Page Ads can be placed either horizontally or vertically across the page and have a total area of approx. 823 sq. cm of ad space. Compared to Quater Page Ads, Half Page Ads will have more ad space, in which advertisers can customize the content and make them eye-catching to the audience.",
+            "Half Page Newspaper Ads occupy 50% of a newspaper page and can be placed on any page. These ads can be positioned either horizontally or vertically and typically cover an area of approximately 823 sq. cm. Compared to Quarter Page Ads, Half Page Ads offer more space, allowing advertisers greater flexibility to customize content and create visually appealing designs that capture the audience's attention.",
           price: "6,10,500 Per Insert"
         },
         {
@@ -33,7 +33,7 @@ function TOIAhmedabad() {
             "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           item: "Full Page",
           about:
-            "Full Page Newspaper Ads cover an entire page of the newspaper. Full Page Ads can be placed anywhere on the newspaper, other than the front page because the front page always carries the latest news content. Full Page Ads will provide advertisers with good brand visibility as it takes up a large area in the newspaper, i.e. approx. 1726sq. cm.",
+            "Full Page Newspaper Ads occupy an entire page of the newspaper. These ads can be placed on any page except the front page, as it is reserved for the latest news content. With a large ad space of approximately 1,726 sq. cm, Full Page Ads offer advertisers excellent brand visibility.",
           price: "12,69,840 Per Insert"
         },
         {
@@ -41,7 +41,7 @@ function TOIAhmedabad() {
             "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             item: "Jacket Front Side",
             about:
-              "Jacket Page Ads are extra pages added before the front page of the newspaper. Jacket Front Side Ads are displayed on the front side of the extra page and will include advertisements that will cover an area of approx. 1579.2 sq. cm space, excluding the Masthead/Title Head",
+              "Jacket Page Ads are additional pages inserted before the newspaper’s front page. The front side of the jacket carries Jacket Front Side Ads, which typically occupy around 1,579.2 sq. cm of space, excluding the Masthead or Title Head.",
             price: "18,01,800 Per Insert"
         },
         {
@@ -49,7 +49,7 @@ function TOIAhmedabad() {
             "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             item: "Jacket Back Side",
             about:
-              "Jacket Back Side Ads will be displayed on the back side of the extra page that is added to the newspaper's front page. Jacket Back Side Ads cover the entire page with a total area of approx. 1726 sq cm. As the availability of Jacket Back Side Ad only is comparatively rare, advertisers prefer to take Jacket Both Side Ads.",
+              "Jacket Back Side Ads appear on the reverse side of the extra page added before the newspaper’s front page. These ads cover the entire page, occupying approximately 1,726 sq. cm of space. Since standalone Jacket Back Side Ads are relatively rare, advertisers often opt for Jacket Both Side Ads instead.",
             price: "18,01,800 Per Insert"
         },
         {
@@ -57,7 +57,7 @@ function TOIAhmedabad() {
             "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             item: "Jacket Both Side",
             about:
-              "Jacket Both Sides Ads will be displayed on the extra page that is added to the front of the newspaper. Advertisers can choose to display their advertisement on both sides of the extra page. Jacket Both Sides will provide maximum visibility and will help increase brand recall.",
+              "Jacket Both Sides Ads are featured on the extra page placed at the front of the newspaper, with advertisements displayed on both the front and back sides. This format offers maximum visibility and helps enhance brand recall for advertisers.",
             price: "36,03,600 Per Insert"
         },
         {
@@ -65,7 +65,7 @@ function TOIAhmedabad() {
             "https://images.pexels.com/photos/9832700/pexels-photo-9832700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             item: "Innovative Ads",
             about:
-                "It is the most creative way to represent a brand idea or advertisement across its target audience. This ad compiled a story that is uniquely presented to create a long-lasting impression on the readers. Prices for these types of ads may vary depending on the size and innovation put together inside the ad, to get the estimated cost, clients are requested to send the innovative creative to us at help@themediaant.com. For more ideas or sample ads, you can slide into the execution detail section, and find the relevant information under the other related details section.",
+                "This is one of the most creative ways to showcase a brand message or advertisement to the target audience. The ad presents a uniquely crafted story designed to leave a lasting impression on readers. Pricing for these ads may vary based on their size and the level of innovation involved. For an estimated cost, please contact us.",
             price: "On Request"
         }
       ];

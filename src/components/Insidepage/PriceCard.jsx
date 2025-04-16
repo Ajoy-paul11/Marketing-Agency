@@ -33,7 +33,7 @@ function PriceCard({ cardImage, price, item, about }) {
   return (
     <>
       <div className="mt-6 w-full shadow-[0px_0px_10px_rgba(0,0,0,0.25)] rounded-lg flex flex-col">
-        <div className="">
+        <div className="h-[300px] overflow-hidden">
           <img
             src={cardImage}
             alt="card-image"
