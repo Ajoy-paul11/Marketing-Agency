@@ -9,7 +9,7 @@ function GoogleAds() {
         "https://images.pexels.com/photos/15406292/pexels-photo-15406292/free-photo-of-google-on-smartphone-touchscreen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       item: "Search Ad",
       about:
-        "Search ads appear next to Google search results when people look for products and services.",
+        "Search ads are displayed alongside Google search results when users search for products or services.",
       price: " 20 Per Click",
     },
     {
@@ -17,7 +17,7 @@ function GoogleAds() {
         "https://images.pexels.com/photos/106341/pexels-photo-106341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       item: "Store Visit Campaign",
       about:
-        "Store Visit Campaigns are advertisements displayed as Video and Banner ads to users, targeting a local audience. Each Ad will have a button that will redirect the users to the map with directions to the same store.",
+        "Store Visit Campaigns use Video and Banner ads to reach a local audience. Each ad includes a button that redirects users to a map with directions to the featured store.",
       price: "0.12 Per Impression",
     },
     {
@@ -25,7 +25,7 @@ function GoogleAds() {
         "https://images.pexels.com/photos/106341/pexels-photo-106341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       item: "Dynamic Search Ad",
       about:
-        "Dynamic Search Ads use your website content to target your ads. Dynamic Search Ad headlines and landing pages are generated using content from your website, which keeps your ads relevant all the time.",
+        "Dynamic Search Ads automatically use content from your website to target your ads. Headlines and landing pages are generated based on your site’s content, ensuring that your ads remain consistently relevant.",
       price: " 20 Per Click",
     },
     {
@@ -33,7 +33,7 @@ function GoogleAds() {
         "https://images.pexels.com/photos/6986455/pexels-photo-6986455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       item: "Smart Campaign",
       about:
-        "Smart Campaigns automatically show ads to locals in your area to drive website visits, online sales, and offline store visits.",
+        "Smart Campaigns automatically display ads to local audiences in your area, aiming to increase website traffic, online sales, and visits to physical stores.",
       price: " 20 Per Click",
     },
   ];

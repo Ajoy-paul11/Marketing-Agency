@@ -9,7 +9,7 @@ function MetaAds() {
         "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       item: "Banner",
       about:
-        "Banner ads on Facebook appear in different areas of the platform, such as a user’s feed or sidebar. These ads typically include an image, a headline, and a short description.",
+        "Facebook banner ads are displayed in various sections of the platform, including the user’s feed and sidebar. They usually feature an image, a headline, and a brief description.",
       price: " 0.027 Per Impression",
     },
     {
@@ -17,7 +17,7 @@ function MetaAds() {
         "https://images.pexels.com/photos/13883855/pexels-photo-13883855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       item: "Video",
       about:
-        "Facebook video ads work by showing short video clips to users as they scroll through their feeds, watch Stories, or browse other parts of the platform, to promote product, service.",
+        "Facebook video ads display short video clips to users as they scroll through their feeds, view Stories, or explore other areas of the platform, promoting a product or service.",
       price: "0.073 Per Impression",
     },
     {
@@ -25,7 +25,7 @@ function MetaAds() {
         "https://images.pexels.com/photos/5077039/pexels-photo-5077039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       item: "Lead Generation Banner",
       about:
-        "Facebook lead generation ads offer two types of call-to-action (CTA) options to help businesses connect with potential customers. The first one, Meta Form and the second one, Click-to-Website Link.",
+        "Facebook lead generation ads provide two call-to-action (CTA) options to help businesses engage with potential customers: the Meta Form and the Click-to-Website Link.",
       price: "484 Per Lead",
     },
     {
@@ -33,7 +33,7 @@ function MetaAds() {
         "https://images.pexels.com/photos/5077039/pexels-photo-5077039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       item: "Package",
       about:
-        "This package includes pre and post-campaign online planner consultations, campaign setup, ad technical checks, and execution of a Facebook/Instagram lead gen campaign using Meta’s inbuilt form.",
+        "This package covers pre and post-campaign online planning consultations, campaign setup, technical ad checks, and the execution of a Facebook/Instagram lead generation campaign using Meta’s built-in form.",
       price: " 484 Per Lead",
     },
   ];
