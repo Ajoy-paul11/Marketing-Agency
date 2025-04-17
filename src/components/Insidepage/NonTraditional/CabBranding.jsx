@@ -9,7 +9,7 @@ function CabBranding() {
             "https://images.unsplash.com/photo-1637366099044-9e33e7f67705?q=80&w=1860&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           item: "Full Cab",
           about:
-            "Full Bus - Exterior is a cost-effective and effective advertising option for your brand. These ads are displayed on the exterior of buses, providing a unique opportunity to reach a wide audience. ",
+            "Full Cab - Exterior is an affordable and impactful advertising option for your brand. These ads are showcased on the exterior of cabs, offering a unique opportunity to reach a broad audience.",
           price: "3,025 Per Cab",
         },
         {
@@ -17,7 +17,7 @@ function CabBranding() {
               "https://images.unsplash.com/photo-1637366099044-9e33e7f67705?q=80&w=1860&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             item: "Door Branding",
             about:
-              "Ads will be placed on all four doors of the cab. The ads will be displayed on the two front doors and two back doors of the cab.",
+              "Advertisements will be placed on all four doors of the cab, covering both the front and rear doors on each side.",
             price: "2,662 Per Cab",
           },
           {
@@ -25,7 +25,7 @@ function CabBranding() {
               "https://images.unsplash.com/photo-1637366099044-9e33e7f67705?q=80&w=1860&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             item: "Seat Back Branding",
             about:
-              "As part of Seat Back Branding, 2 laminated cards will be hung on the back of the seat, one behind the driver’s seat and another behind the front passenger seat.",
+              "Seat Back Branding involves hanging two laminated cards on the backrests—one behind the driver’s seat and the other behind the front passenger seat.",
             price: "1,452 Per Cab",
           },
       ];

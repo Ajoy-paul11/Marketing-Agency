@@ -9,7 +9,7 @@ function ApartmentBranding() {
             "https://images.unsplash.com/photo-1610376096719-9819725cfb00?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           item: "Digital Screen",
           about:
-            "Your ad will be displayed on digital screens located inside and outside the lifts of apartment buildings, with two options: 450 slots per day, where the ad plays 15 seconds every 2 minutes loop.",
+            "Your ad will be shown on digital screens placed both inside and outside elevator areas in apartment buildings. There are two options available: 450 slots per day, with each ad playing for 15 seconds in a 2-minute loop.",
           price: "1,500 Per Screen",
         },
         {
@@ -17,7 +17,7 @@ function ApartmentBranding() {
               "https://images.unsplash.com/photo-1547630824-eed1be6a27b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             item: "Lift Branding",
             about:
-              "Ad will be placed on the panel which is located inside the lift.",
+              "The ad will be displayed on the panel located inside the elevator.",
             price: "1,800 Per Poster",
           },
       ];

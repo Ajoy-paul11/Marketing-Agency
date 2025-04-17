@@ -9,7 +9,7 @@ function AutoBranding() {
             "https://images.unsplash.com/photo-1655920021325-e625b11b439a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           item: "Auto Hood",
           about:
-            "Advertisements will be printed out and then mounted on the hood of the auto.",
+            "Advertisements will be printed and mounted on the hood of the auto-rickshaw.",
           price: "600 Per Auto",
         },
         {
@@ -17,7 +17,7 @@ function AutoBranding() {
               "https://images.unsplash.com/photo-1655920021325-e625b11b439a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             item: "Auto Back Panel",
             about:
-              "Advertisements will be printed out and mounted on the back window of the auto. Auto Back Panel Ads will be made of vinyl stickers.",
+              "Advertisements will be printed and placed on the back window of the auto. Auto Back Panel Ads will be created using vinyl stickers.",
             price: "115 Per Auto",
           },
       ];

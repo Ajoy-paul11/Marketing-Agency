@@ -9,7 +9,7 @@ function Metrobranding() {
             "https://www.myhoardings.com/blog/wp-content/uploads/2021/07/Bengaluru-Metro-Interior-Branding.jpg",
           item: "Interior Train Branding",
           about:
-            "Bengaluru Metro Train Interior Branding is displayed on the interior panels of the train. A total of 58 trains with 28 interior ad panels per train which are distributed in 6 coaches are available to place your advertisement. Each train with an average of 4 to 5 interior panels per coach is provided as part of Bengaluru Metro Train Interior Branding.",
+            "Bengaluru Metro Train Interior Branding is displayed on the interior panels of the train. There are 58 trains available, each with 28 interior ad panels spread across 6 coaches. On average, each coach has 4 to 5 interior panels, providing ample space for your advertisement as part of the Bengaluru Metro Train Interior Branding.",
           price: "7,97,500 Per Month",
         },
         {
@@ -17,7 +17,7 @@ function Metrobranding() {
             "https://smartads.in/resources/assets/uploads/product_group/non-traditional/metro-train-bangalore-green-line.webp",
           item: "Exterior Train Branding",
           about:
-            "Bangalore Metro Train Exterior Branding is offered as a full train wrap on the outer surface of the train. Trains available for wrapping include Green Line (6 coaches) and Purple Line (6 Coaches) with 5300 sq. ft. of ad space per train. Trains on the Purple Line (Nagasandra - Silk Institute - 37 Stations) operate an average of 13 to 14 trips per day, while those on the Green Line (Whitefield Kadugodi - Challaghatta 32 Stations) make about 16 to 17 trips per day.",
+            "Bangalore Metro Train Exterior Branding is available as a full train wrap on the exterior of the train. Branding can be placed on trains from the Green Line (6 coaches) and Purple Line (6 coaches), offering 5300 sq. ft. of ad space per train. The Purple Line (Nagasandra - Silk Institute - 37 stations) runs an average of 13 to 14 trips per day, while the Green Line (Whitefield Kadugodi - Challaghatta - 32 stations) operates approximately 16 to 17 trips daily.",
           price: "25,77,300 Per Month",
         },
       ];

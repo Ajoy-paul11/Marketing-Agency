@@ -9,7 +9,7 @@ function GarudaBranding() {
             "https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/2/2016/10/Garuda_Mall-i.jpg",
           item: "Facade",
           about:
-            "Advertisement will be displayed on the facade placed at the exterior side of the mall.",
+            "The advertisement will be displayed on the facade located on the exterior of the mall.",
           price: "2,20,000 Per Unit Per Month",
         },
         {
@@ -17,7 +17,7 @@ function GarudaBranding() {
             "https://content.jdmagicbox.com/v2/comp/bangalore/n1/080pxx80.xx80.240811222746.v2n1/catalogue/novaview-led-screen-pvt-ltd-kattegenahalli-bangalore-led-screen-dealers-7hyenysvrm.jpg",
           item: "Back Lit Board",
           about:
-            "Advertisement can be displayed on the Back Lit Boards placed in various locations inside the mall.",
+            "Advertisements can be displayed on Backlit Boards positioned at various locations within the mall.",
           price: "1,37,500 Per Unit Per Month",
         },
         {
@@ -25,7 +25,7 @@ function GarudaBranding() {
             "https://files.lbb.in/media/2020/01/5e131c2a4687a955b19efaf6_1578310698040.jpg",
           item: "Digital Screen",
           about:
-            "Ad will be displayed on the digital screen. A 20 seconds ad will be played for 200 times per day.",
+            "The ad will be shown on a digital screen, with a 20-second clip playing 200 times per day.",
           price: "5,500 Per Screen Per Day",
         },
       ];
