@@ -9,7 +9,7 @@ function BusShelter() {
         "https://images.unsplash.com/photo-1683562524697-f6d6902f2bac?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       item: "Bus Shelter",
       about:
-        "Bus Shelter Advertisements are promotional campaigns to boost a hyperlocal audience's visibility. This advertising provides 24/7 brand exposure across urban, suburban, and high-traffic areas, reaching commuters, pedestrians, and motorists effectively.",
+        "Bus Shelter Advertisements are designed to enhance brand visibility among a hyperlocal audience. These ads offer 24/7 exposure across urban, suburban, and high-traffic areas, effectively reaching commuters, pedestrians, and motorists.",
       price: "Location Based",
     },
   ];

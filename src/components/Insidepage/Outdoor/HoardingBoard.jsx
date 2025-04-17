@@ -9,7 +9,7 @@ function HoardingBoard() {
             "https://images.unsplash.com/photo-1651371099884-52e408126ac2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           item: "Hoarding",
           about:
-            "Hoarding media provides constant brand visibility and reaches a wide audience in high-traffic areas. It enhances brand recall, targets local customers, and stands out without digital competition. Additionally, it supports other marketing channels for a stronger advertising impact.",
+            "Hoarding media ensures continuous brand visibility and reaches a broad audience in high-traffic locations. It boosts brand recall, targets local consumers, and stands out without digital distractions. Furthermore, it complements other marketing channels, amplifying the overall advertising impact.",
           price: "Location Based",
         },
       ];
