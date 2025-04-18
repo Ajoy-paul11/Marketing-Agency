@@ -37,7 +37,7 @@ function PriceCard({ cardImage, price, item, about }) {
           <img
             src={cardImage}
             alt="card-image"
-            className={` w-full h-full object-cover rounded-t-lg`}
+            className={` w-full h-full object-contain rounded-t-lg`}
             onClick={() => openModal(cardImage)}
           />
         </div>

@@ -6,10 +6,10 @@ function HotstarAds() {
   const cardInfos = [
     {
       cardImage:
-        "https://images.unsplash.com/photo-1726935037951-d5a5a73b3243?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://ik.imagekit.io/ajoy/Digital/jiohotstar-video-ad.jpg?updatedAt=1744884580338",
       item: "Video",
       about:
-        "https://ik.imagekit.io/ajoy/Digital/jiohotstar-video-ad.jpg?updatedAt=1744884580338",
+        "Video Ads are shown as both pre-roll and mid-roll ads across the app and website. Pre-roll Video Ads are promotional clips that play before the chosen content begins.",
       price: "0.091 Per Impression",
     },
     {
