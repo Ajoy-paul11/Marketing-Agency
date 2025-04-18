@@ -6,7 +6,7 @@ function CabBranding() {
     const cardInfos = [
         {
           cardImage:
-            "https://images.unsplash.com/photo-1637366099044-9e33e7f67705?q=80&w=1860&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://ik.imagekit.io/ajoy/NonTraditional/full-cab-ad.jpg?updatedAt=1744953233317",
           item: "Full Cab",
           about:
             "Full Cab - Exterior is an affordable and impactful advertising option for your brand. These ads are showcased on the exterior of cabs, offering a unique opportunity to reach a broad audience.",
@@ -14,7 +14,7 @@ function CabBranding() {
         },
         {
             cardImage:
-              "https://images.unsplash.com/photo-1637366099044-9e33e7f67705?q=80&w=1860&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://ik.imagekit.io/ajoy/NonTraditional/cab-door-ad.jpg?updatedAt=1744953251336",
             item: "Door Branding",
             about:
               "Advertisements will be placed on all four doors of the cab, covering both the front and rear doors on each side.",
@@ -22,7 +22,7 @@ function CabBranding() {
           },
           {
             cardImage:
-              "https://images.unsplash.com/photo-1637366099044-9e33e7f67705?q=80&w=1860&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://ik.imagekit.io/ajoy/NonTraditional/cab-back-seat.jpg?updatedAt=1744953251617",
             item: "Seat Back Branding",
             about:
               "Seat Back Branding involves hanging two laminated cards on the backrests—one behind the driver’s seat and the other behind the front passenger seat.",

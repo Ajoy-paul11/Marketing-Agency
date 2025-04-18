@@ -6,7 +6,7 @@ function NonACBusBranding() {
     const cardInfos = [
         {
           cardImage:
-            "https://images.unsplash.com/photo-1683562524697-f6d6902f2bac?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://ik.imagekit.io/ajoy/NonTraditional/full-bus-exterior.jpg?updatedAt=1744952739412",
           item: "Full Bus - Exterior",
           about:
             "Full Bus - Exterior is an affordable and impactful advertising solution for your brand. These ads are placed on the outer surface of buses, offering a great way to reach a broad audience.",
@@ -14,7 +14,7 @@ function NonACBusBranding() {
         },
         {
             cardImage:
-            "https://images.unsplash.com/photo-1683562524697-f6d6902f2bac?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://ik.imagekit.io/ajoy/NonTraditional/combo-bus-panels-ad.jpg?updatedAt=1744883905561",
           item: "Combo Panels",
           about:
             "In Combo Panels, your ad will be featured on the Back Panel and the Upper (Glass) Panels, excluding the bus body. This placement offers excellent visibility and delivers a sleek, eye-catching appearance.",
@@ -22,7 +22,7 @@ function NonACBusBranding() {
         },
         {
             cardImage:
-            "https://images.unsplash.com/photo-1683562524697-f6d6902f2bac?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://ik.imagekit.io/ajoy/NonTraditional/bus-panel-ad.jpg?updatedAt=1744883905488",
           item: "Bus Panel",
           about:
             "The advertisement will be shown on the back panel of the bus.",

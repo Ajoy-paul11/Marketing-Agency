@@ -6,7 +6,7 @@ function GoogleAds() {
   const cardInfos = [
     {
       cardImage:
-        "https://images.pexels.com/photos/15406292/pexels-photo-15406292/free-photo-of-google-on-smartphone-touchscreen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://ik.imagekit.io/ajoy/Digital/google-search-ad.jpg?updatedAt=1744959902732",
       item: "Search Ad",
       about:
         "Search ads are displayed alongside Google search results when users search for products or services.",
@@ -14,7 +14,7 @@ function GoogleAds() {
     },
     {
       cardImage:
-        "https://images.pexels.com/photos/106341/pexels-photo-106341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://ik.imagekit.io/ajoy/Digital/store-visit-ad.jpg?updatedAt=1744959902666",
       item: "Store Visit Campaign",
       about:
         "Store Visit Campaigns use Video and Banner ads to reach a local audience. Each ad includes a button that redirects users to a map with directions to the featured store.",
@@ -22,7 +22,7 @@ function GoogleAds() {
     },
     {
       cardImage:
-        "https://images.pexels.com/photos/106341/pexels-photo-106341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://ik.imagekit.io/ajoy/Digital/dynamic-search-ad.jpg?updatedAt=1744960000174",
       item: "Dynamic Search Ad",
       about:
         "Dynamic Search Ads automatically use content from your website to target your ads. Headlines and landing pages are generated based on your site’s content, ensuring that your ads remain consistently relevant.",
@@ -30,7 +30,7 @@ function GoogleAds() {
     },
     {
       cardImage:
-        "https://images.pexels.com/photos/6986455/pexels-photo-6986455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://ik.imagekit.io/ajoy/Digital/google-smart-campaign.jpg?updatedAt=1744959902263",
       item: "Smart Campaign",
       about:
         "Smart Campaigns automatically display ads to local audiences in your area, aiming to increase website traffic, online sales, and visits to physical stores.",

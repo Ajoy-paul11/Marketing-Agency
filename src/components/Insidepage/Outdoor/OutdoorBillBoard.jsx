@@ -6,7 +6,7 @@ function OutdoorBillBoard() {
     const cardInfos = [
         {
           cardImage:
-            "https://images.unsplash.com/photo-1651371099884-52e408126ac2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://ik.imagekit.io/ajoy/Outdoor/outdoor-billboard-ads.jpg?updatedAt=1744958654874",
           item: "Billboard",
           about:
             "Billboard Advertising, regardless of location, is an affordable outdoor advertising option that enhances brand visibility and engages the target audience through creative ads promoting products or services.",

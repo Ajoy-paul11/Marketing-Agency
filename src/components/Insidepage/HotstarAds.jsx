@@ -9,12 +9,12 @@ function HotstarAds() {
         "https://images.unsplash.com/photo-1726935037951-d5a5a73b3243?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       item: "Video",
       about:
-        "Video Ads are shown as both pre-roll and mid-roll ads across the app and website. Pre-roll Video Ads are promotional clips that play before the chosen content begins.",
+        "https://ik.imagekit.io/ajoy/Digital/jiohotstar-video-ad.jpg?updatedAt=1744884580338",
       price: "0.091 Per Impression",
     },
     {
       cardImage:
-        "https://images.unsplash.com/photo-1726935037951-d5a5a73b3243?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://ik.imagekit.io/ajoy/Digital/jiohotstar-banner-ad.jpg?updatedAt=1744959307861",
       item: "Banner",
       about:
         "Hotstar banner ads come in three formats: Frames, Stubs, and Display. Frames ads appear around video content, offering maximum visibility, while Stubs ads are shown between content previews, encouraging user engagement.",
@@ -23,7 +23,7 @@ function HotstarAds() {
 
     {
       cardImage:
-        "https://images.unsplash.com/photo-1726935037951-d5a5a73b3243?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://ik.imagekit.io/ajoy/Digital/jiohotstar-connect-tv.jpg?updatedAt=1744884580368",
       item: "Connected TV",
       about:
         "Connected TV Advertising, commonly known as CTV Advertising, enables brands to reach their target audience by placing ads on Smart TVs and televisions connected through OTT devices like Amazon Fire TV Stick, Chromecast with Google TV, and Apple TV.",
@@ -31,7 +31,7 @@ function HotstarAds() {
     },
     {
       cardImage:
-        "https://images.unsplash.com/photo-1726935037951-d5a5a73b3243?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://ik.imagekit.io/ajoy/Digital/jiohotstar-masterhead.jpg?updatedAt=1744884580440",
       item: "Masthead Banner",
       about:
         "Masthead Banners appear at the top of the platform’s homepage and remain visible for a full 24 hours. These banners can be displayed on both the app and the website.",

@@ -6,18 +6,18 @@ function AutoBranding() {
     const cardInfos = [
         {
           cardImage:
-            "https://images.unsplash.com/photo-1655920021325-e625b11b439a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://ik.imagekit.io/ajoy/NonTraditional/auto-hood-ad.jpg?updatedAt=1744883905635",
           item: "Auto Hood",
           about:
-            "Advertisements will be printed and mounted on the hood of the auto-rickshaw.",
+            "Advertisements will be printed and installed on the front hood of the auto.",
           price: "600 Per Auto",
         },
         {
             cardImage:
-              "https://images.unsplash.com/photo-1655920021325-e625b11b439a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://ik.imagekit.io/ajoy/NonTraditional/auto-backpanel.jpg?updatedAt=1744883905618",
             item: "Auto Back Panel",
             about:
-              "Advertisements will be printed and placed on the back window of the auto. Auto Back Panel Ads will be created using vinyl stickers.",
+              "Advertisements will be printed and applied to the back window of the auto using vinyl stickers.",
             price: "115 Per Auto",
           },
       ];

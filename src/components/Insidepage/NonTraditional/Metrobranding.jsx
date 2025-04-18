@@ -6,10 +6,10 @@ function Metrobranding() {
     const cardInfos = [
         {
           cardImage:
-            "https://www.myhoardings.com/blog/wp-content/uploads/2021/07/Bengaluru-Metro-Interior-Branding.jpg",
+            "https://ik.imagekit.io/ajoy/NonTraditional/metro-inside-branding.jpg?updatedAt=1744953659600",
           item: "Interior Train Branding",
           about:
-            "Bengaluru Metro Train Interior Branding is displayed on the interior panels of the train. There are 58 trains available, each with 28 interior ad panels spread across 6 coaches. On average, each coach has 4 to 5 interior panels, providing ample space for your advertisement as part of the Bengaluru Metro Train Interior Branding.",
+            "Bengaluru Metro Train Interior Branding involves placing advertisements on the inner panels of the trains. A total of 58 trains are available, each consisting of 6 coaches and equipped with 28 interior ad panels. On average, each coach includes 4 to 5 panels, offering ample visibility for your brand inside the Bengaluru Metro.",
           price: "7,97,500 Per Month",
         },
         {
@@ -17,7 +17,7 @@ function Metrobranding() {
             "https://smartads.in/resources/assets/uploads/product_group/non-traditional/metro-train-bangalore-green-line.webp",
           item: "Exterior Train Branding",
           about:
-            "Bangalore Metro Train Exterior Branding is available as a full train wrap on the exterior of the train. Branding can be placed on trains from the Green Line (6 coaches) and Purple Line (6 coaches), offering 5300 sq. ft. of ad space per train. The Purple Line (Nagasandra - Silk Institute - 37 stations) runs an average of 13 to 14 trips per day, while the Green Line (Whitefield Kadugodi - Challaghatta - 32 stations) operates approximately 16 to 17 trips daily.",
+            "Bangalore Metro Train Exterior Branding offers a full train wrap across the outer surface of the train. Ads can be placed on trains from both the Green Line and the Purple Line, each comprising 6 coaches and providing up to 5300 sq. ft. of advertising space per train. The Purple Line (Nagasandra to Silk Institute, covering 37 stations) operates about 13 to 14 trips daily, while the Green Line (Whitefield Kadugodi to Challaghatta, covering 32 stations) runs around 16 to 17 trips per day.",
           price: "25,77,300 Per Month",
         },
       ];

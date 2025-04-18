@@ -6,7 +6,7 @@ function MetaAds() {
   const cardInfos = [
     {
       cardImage:
-        "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://ik.imagekit.io/ajoy/Digital/meta-banner-ads.jpg?updatedAt=1744959547672",
       item: "Banner",
       about:
         "Facebook banner ads are displayed in various sections of the platform, including the user’s feed and sidebar. They usually feature an image, a headline, and a brief description.",
@@ -14,7 +14,7 @@ function MetaAds() {
     },
     {
       cardImage:
-        "https://images.pexels.com/photos/13883855/pexels-photo-13883855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://ik.imagekit.io/ajoy/Digital/meta-video-ads.jpg?updatedAt=1744959547815",
       item: "Video",
       about:
         "Facebook video ads display short video clips to users as they scroll through their feeds, view Stories, or explore other areas of the platform, promoting a product or service.",
@@ -22,7 +22,7 @@ function MetaAds() {
     },
     {
       cardImage:
-        "https://images.pexels.com/photos/5077039/pexels-photo-5077039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://ik.imagekit.io/ajoy/Digital/meta-lead-ads.jpg?updatedAt=1744959547741",
       item: "Lead Generation Banner",
       about:
         "Facebook lead generation ads provide two call-to-action (CTA) options to help businesses engage with potential customers: the Meta Form and the Click-to-Website Link.",
@@ -30,7 +30,7 @@ function MetaAds() {
     },
     {
       cardImage:
-        "https://images.pexels.com/photos/5077039/pexels-photo-5077039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://ik.imagekit.io/ajoy/Digital/meta-package-ad.jpg?updatedAt=1744959547810",
       item: "Package",
       about:
         "This package covers pre and post-campaign online planning consultations, campaign setup, technical ad checks, and the execution of a Facebook/Instagram lead generation campaign using Meta’s built-in form.",

@@ -6,15 +6,15 @@ function ApartmentBranding() {
     const cardInfos = [
         {
           cardImage:
-            "https://images.unsplash.com/photo-1610376096719-9819725cfb00?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://ik.imagekit.io/ajoy/NonTraditional/apartment-board-ad.jpg?updatedAt=1744883905708",
           item: "Digital Screen",
           about:
-            "Your ad will be shown on digital screens placed both inside and outside elevator areas in apartment buildings. There are two options available: 450 slots per day, with each ad playing for 15 seconds in a 2-minute loop.",
+          "Your ad will be shown on digital screens placed both inside and outside elevator areas in apartment buildings. There are two options available: 450 slots per day, with each ad playing for 15 seconds in a 2-minute loop.",
           price: "1,500 Per Screen",
         },
         {
-            cardImage:
-              "https://images.unsplash.com/photo-1547630824-eed1be6a27b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          cardImage:
+          "https://ik.imagekit.io/ajoy/NonTraditional/apartment-lift-ad.jpg?updatedAt=1744883905484",
             item: "Lift Branding",
             about:
               "The ad will be displayed on the panel located inside the elevator.",
