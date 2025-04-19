@@ -1,9 +1,5 @@
 import React from "react";
 import ServiceTemplate from "./ServiceTemplate.jsx";
-// import billboard from "../../assets/Outdoor/outdoor-billboard.jpg"
-// import outdoor from "../../assets/Outdoor/outdoor-image.jpg"
-// import outside from "../../assets/Outdoor/outdoor-ad.jpg"
-// import outdooradvertise from "../../assets/Outdoor/outdoor-advertising.jpg"
 import outdoorImage from "../../assets/Outdoor/Outdoor-288-x-192.jpg";
 import bus_shelter from "../../assets/Outdoor/bus-shelter-288-x-192.jpg";
 import hoarding from "../../assets/Outdoor/hoarding-288-x-192.jpg";
@@ -57,6 +53,18 @@ function OutdoorService() {
               title="Bus Shelter"
               type="Engage commuters effectively with strategically placed transit ads."
               description={"90-95K Unique Reach."}
+              price={"Location Based"}
+            />
+          </div>
+          <div onClick={() => {
+            setMinSpend(0);
+            navigate("/skywalk-pricing");
+          }}>
+            <ServiceTemplate
+              img={outdoorImage}
+              title="Skywalk"
+              type="Promote your brand on Skywalkers, reaching urban commuters."
+              description={"N/A"}
               price={"Location Based"}
             />
           </div>
