@@ -54,7 +54,7 @@ function TOIBangalore() {
         },
         {
           cardImage:
-            "",
+            "https://ik.imagekit.io/ajoy/Newspaper/Newspaper%20Jacket%20both%20side%20865%20x%20500.jpg?updatedAt=1745241893970",
             item: "Jacket Both Side",
             about:
               "Jacket Both Sides Ads are featured on the extra page placed at the front of the newspaper, with advertisements displayed on both the front and back sides. This format offers maximum visibility and helps enhance brand recall for advertisers.",
@@ -62,7 +62,7 @@ function TOIBangalore() {
         },
         {
           cardImage:
-            "",
+            "https://ik.imagekit.io/ajoy/Newspaper/Newspaper%20Vertical%20Bookmark%20Ad%20865%20x%20500.jpg?updatedAt=1745241894067",
             item: "Vertical Bookmark Ads",
             about: 
                 "The Times of India offers innovative Half Page Vertical Bookmark Ads that combine a prominent half-page space with an additional vertical strip, ensuring high visibility on any page of the newspaper. With a total area of approximately 1,021.8 sq. cm, these vertical strip ads provide advertisers with greater customization options. Compared to standard Half Page Ads, they offer more ad space, allowing for more engaging and visually appealing content.",

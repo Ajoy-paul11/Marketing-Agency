@@ -6,7 +6,7 @@ function GarudaBranding() {
     const cardInfos = [
         {
           cardImage:
-            "https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/2/2016/10/Garuda_Mall-i.jpg",
+            "https://ik.imagekit.io/ajoy/NonTraditional/Facade%20865%20x%20500.jpg?updatedAt=1745241682480",
           item: "Facade",
           about:
             "The advertisement will be displayed on the facade located on the exterior of the mall.",
@@ -14,7 +14,7 @@ function GarudaBranding() {
         },
         {
           cardImage:
-            "https://content.jdmagicbox.com/v2/comp/bangalore/n1/080pxx80.xx80.240811222746.v2n1/catalogue/novaview-led-screen-pvt-ltd-kattegenahalli-bangalore-led-screen-dealers-7hyenysvrm.jpg",
+            "https://ik.imagekit.io/ajoy/NonTraditional/Back%20Lit%20Board%20865%20x%20500.jpg?updatedAt=1745241682663",
           item: "Back Lit Board",
           about:
             "Advertisements can be displayed on Backlit Boards positioned at various locations within the mall.",
@@ -22,7 +22,7 @@ function GarudaBranding() {
         },
         {
           cardImage:
-            "https://files.lbb.in/media/2020/01/5e131c2a4687a955b19efaf6_1578310698040.jpg",
+            "https://ik.imagekit.io/ajoy/NonTraditional/Garuda%20Mall%20865%20x%20500.jpg?updatedAt=1745241682565",
           item: "Digital Screen",
           about:
             "The ad will be shown on a digital screen, with a 20-second clip playing 200 times per day.",

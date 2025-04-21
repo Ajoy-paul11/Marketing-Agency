@@ -54,7 +54,7 @@ function HinduHyderabad() {
         },
         {
           cardImage:
-            "",
+            "https://ik.imagekit.io/ajoy/Newspaper/Newspaper%20Jacket%20both%20side%20865%20x%20500.jpg?updatedAt=1745241893970",
             item: "Jacket Both Side",
             about:
               "Jacket Both Sides Ads are featured on the extra page placed at the front of the newspaper, with advertisements displayed on both the front and back sides. This format offers maximum visibility and helps enhance brand recall for advertisers.",
