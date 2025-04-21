@@ -1,6 +1,7 @@
 import React from 'react'
 import Insidepage from "./Insidepage";
 import radiocity from '../../assets/Radio/radiocity.jpg'
+import ScrollToTop from '../ScrollToTop';
 
 function RadioCityAds() {
     const cardInfos = [
@@ -14,15 +15,48 @@ function RadioCityAds() {
         },
         {
           cardImage:
-            "https://images.pexels.com/photos/114820/pexels-photo-114820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://ik.imagekit.io/ajoy/Radio/radio-roadblock.webp?updatedAt=1745226611881",
           item: "Radio City Bazaar",
           about:
             "Radio City Bazaar is a weekly initiative aimed at promoting small and homegrown businesses. The activity features Promos, RJ Mentions, Fabric segments, and Testimonials.",
           price: "On Request",
-        }
+        },
+        {
+          cardImage:
+            "https://ik.imagekit.io/ajoy/Radio/radio-roadblock.webp?updatedAt=1745226611881",
+          item: "RJ Mentions",
+          about:
+            "The RJ will deliver a natural, unscripted mention of your brand during their show, lasting approximately 25 to 45 seconds. This helps promote your brand in an authentic and engaging way. Please note that recordings or broadcast certificates will not be provided for this option.",
+          price: "4,400 Per Mention",
+        },
+        {
+          cardImage:
+            "https://ik.imagekit.io/ajoy/Radio/radio-roadblock.webp?updatedAt=1745226611881",
+          itme: "Contests",
+          about:
+            "As part of advertising, brands sponsor specific radio games and offer prizes or gift vouchers to the winners. Examples include singing competitions, quizzes, and more.",
+          price: "6,050 Per Contest",
+        },
+        {
+          cardImage:
+            "https://ik.imagekit.io/ajoy/Radio/radio-roadblock.webp?updatedAt=1745226611881",
+          item: "Time Check",
+          about:
+            "RJs play a 5-second pre-recorded audio message about the brand, aired before, during, and after the program.",
+          price: "48,763 Per Mention",
+        },
+        {
+          cardImage:
+            "https://ik.imagekit.io/ajoy/Radio/radio-roadblock.webp?updatedAt=1745226611881",
+          item: "Sponsorship Tags",
+          about:
+            "A promotional method that associates the brand’s name with a specific program or song.",
+          price: "1,18,984 Per Mention",
+        },
       ];
       return (
         <section className=" w-full mt-[72px]">
+          <ScrollToTop />
           <Insidepage
             headerText={"Advertising in Radio City - Bengaluru"}
             image={radiocity}
