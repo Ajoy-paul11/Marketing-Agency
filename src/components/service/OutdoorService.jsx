@@ -61,7 +61,7 @@ function OutdoorService() {
             navigate("/skywalk-pricing");
           }}>
             <ServiceTemplate
-              img={outdoorImage}
+              img="https://ik.imagekit.io/ajoy/Outdoor/Sky-Walk%20Ad%20%20288%20x%20192.jpg?updatedAt=1745238504872"
               title="Skywalk"
               type="Promote your brand on Skywalkers, reaching urban commuters."
               description={"N/A"}

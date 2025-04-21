@@ -27,7 +27,7 @@ function OrienMallInox() {
         headerText={
           "Advertising in PVR INOX Orion Mall, Screen - 7, Rajajinagar"
         }
-        image={cinema}
+        image="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20300%20x%20128.jpg?updatedAt=1745238396074"
         title={
           "About Advertising in PVR INOX Orion Mall, Screen - 7, Rajajinagar : "
         }

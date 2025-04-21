@@ -27,7 +27,7 @@ function Krishnarajapura() {
         headerText={
           "Advertising in PVR INOX Phoenix Market City Mall, Screen - 6, Krishnarajapura"
         }
-        image={cinema}
+        image="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20300%20x%20128.jpg?updatedAt=1745238396738"
         title={
           "About Advertising in PVR INOX Phoenix Market City Mall, Screen - 6, Krishnarajapura : "
         }

@@ -33,7 +33,7 @@ function NonACBusBranding() {
         <section className=" w-full mt-[72px]">
           <Insidepage
             headerText={"Advertising in Non AC Bus"}
-            image={nontraditional}
+            image="https://ik.imagekit.io/ajoy/NonTraditional/nonAC-branding-300-x-128.jpg?updatedAt=1745236501267"
             title={"About Advertising in Non AC Bus : "}
             description={
               "Typically targeting a budget-conscious audience, non-AC bus Ads will reach regular commuters, pedestrians, and passersby. By leveraging their frequency, non-AC bus Ads help create brand awareness and promote products/services. Non-AC Buses in Bangalore are run by BMTC and cover a large part of the city."

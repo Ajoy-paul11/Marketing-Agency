@@ -27,7 +27,7 @@ function ForumNeighbourhood() {
         headerText={
           "Advertising in PVR INOX Forum Neighbourhood Mall, Screen - 2, Whitefield"
         }
-        image={cinema}
+        image="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20300%20x%20128.jpg?updatedAt=1745238396738"
         title={
           "About Advertising in PVR INOX Forum Neighbourhood Mall, Screen - 2, Whitefield : "
         }

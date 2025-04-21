@@ -27,7 +27,7 @@ function ElementsInox() {
             headerText={
               "Advertising in PVR INOX Elements Mall, Screen - 2, Nagavara"
             }
-            image={cinema}
+            image="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20300%20x%20128.jpg?updatedAt=1745238396738"
             title={
               "About Advertising in PVR INOX Elements Mall, Screen - 2, Nagavara : "
             }

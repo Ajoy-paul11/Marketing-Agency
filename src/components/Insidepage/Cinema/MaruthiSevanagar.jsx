@@ -27,7 +27,7 @@ function MaruthiSevanagar() {
         headerText={
           "Advertising in Cinepolis Orion East Mall, Screen - 1, Maruthi Sevanagar"
         }
-        image={cinema}
+        image="https://ik.imagekit.io/ajoy/Cinema/Cinepolis%20300%20x%20128.jpg?updatedAt=1745238396723"
         title={
           "About Cinepolis Orion East Mall, Screen - 1, Maruthi Sevanagar : "
         }

@@ -33,7 +33,7 @@ function GarudaBranding() {
         <section className=" w-full mt-[72px]">
           <Insidepage
             headerText={"Advertising in Garuda Mall, Bangalore"}
-            image={nontraditional}
+            image="https://ik.imagekit.io/ajoy/NonTraditional/garuda-mall-300-x-128.jpg?updatedAt=1745237496209"
             title={" About Advertising in Garuda Mall, Bangalore : "}
             description={
               "Garuda Mall, Bangalore is a well-connected hub for entertainment, shopping, and socializing with a large crowd visiting. Garuda Mall, Bangalore Ads improve visibility and recall among potential customers in a hyperlocal area delivering high impact. Mall Ads engage affluent audiences in minimal time and leverage this opportunity to build awareness among a large-scale audience."

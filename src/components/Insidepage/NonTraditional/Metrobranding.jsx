@@ -25,7 +25,7 @@ function Metrobranding() {
         <section className=" w-full mt-[72px]">
           <Insidepage
             headerText={"Advertising in Bangalore Metro Train"}
-            image={nontraditional}
+            image="https://ik.imagekit.io/ajoy/NonTraditional/metro-branding-300-x-128.jpg?updatedAt=1745236735540"
             title={" About Advertising in Bangalore Metro Train : "}
             description={
               "Metro Train has a large network route connecting the city. Metro Train Ads build recall among an affluent audience of young professionals, students etc who have high purchasing power. Through high-frequency retargeting, brands can promote their products/ services reaching a broad audience and boosting visibility to a city-wide audience."

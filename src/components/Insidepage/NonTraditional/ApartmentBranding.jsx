@@ -25,7 +25,7 @@ function ApartmentBranding() {
         <section className=" w-full mt-[72px]">
           <Insidepage
             headerText={"Advertising in Apartment"}
-            image={nontraditional}
+            image="https://ik.imagekit.io/ajoy/NonTraditional/apartment-branding-300-x-128.jpg?updatedAt=1745236273917"
             title={"About Advertising in Apartment : "}
             description={
               "Apartment Bangalore Advertising is a hyperlocal marketing strategy that targets residents, visitors and people passing by. A growth in gated communities in top cities across India has led to brands taking this opportunity to build visibility and brand recollection among potential customers."

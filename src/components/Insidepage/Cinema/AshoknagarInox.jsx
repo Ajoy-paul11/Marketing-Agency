@@ -27,7 +27,7 @@ function AshoknagarInox() {
         headerText={
           "Advertising in PVR INOX Garuda Mall, Screen - 3, Ashok Nagar"
         }
-        image={cinema}
+        image="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20300%20x%20128.jpg?updatedAt=1745238396738"
         title={
           "About Advertising in PVR INOX Garuda Mall, Screen - 3, Ashok Nagar : "
         }

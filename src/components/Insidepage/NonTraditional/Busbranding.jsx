@@ -18,7 +18,7 @@ function Busbranding() {
         <section className=" w-full mt-[72px]">
           <Insidepage
             headerText={"Advertising in AC Bus Advertising"}
-            image={nontraditional}
+            image="https://ik.imagekit.io/ajoy/NonTraditional/AC-bus-branding-300-x-128.jpg?updatedAt=1745236533121"
             title={"About AC Bus Advertising : "}
             description={
               "Being an effective transit ad option, AC Bus Ads can help bring your brand message into the streets. Operational in a densely populated city, Bangalore AC Bus Ads which follow a fixed route offer brand awareness and exposure to passengers and pedestrians within a predictable geographical area."

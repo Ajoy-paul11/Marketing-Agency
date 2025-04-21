@@ -33,7 +33,7 @@ function CabBranding() {
         <section className=" w-full mt-[72px]">
           <Insidepage
             headerText={"Advertising in Cab"}
-            image={nontraditional}
+            image="https://ik.imagekit.io/ajoy/NonTraditional/cab-branding-300-x-128.jpg?updatedAt=1745236435791"
             title={"About Advertising in Cab : "}
             description={
               "Cab Ads will help brands reach commuters and pedestrians while travelling through the city's busy streets, residential areas, and commercial hubs. These high-frequency ads placed inside or outside cabs are difficult to ignore and have a higher chance of being noticed in a congested-traffic city like Bangalore."

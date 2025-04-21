@@ -27,7 +27,7 @@ function Koramangala7Inox() {
         headerText={
           "Advertising in PVR INOX Forum Mall, Screen - 7, Koramangala"
         }
-        image={cinema}
+        image="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20300%20x%20128.jpg?updatedAt=1745238396738"
         title={
           "About Advertising in PVR INOX Forum Mall, Screen - 7, Koramangala : "
         }

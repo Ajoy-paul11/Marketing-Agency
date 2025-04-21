@@ -27,7 +27,7 @@ function CinepolisHulimavi() {
         headerText={
           "Advertising in Cinepolis Royal Meenakshi Mall, Screen - 6, Hulimavu"
         }
-        image={cinema}
+        image="https://ik.imagekit.io/ajoy/Cinema/Cinepolis%20300%20x%20128.jpg?updatedAt=1745238396723"
         title={
           "About Advertising in Cinepolis Royal Meenakshi Mall, Screen - 6, Hulimavu : "
         }

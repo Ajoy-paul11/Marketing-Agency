@@ -29,7 +29,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Forum Mall, Screen-1, Koramangala"
               type=""
               description={"No of Seats: 347"}
@@ -43,7 +43,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Garuda Mall, Screen-3, Ashok Nagar"
               type=""
               description={"No of Seats: 175"}
@@ -57,7 +57,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Phoenix Market City Mall, Screen-6, Krishnarajapura"
               type=""
               description={"No of Seats: 207"}
@@ -71,7 +71,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/Cinepolis%20288%20x%20192.jpg?updatedAt=1745238396742"
               title="Cinepolis Nexus Shantiniketan, Screen-1, Krishnarajapura"
               type=""
               description={"No of Seats: 108"}
@@ -85,7 +85,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/Cinepolis%20288%20x%20192.jpg?updatedAt=1745238396742"
               title="Cinepolis Orien East Mall, Screen-1, Maruthi Sevanagar"
               type=""
               description={"No of Seats: 247"}
@@ -99,7 +99,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Elements Mall, Screen-7, Nagavara"
               type=""
               description={"No of Seats: 114"}
@@ -113,7 +113,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Forum Neighbourhood Mall, Screen-4, Krishnarajapura"
               type=""
               description={"No of Seats: 51"}
@@ -127,7 +127,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Garuda Mall, Screen-2, Ashok Nagar"
               type=""
               description={"No of Seats: 66"}
@@ -141,7 +141,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Vaishnavi Sapphire Mall, Screen-5, Yeswanthapur"
               type=""
               description={"No of Seats: 179"}
@@ -155,7 +155,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Phoenix Market City Mall, Screen-4, Krishnarajapura"
               type=""
               description={"No of Seats: 128"}
@@ -169,7 +169,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Orion Mall, Screen-7, Rajajinagar"
               type=""
               description={"No of Seats: 387"}
@@ -183,7 +183,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Forum Mall, Screen-7, Koramangala"
               type=""
               description={"No of Seats: 253"}
@@ -197,7 +197,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/Cinepolis%20288%20x%20192.jpg?updatedAt=1745238396742"
               title="Cinepolis Royal Meenakshi Mall, Screen-6, Hulimavu"
               type=""
               description={"No of Seats: 302"}
@@ -211,7 +211,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Forum Mall, Screen-6, Koramangala"
               type=""
               description={"No of Seats: 168"}
@@ -225,7 +225,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/Cinepolis%20288%20x%20192.jpg?updatedAt=1745238396742"
               title="Cinepolis Royal Meenakshi Mall, Screen-2, Hulimavu"
               type=""
               description={"No of Seats: 129"}
@@ -239,7 +239,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Shree Garuda Swagath Mall, Screen-3, Jayanagar"
               type=""
               description={"No of Seats: 312"}
@@ -253,7 +253,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX VR Mall, Screen-5, Mahadevapura"
               type=""
               description={"No of Seats: 255"}
@@ -267,7 +267,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Forum Neighbourhood Mall, Screen-2, Whitefield"
               type=""
               description={"No of Seats: 198"}
@@ -281,7 +281,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Soul Space Spirit Central Mall, Screen-4, Bellandur"
               type=""
               description={"No of Seats: 82"}
@@ -295,7 +295,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Mantri Square Mall, Screen-6, Malleswaram"
               type=""
               description={"No of Seats: 332"}
@@ -309,7 +309,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Orion Mall, Screen-10, Rajajinagar"
               type=""
               description={"No of Seats: 353"}
@@ -323,7 +323,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Lido Mall, Screen-1, Jogupalya"
               type=""
               description={"No of Seats: 535"}
@@ -337,7 +337,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Lido Mall, Screen-3, Jogupalya"
               type=""
               description={"No of Seats: 314"}
@@ -351,7 +351,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Central Mall, Screen-2, J.P. Nagar"
               type=""
               description={"No of Seats: 251"}
@@ -365,7 +365,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Elements Mall, Screen-2, Nagavara"
               type=""
               description={"No of Seats: 289"}
@@ -379,7 +379,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20288%20x%20192.jpg?updatedAt=1745238396088"
               title="Carnival Cinemas Rock Line Mall, Screen-2, T. Dasarahalli"
               type=""
               description={"No of Seats: 163"}
@@ -393,7 +393,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Vaishnavi Sapphire Mall, Screen-6, Yeshwanthpur"
               type=""
               description={"No of Seats: 131"}
@@ -407,7 +407,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX RMZ Galleria Mall, Screen-1, Yelahanka New Town"
               type=""
               description={"No of Seats: 272"}
@@ -421,7 +421,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20288%20x%20192.jpg?updatedAt=1745238396088"
               title="Carnival Cinemas Rock Line Mall, Screen-4, T. Dasarahalli"
               type=""
               description={"No of Seats: 358"}
@@ -435,7 +435,7 @@ function Cinema() {
             }}
           >
             <ServiceTemplate
-              img={cinemaImage}
+              img="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20288%20x%20192.jpg?updatedAt=1745238396093"
               title="PVR INOX Garuda Mall, Screen-5, Ashok Nagar"
               type=""
               description={"No of Seats: 214"}

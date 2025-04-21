@@ -28,7 +28,7 @@ function NonTraditional() {
             setMinSpend(294000);
             navigate("/acbus-pricing")}}>
           <ServiceTemplate
-            img={nonTradImage}
+            img="https://ik.imagekit.io/ajoy/NonTraditional/AC-bus-branding-288-x-192.jpg?updatedAt=1745236580312"
             title="AC Bus Branding"
             type="Promote your brand on AC buses, reaching urban commuters."
             description={
@@ -42,7 +42,7 @@ function NonTraditional() {
             navigate("/metrobranding-pricing");
             }}>
           <ServiceTemplate
-            img={nonTradImage}
+            img="https://ik.imagekit.io/ajoy/NonTraditional/metro-branding-288-x-192.jpg?updatedAt=1745237096489"
             title="Metro Branding"
             type="Enhance brand visibility by advertising in metro stations, trains."
             description={
@@ -56,7 +56,7 @@ function NonTraditional() {
             navigate("/auto-pricing");
             }}>
           <ServiceTemplate
-            img={nonTradImage}
+            img="https://ik.imagekit.io/ajoy/NonTraditional/auto-branding-288-x-192.jpg?updatedAt=1745236695330"
             title="Auto Branding"
             type="Utilize auto-rickshaws to penetrate densely populated areas effectively."
             description={
@@ -70,7 +70,7 @@ function NonTraditional() {
             navigate("/nonacbus-pricing");
             }}>
           <ServiceTemplate
-            img={nonTradImage}
+            img="https://ik.imagekit.io/ajoy/NonTraditional/nonAC-bus-288-x-192.jpg?updatedAt=1745236402148"
             title="Non-AC Bus Branding"
             type="Expand reach via advertisements to broad passenger base."
             description={
@@ -84,7 +84,7 @@ function NonTraditional() {
             navigate("/cab-pricing");
             }}>
           <ServiceTemplate
-            img={nonTradImage}
+            img="https://ik.imagekit.io/ajoy/NonTraditional/cab-branding-288-x-192.jpg?updatedAt=1745236620057"
             title="Cab Branding"
             type="Leverage taxis, ensuring brand presence across city landscapes."
             description={
@@ -97,7 +97,7 @@ function NonTraditional() {
             setMinSpend(0);
             navigate("/apartment-pricing")}}>
           <ServiceTemplate
-            img={nonTradImage}
+            img="https://ik.imagekit.io/ajoy/NonTraditional/apratment-branding-288-x-192.jpg?updatedAt=1745236355110"
             title="Apartment Branding"
             type="Target residential complexes by placing advertisements."
             description={
@@ -111,7 +111,7 @@ function NonTraditional() {
             navigate("/garudamall-pricing")}
             }>
           <ServiceTemplate
-            img={nonTradImage}
+            img="https://ik.imagekit.io/ajoy/NonTraditional/garuda-mall-288-x-192.jpg?updatedAt=1745237395471"
             title="Garuda Mall, Bangalore"
             type=" Target residential complexes by placing advertisements."
             description={

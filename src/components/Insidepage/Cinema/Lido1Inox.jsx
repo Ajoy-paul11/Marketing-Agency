@@ -27,7 +27,7 @@ function Lido1Inox() {
             headerText={
               "Advertising in PVR INOX Lido Mall, Screen - 1, Jogupalya"
             }
-            image={cinema}
+            image="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20300%20x%20128.jpg?updatedAt=1745238396074"
             title={
               "About Advertising in PVR INOX Lido Mall, Screen - 1, Jogupalya : "
             }

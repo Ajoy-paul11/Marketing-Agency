@@ -17,7 +17,7 @@ function Skywalk() {
         <section className=" w-full mt-[72px]">
           <Insidepage
             headerText={"Advertising Billboard in part of the City "}
-            image={outdoor}
+            image="https://ik.imagekit.io/ajoy/Outdoor/Sky-Walk%20Ad%20300%20x%20128.jpg?updatedAt=1745238505226"
             title={"About Billboard Advertising in part of the City : "}
             description={
               "Billboard Ads are an innovative out-of-home advertising option that displays eye-catching creatives, offering hyperlocal city-wide visibility. Billboard Ads in Bengaluru, is a cost-effective outdoor advertising tool that increases brand impact and engages the target audience using creative ads to promote products or services."

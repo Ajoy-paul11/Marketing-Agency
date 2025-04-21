@@ -25,7 +25,7 @@ function MahadevapuraInox() {
     <section className=" w-full mt-[72px]">
       <Insidepage
         headerText={"Advertising in PVR INOX VR Mall, Screen - 5, Mahadevapura"}
-        image={cinema}
+        image="https://ik.imagekit.io/ajoy/Cinema/PVR%20Inox%20300%20x%20128.jpg?updatedAt=1745238396074"
         title={
           "About Advertising in PVR INOX VR Mall, Screen - 5, Mahadevapura : "
         }

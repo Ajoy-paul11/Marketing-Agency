@@ -25,7 +25,7 @@ function AutoBranding() {
         <section className=" w-full mt-[72px]">
           <Insidepage
             headerText={"Advertising in Auto"}
-            image={nontraditional}
+            image="https://ik.imagekit.io/ajoy/NonTraditional/auto-branding-300-x-128.jpg?updatedAt=1745236468047"
             title={"About Advertising in Auto : "}
             description={
               "Bangalore Autos are a popular transit option and can travel to specific locations across different areas of the city, which helps brands looking to reach a diverse audience in hyperlocal areas. These ads offers flexibility and can help improve recall by being visible to commuters and passersby. Auto Ads will be visible to a large crowd who are travelling within the city."

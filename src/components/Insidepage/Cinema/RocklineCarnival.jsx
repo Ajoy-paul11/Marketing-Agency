@@ -27,7 +27,7 @@ function RocklineCarnival() {
             headerText={
               "Advertising in Carnival Cinemas Rock Line Mall, Screen - 2, T. Dasarahalli"
             }
-            image={cinema}
+            image="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20288%20x%20192.jpg?updatedAt=1745238396088"
             title={
               "About Advertising in Carnival Cinemas Rock Line Mall, Screen - 2, T. Dasarahalli : "
             }

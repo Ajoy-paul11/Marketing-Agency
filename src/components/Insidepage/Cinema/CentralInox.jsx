@@ -27,7 +27,7 @@ function CentralInox() {
             headerText={
               "Advertising in PVR INOX Central Mall, Screen - 2, J.P. Nagar"
             }
-            image={cinema}
+            image="https://ik.imagekit.io/ajoy/Cinema/Carnival%20Cinemas%20300%20x%20128.jpg?updatedAt=1745238396738"
             title={
               "About Advertising in PVR INOX Central Mall, Screen - 2, J.P. Nagar : "
             }
