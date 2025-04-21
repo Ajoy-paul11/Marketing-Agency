@@ -208,6 +208,14 @@ function Footer() {
                   Privacy Policy
                 </Link>
               </Typography>
+              <Typography as="li" color="blue-gray" className="font-normal">
+                <Link
+                  to="/returns-refunds"
+                  className="inline-block py-1 pr-2 transition-transform hover:scale-105"
+                >
+                  Refund Policy
+                </Link>
+              </Typography>
             </ul>
           </div>
 

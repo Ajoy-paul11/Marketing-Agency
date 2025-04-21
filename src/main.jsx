@@ -165,6 +165,7 @@ import Termsandconditions from "./components/Termsandconditions.jsx";
 import Privacypolicy from "./components/Privacypolicy.jsx";
 import Influencer1 from "./components/Insidepage/Influencer/Influencer1.jsx";
 import Skywalk from "./components/Insidepage/Outdoor/Skywalk.jsx";
+import ReturnsRefundPolicy from "./components/ReturnsRefundPolicy.jsx";
 
 const router = createBrowserRouter([
   {
@@ -826,6 +827,10 @@ const router = createBrowserRouter([
       {
         path: "/privacy-policy",
         element: <Privacypolicy />
+      },
+      {
+        path: "/returns-refunds",
+        element: <ReturnsRefundPolicy />
       }
     ],
   },
