@@ -16,9 +16,9 @@ function BusShelter() {
   return (
     <section className=" w-full mt-[72px]">
       <Insidepage
-        headerText={"Advertising Bus Shelter in any location"}
+        headerText={"Advertising Bus Shelter in any part of the City"}
         image={busShelter}
-        title={"About Bus Shelter Advertising in any location : "}
+        title={"About Bus Shelter Advertising in any part of the City : "}
         description={
           "Bus Shelter Ads in any location will build brand awareness and recall among potential customers. These are out-of-home advertising tools targeting people who are waiting for their buses to arrive, commuting on the road, or just passing by. "
         }

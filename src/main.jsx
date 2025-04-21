@@ -24,6 +24,7 @@ import HotstarAds from "./components/Insidepage/HotstarAds.jsx";
 import RedFMAds from "./components/Insidepage/RedFMAds.jsx";
 import MirchiAds from "./components/Insidepage/MirchiAds.jsx";
 import BigFMAds from "./components/Insidepage/BigFMAds.jsx";
+import BigFMDelhi from "./components/Insidepage/BigFMDelhi.jsx";
 import RadioCityAds from "./components/Insidepage/RadioCityAds.jsx";
 import RadioFeverAds from "./components/Insidepage/RadioFeverAds.jsx";
 import RadioOneAds from "./components/Insidepage/RadioOneAds.jsx";
@@ -163,6 +164,7 @@ import Disclaimer from "./components/Disclaimer.jsx";
 import Termsandconditions from "./components/Termsandconditions.jsx";
 import Privacypolicy from "./components/Privacypolicy.jsx";
 import Influencer1 from "./components/Insidepage/Influencer/Influencer1.jsx";
+import Skywalk from "./components/Insidepage/Outdoor/Skywalk.jsx";
 
 const router = createBrowserRouter([
   {
@@ -268,6 +270,10 @@ const router = createBrowserRouter([
       {
         path: "/bigfm-bengaluru",
         element: <BigFMAds />
+      },
+      {
+        path: "/bigfm-delhi",
+        element: <BigFMDelhi />
       },
       {
         path: "/radiocity-bengaluru",
@@ -636,6 +642,10 @@ const router = createBrowserRouter([
       {
         path: "/busshelter-pricing",
         element: <BusShelter />
+      },
+      {
+        path: "/skywalk-pricing",
+        element: <Skywalk />
       },
       {
         path: "/acbus-pricing",

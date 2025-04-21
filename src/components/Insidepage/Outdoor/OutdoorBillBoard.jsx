@@ -16,9 +16,9 @@ function OutdoorBillBoard() {
       return (
         <section className=" w-full mt-[72px]">
           <Insidepage
-            headerText={"Advertising Billboard in any location "}
+            headerText={"Advertising Billboard in any part of the City "}
             image={billboard}
-            title={"About Billboard Advertising in any location : "}
+            title={"About Billboard Advertising in any part of the City : "}
             description={
               "Billboard Ads are an innovative out-of-home advertising option that displays eye-catching creatives, offering hyperlocal city-wide visibility. Billboard Ads in Bengaluru, is a cost-effective outdoor advertising tool that increases brand impact and engages the target audience using creative ads to promote products or services."
             }
