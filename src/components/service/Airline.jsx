@@ -43,7 +43,7 @@ function Airline() {
             }}
           >
             <ServiceTemplate
-              img={airlineService}
+              img="https://images.unsplash.com/photo-1527007622069-3a0241e1cd8c?fm=jpg&q=60&w=288&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycG9ydCUyMHRlcm1pbmFsfGVufDB8fDB8fHww"
               title="Airport Advertising"
               type="Capture the attention of travelers through strategically placed ads."
               description={"4M Monthly Passengers"}

@@ -1,7 +1,10 @@
 import React from 'react';
+import ScrollToTop from './ScrollToTop';
 
 const ReturnsRefundPolicy = () => {
   return (
+    <>
+    <ScrollToTop />
     <div className="bg-gray-50">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <header className="mb-8">
@@ -132,6 +135,7 @@ const ReturnsRefundPolicy = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

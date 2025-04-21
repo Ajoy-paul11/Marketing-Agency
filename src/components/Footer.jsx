@@ -32,14 +32,14 @@ function Footer() {
                   About
                 </Link>
               </Typography>
-              <Typography as="li" color="blue-gray" className="font-normal">
+              {/* <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
                   to="#"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Events
                 </Link>
-              </Typography>
+              </Typography> */}
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
                   to="/contact"
@@ -116,14 +116,14 @@ function Footer() {
                   Airline
                 </Link>
               </Typography>
-              <Typography as="li" color="blue-gray" className="font-normal">
+              {/* <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
                   to="/hyperlocal-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Hyperlocal
                 </Link>
-              </Typography>
+              </Typography> */}
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
                   to="/nontraditional-service"
@@ -166,14 +166,14 @@ function Footer() {
                   Television
                 </Link>
               </Typography>
-              <Typography as="li" color="blue-gray" className="font-normal">
+              {/* <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
                   to="/deals-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Deals
                 </Link>
-              </Typography>
+              </Typography> */}
             </ul>
           </div>
           <div className="w-full">

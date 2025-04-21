@@ -82,11 +82,11 @@ function Genre() {
           <p>Outdoor</p>
         </Link>
         <Link
-          to="/airline-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer " // px-10
+          to="/nontraditional-service"
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
-          <img src={"https://ik.imagekit.io/ajoy/GIF/airplane.gif?updatedAt=1743142610473"} alt="digtal" width="56" height="56" className="genre-svg mix-blend-multiply" />
-          <p>Airline/Airport</p>
+          <img src={"https://ik.imagekit.io/ajoy/GIF/non-traditional.gif?updatedAt=1743142615198"} alt="radio" width="56" height="56" className="genre-svg mix-blend-multiply" />
+          <p>Non Tradional</p>
         </Link>
         <Link
           to="/cinema-service"
@@ -103,11 +103,11 @@ function Genre() {
           <p>Influencer</p>
         </Link>
         <Link
-          to="/nontraditional-service"
-          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer" // px-10
+          to="/airline-service"
+          className="flex flex-col items-center w-[150px] py-8 rounded-md genre-box hover:cursor-pointer " // px-10
         >
-          <img src={"https://ik.imagekit.io/ajoy/GIF/non-traditional.gif?updatedAt=1743142615198"} alt="radio" width="56" height="56" className="genre-svg mix-blend-multiply" />
-          <p>Non Tradional</p>
+          <img src={"https://ik.imagekit.io/ajoy/GIF/airplane.gif?updatedAt=1743142610473"} alt="digtal" width="56" height="56" className="genre-svg mix-blend-multiply" />
+          <p>Airline/Airport</p>
         </Link>
         {/* <Link
           to="/hyperlocal-service"
