@@ -36,7 +36,7 @@ function Portfolio() {
         >
           Portfolio
         </h2>
-        <div data-aos="fade-down" className="grid grid-cols-1 gap-x-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center p-8 overflow-hidden xl:container xl:mx-auto ">
+        <div data-aos="fade-down" className="grid grid-cols-3 gap-8 xl:grid-cols-4 xl:gap-x-8 justify-items-center p-3 xl:p-8 overflow-hidden xl:container xl:mx-auto ">
           {/* <div  onClick={() => handleNavigate("/portfolio-adhventha")}> */}
           <div>
             <DefaultGallery img={adhventha} />

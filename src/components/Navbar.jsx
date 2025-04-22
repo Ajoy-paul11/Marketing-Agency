@@ -205,7 +205,7 @@ export function NavbarSimple() {
   }, []);
 
   return (
-    <Navbar className={`min-w-full xl:mx-auto px-4 py-2 lg:px-8 lg:py-[0px] bg-black rounded-none fixed z-10  shadow-lg shadow-black/50 border-0 ${openNav ? "bg-black/90" : ""}`}>
+    <Navbar className={`min-w-full xl:mx-auto px-4 py-2 lg:px-8 lg:py-[0px] bg-black rounded-none fixed z-20  shadow-lg shadow-black/50 border-0 ${openNav ? "bg-black/90" : ""}`}>
       <div className="w-full flex items-center justify-between xl:justify-around relative top-[-5px]">
         <Typography
           variant="h3"

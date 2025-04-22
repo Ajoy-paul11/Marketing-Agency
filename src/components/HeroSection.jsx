@@ -42,9 +42,9 @@ function HeroSection() {
 
 
   return (
-    <div className={` relative top-[-87px]`}>
+    <div className=" relative">
       <div className=" w-full h-full">
-        <div className=" w-full h-screen lg:h-full relative">
+        <div className=" w-full h-screen relative">
           {/* Slide Container Images */}
           <div
           className=" w-full h-full flex transition-transform duration-1000 ease-in-out"
@@ -60,18 +60,18 @@ function HeroSection() {
                   <source srcSet={`${image}?w=768`} media="(max-width: 768px)"/>
                   <source srcSet={`${image}?w=1024`} media="(min-width: 769px)"/>
                   <source srcSet={`${image}?w=1280`} media="(min-width: 1025px)"/>
-                </picture>
                 <img
                 src={image}
                 alt="background-image"
                 className=" object-cover w-full h-full"
                 />
+              </picture>
               </div>
             ))}
           </div>
           <div className=" w-full h-full absolute top-0 left-0 bg-black/70 ">
             <div className=" container mx-auto flex flex-col items-center justify-center h-full">
-              <div className=" text-white  mb-4 font-secondary">
+              <div className=" text-white mb-4 font-secondary">
                 <h1 className=" text-3xl lg:text-4xl xl:text-6xl font-bold mb-8 pl-4">
                   Seeking tangible results?
                 </h1>
