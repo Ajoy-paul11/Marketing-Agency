@@ -66,20 +66,17 @@ function Contact() {
       <ScrollToTop />
       <div>
         <h2
-          data-aos="fade-down"
-          className="text-3xl font-semibold text-primary font-secondary text-center mb-2"
+          className=" text-2xl xl:text-3xl text-primary font-secondary text-center mb-2"
         >
           Contact Us
         </h2>
         <p
-          data-aos="fade-up"
-          className="text-center text-primary font-semibold text-lg mt-4 mb-8"
+          className="text-center text-primary mt-4 mb-8 text-base"
         >
           Let Us Help You Reach Your Customer With No Hassle.
         </p>
         <div className=" lg:flex lg:gap-6 lg:justify-center  p-8 rounded-lg">
           <div
-            data-aos="fade-down"
             className=" lg:w-[40%] flex flex-col gap-6 border-t-2 border-b-2 border-[#000080] py-8 font-secondary text-primary "
           >
             <div className="flex gap-4 items-center">
@@ -114,13 +111,12 @@ function Contact() {
             </div>
           </div>
           <div
-            data-aos="fade-down"
             className=" lg:w-[60%] p-6 border-t-2 border-b-2 border-[#000080] py-8 font-secondary text-primary"
           >
             <Card color="transparent" shadow={false}>
               <form
                 onSubmit={handleSubmit(onSubmit)}
-                className=" mb-2 w-80 max-w-screen-lg sm:w-96 "
+                className=" mb-2"
               >
                 <div className="mb-1 flex flex-col gap-6">
                   <input
@@ -190,7 +186,7 @@ function Contact() {
 
                 <Button
                   type="submit"
-                  className={`mt-6  bg-orange-600 hover:bg-orange-500 hover:shadow hover:shadow-orange-500 text-lg text-[#f4f5ff] rounded-xl px-4 py-2  transition-all duration-300 ${
+                  className={`mt-6 bg-orange-600 hover:bg-orange-500 hover:shadow hover:shadow-orange-500 font-light text-xs xl:text-lg text-[#f4f5ff] rounded-xl px-4 py-2 transition-all duration-300 ${
                     isSubmitting ? " cursor-not-allowed" : ""
                   }`}
                   fullWidth

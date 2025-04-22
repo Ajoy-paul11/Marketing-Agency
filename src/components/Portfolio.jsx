@@ -4,7 +4,7 @@ import amrithnoni from "../assets/portfolio/amrithnoni.png";
 import applo from "../assets/portfolio/apollo.png";
 import featherlite from "../assets/portfolio/featherlite.png";
 import garuda from "../assets/portfolio/garudamall.png";
-import narayana from "../assets/portfolio/narayana.png"
+import narayana from "../assets/portfolio/narayana.png";
 import nethra from "../assets/portfolio/netradhama.png";
 import npsnorth from "../assets/portfolio/nps.png";
 import raymond from "../assets/portfolio/raymond.png";
@@ -30,60 +30,43 @@ function Portfolio() {
   return (
     <div id="portfolio" className="w-full max-h-fit">
       <div className="py-8 my-4">
-        <h2
-          
-          className=" text-2xl xl:text-3xl text-primary font-secondary text-center mb-2"
-        >
+        <h2 className=" text-2xl xl:text-3xl text-primary font-secondary text-center mb-2">
           Portfolio
         </h2>
         <div className="grid grid-cols-3 gap-8 lg:grid-cols-6 xl:gap-x-8 justify-items-center p-3 xl:p-8 overflow-hidden xl:container xl:mx-auto ">
-          {/* <div  onClick={() => handleNavigate("/portfolio-adhventha")}> */}
           <div>
             <DefaultGallery img={adhventha} />
-            </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-amruth")}> */}
+          </div>
           <div>
             <DefaultGallery img={amrithnoni} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-apollo")}> */}
           <div>
             <DefaultGallery img={applo} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-featherlite")}> */}
           <div>
             <DefaultGallery img={featherlite} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-garudamall")}> */}
           <div>
             <DefaultGallery img={garuda} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-nethradhama")}> */}
           <div>
             <DefaultGallery img={nethra} />
           </div>
-          {/* <div
-            onClick={() => handleNavigate("/portfolio-narayana")}
-          > */}
           <div>
             <DefaultGallery img={narayana} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-nps")}> */}
           <div>
             <DefaultGallery img={npsnorth} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-raymond")}> */}
           <div>
             <DefaultGallery img={raymond} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-hitachi")}> */}
           <div>
             <DefaultGallery img={hitachi} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-neuberg")}> */}
           <div>
             <DefaultGallery img={neuberg} />
           </div>
-          {/* <div  onClick={() => handleNavigate("/portfolio-transcend")}> */}
           <div>
             <DefaultGallery img={transcend} />
           </div>

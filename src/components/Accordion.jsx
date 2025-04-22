@@ -42,20 +42,18 @@ function AccordionComponent() {
   return (
     <div className=" my-16">
       <h2
-        data-aos="slide-down"
-        className=" text-3xl font-semibold text-primary font-secondary text-center my-8"
+        className=" text-2xl xl:text-3xl text-primary font-secondary text-center my-8"
       >
         Frequently Asked Questions
       </h2>
-      <div className=" container mx-auto w-full my-4 grid grid-cols-1 gap-8 md:grid-cols-2 p-8">
+      <div className=" container mx-auto w-full my-4 grid grid-cols-1 gap-8 md:grid-cols-2 p-4 xl:p-8 ">
         <Accordion
-          data-aos="zoom-in"
           className=" px-4 rounded "
           open={open === 1}
           icon={<Icon id={1} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold flex justify-between"
+            className=" text-primary flex justify-between text-base lg:text-lg"
             onClick={() => handleOpen(1)}
           >
             Can you help with social media advertising?
@@ -65,13 +63,12 @@ function AccordionComponent() {
           </AccordionBody>
         </Accordion>
         <Accordion
-          data-aos="zoom-in"
           className=" px-4 rounded "
           open={open === 2}
           icon={<Icon id={2} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold flex justify-between"
+            className=" text-primary flex justify-between text-base lg:text-lg"
             onClick={() => handleOpen(2)}
           >
             Do you offer website design and development?
@@ -81,13 +78,12 @@ function AccordionComponent() {
           </AccordionBody>
         </Accordion>
         <Accordion
-          data-aos="zoom-in"
           className=" px-4 rounded "
           open={open === 3}
           icon={<Icon id={3} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold flex justify-between"
+            className=" text-primary flex justify-between text-base lg:text-lg"
             onClick={() => handleOpen(3)}
           >
             How do you ensure brand consistency across campaigns?
@@ -97,13 +93,12 @@ function AccordionComponent() {
           </AccordionBody>
         </Accordion>
         <Accordion
-          data-aos="zoom-in"
           className=" px-4 rounded "
           open={open === 4}
           icon={<Icon id={4} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold flex justify-between"
+            className=" text-primary flex justify-between text-base lg:text-lg"
             onClick={() => handleOpen(4)}
           >
             Can you provide reports on campaign performance?
@@ -113,13 +108,12 @@ function AccordionComponent() {
           </AccordionBody>
         </Accordion>
         <Accordion
-          data-aos="zoom-in"
           className=" px-4 rounded "
           open={open === 5}
           icon={<Icon id={5} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold flex justify-between"
+            className=" text-primary flex justify-between text-base lg:text-lg"
             onClick={() => handleOpen(5)}
           >
             What platforms do you recommend for my business?
@@ -129,13 +123,12 @@ function AccordionComponent() {
           </AccordionBody>
         </Accordion>
         <Accordion
-          data-aos="zoom-in"
           className=" px-4 rounded"
           open={open === 6}
           icon={<Icon id={6} open={open} />}
         >
           <AccordionHeader
-            className=" text-primary font-semibold flex justify-between"
+            className=" text-primary flex justify-between text-base lg:text-lg"
             onClick={() => handleOpen(6)}
           >
             What is the cost of your marketing services?

@@ -39,17 +39,17 @@ function Client() {
           Our Clients
         </h2>
         <Marquee pauseOnHover={true} className="flex items-center">
-          <img className=" w-28 mr-20" src={adhventha} alt="client-logo" />
-          <img className=" w-28 mr-20" src={amrithnoni} alt="client-logo" />
-          <img className=" w-28 mr-20" src={applo} alt="client-logo" />
-          <img className=" w-28 mr-20" src={featherlite} alt="client-logo" />
-          <img className=" w-28 mr-20" src={garuda} alt="client-logo" />
-          <img className=" w-28 mr-20" src={narayana} alt="client-logo" />
-          <img className=" w-28 mr-20" src={nethra} alt="client-logo" />
-          <img className=" w-28 mr-20" src={npsnorth} alt="client-logo" />
-          <img className=" w-28 mr-20" src={raymond} alt="client-logo" />
-          <img className=" w-28 mr-20" src={neuberg} alt="client-logo" />
-          <img className=" w-28 mr-20" src={transcend} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={adhventha} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={amrithnoni} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={applo} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={featherlite} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={garuda} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={narayana} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={nethra} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={npsnorth} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={raymond} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={neuberg} alt="client-logo" />
+          <img className=" w-28 mr-10 lg:mr-20" src={transcend} alt="client-logo" />
         </Marquee>
       </div>
     </div>
