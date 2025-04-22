@@ -10,6 +10,7 @@ import AccordionComponent from "./Accordion.jsx";
 import Contact from "./Contact.jsx";
 
 import useScrollPositionRestoration from "../hook/useScrollPositionRestoration.jsx";
+import Banner from "./Banner.jsx";
 
 
 
@@ -28,6 +29,9 @@ function Home() {
       </div>
       <div>
         <Service />
+      </div>
+      <div>
+        <Banner />
       </div>
       <div>
         <Portfolio />

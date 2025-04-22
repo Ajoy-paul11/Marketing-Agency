@@ -34,76 +34,75 @@ function Genre() {
       </h2>
       <div className=" font-secondary text-primary grid grid-cols-3 gap-8 lg:grid-cols-5 justify-items-center xl:gap-y-8 p-4">
         <Link
-          // to="/digital"
-          to="/digital-service"
+          
+          // to="/digital-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer " // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/digital.gif?updatedAt=1743142614602"} alt="digtal"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Digital</p>
         </Link>
         <Link
-          // to="/magazine"
-          to="/magazine-service"
+          
+          // to="/magazine-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer " // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/magazine.gif?updatedAt=1743142610426"} alt="magazine"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Magazine</p>
         </Link>
         <Link
-          // to="/newspaper"
-          to="/newspaper-service"
+          
+          // to="/newspaper-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/news.gif?updatedAt=1743142614027"} alt="newspaper"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Newspaper</p>
         </Link>
         <Link
-          // to="/radio"
-          to="/radio-service"
+          
+          // to="/radio-service"
           className="flex flex-col items-center  w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/radio.gif?updatedAt=1743142616454"} alt="radio"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Radio</p>
         </Link>
         <Link
-          // to="/tv"
-          to="/television-service"
+
+          // to="/television-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/television.gif?updatedAt=1743142611034"} alt="tv"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Television</p>
         </Link>
         <Link
-          // to="/tv"
-          to="/outdoor-service"
+          // to="/outdoor-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer"  // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/outdoor.gif?updatedAt=1743144234201"} alt="outdoor"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Outdoor</p>
         </Link>
         <Link
-          to="/nontraditional-service"
+          // to="/nontraditional-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/non-traditional.gif?updatedAt=1743142615198"} alt="radio"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Non Tradional</p>
         </Link>
         <Link
-          to="/cinema-service"
+          // to="/cinema-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer "  // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/film-shooting.gif?updatedAt=1743142611031"} alt="magazine"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Cinema</p>
         </Link>
         <Link
-          to="/influencer-service"
+          // to="/influencer-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer" // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/influencer.gif?updatedAt=1743142611409"} alt="newspaper"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />
           <p className=" text-xs xl:text-lg">Influencer</p>
         </Link>
         <Link
-          to="/airline-service"
+          // to="/airline-service"
           className="flex flex-col items-center w-[150px] xl:py-8 rounded-md genre-box hover:cursor-pointer " // px-10
         >
           <img src={"https://ik.imagekit.io/ajoy/GIF/airplane.gif?updatedAt=1743142610473"} alt="digtal"  className="genre-svg mix-blend-multiply w-8 xl:w-14" />

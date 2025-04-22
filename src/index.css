@@ -33,7 +33,7 @@
   color: var(--text-color);
 }
 
-.cta-text{
+.cta-text {
   color: var(--cta-text-color);
 }
 
@@ -59,7 +59,8 @@
   transform: rotateY(180deg);
 }
 
-.card-front, .card-back {
+.card-front,
+.card-back {
   backface-visibility: hidden;
 }
 
@@ -67,6 +68,12 @@
   transform: rotateY(180deg);
 }
 
+.border-circle {
+  box-shadow: 0 0 0 10px hsla(0, 0%, 100%, 0.3),
+    0 0 0 60px hsla(0, 0%, 100%, 0.2), 0 0 0 100px hsla(0, 0%, 100%, 0.1);
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 100%, .5);
+}
 /* .link {
   display: none;
 }
