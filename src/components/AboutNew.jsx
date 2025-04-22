@@ -5,11 +5,6 @@ function AboutNew() {
   return (
     <div id="about">
       <div className=" w-full">
-        <h2
-          className=" text-3xl font-semibold text-primary font-secondary text-center mb-2"
-        >
-          About
-        </h2>
         {/* Previous Code for About Section */}
         
         <div className=" bg-gradient-to-b from-blue-400 to-blue-700">

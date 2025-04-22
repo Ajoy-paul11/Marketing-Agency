@@ -15,7 +15,7 @@ import { DefaultGallery } from "./GalleryComponent";
 import { useNavigate } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import  useScrollPositionRestoration  from "../hook/useScrollPositionRestoration.jsx";
+import useScrollPositionRestoration from "../hook/useScrollPositionRestoration.jsx";
 
 function Portfolio() {
   const { handleNavigate } = useScrollPositionRestoration();
@@ -31,16 +31,16 @@ function Portfolio() {
     <div id="portfolio" className="w-full max-h-fit">
       <div className="py-8 my-4">
         <h2
-          data-aos="fade-down"
-          className="text-3xl font-semibold text-primary font-secondary text-center mb-4"
+          
+          className=" text-2xl xl:text-3xl text-primary font-secondary text-center mb-2"
         >
           Portfolio
         </h2>
-        <div data-aos="fade-down" className="grid grid-cols-3 gap-8 xl:grid-cols-4 xl:gap-x-8 justify-items-center p-3 xl:p-8 overflow-hidden xl:container xl:mx-auto ">
+        <div className="grid grid-cols-3 gap-8 lg:grid-cols-6 xl:gap-x-8 justify-items-center p-3 xl:p-8 overflow-hidden xl:container xl:mx-auto ">
           {/* <div  onClick={() => handleNavigate("/portfolio-adhventha")}> */}
           <div>
             <DefaultGallery img={adhventha} />
-          </div>
+            </div>
           {/* <div  onClick={() => handleNavigate("/portfolio-amruth")}> */}
           <div>
             <DefaultGallery img={amrithnoni} />

@@ -25,12 +25,12 @@ function Genre() {
   });
 
   return (
-    <div id="genre" className="container max-h-fit" data-aos="fade-down">
+    <div id="genre" className="container mx-auto max-h-fit py-8">
       <h2
-        data-aos="fade-down"
-        className="text-2xl xl:text-3xl font-semibold text-primary my-6 font-secondary px-8 text-center"
+        
+        className="text-xl xl:text-3xl text-primary my-6 font-secondary px-8 "
       >
-        Browse media plans categorized by stops
+        Browse Media by Genre
       </h2>
       <div className=" font-secondary text-primary grid grid-cols-3 gap-8 lg:grid-cols-5 justify-items-center xl:gap-y-8 p-4">
         <Link

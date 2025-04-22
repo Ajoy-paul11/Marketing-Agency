@@ -35,7 +35,7 @@ function Client() {
         // data-aos="zoom-in"
         className=" py-4  max-w-screen-2xl mx-auto my-4"
       >
-        <h2 className=" text-3xl font-semibold text-primary font-secondary text-center mb-6 py-4">
+        <h2 className=" text-2xl xl:text-3xl text-primary font-secondary text-center mb-4 py-4">
           Our Clients
         </h2>
         <Marquee pauseOnHover={true} className="flex items-center">

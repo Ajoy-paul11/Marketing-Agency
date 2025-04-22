@@ -20,7 +20,7 @@ function Home() {
   return (
     <div className=" w-full">
       <HeroSection />
-      <div className=" container mx-auto">
+      <div className="">
         <Genre />
       </div>
       <div className=" w-full my-8">
