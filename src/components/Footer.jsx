@@ -60,7 +60,7 @@ function Footer() {
             <ul className="space-y-1">
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/digital-service"
+                  // to="/digital-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Digital
@@ -68,7 +68,7 @@ function Footer() {
               </Typography>
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/magazine-service"
+                  // to="/magazine-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Magazine
@@ -76,7 +76,7 @@ function Footer() {
               </Typography>
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/radio-service"
+                  // to="/radio-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Radio
@@ -84,7 +84,7 @@ function Footer() {
               </Typography>
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/newspaper-service"
+                  // to="/newspaper-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Newspaper
@@ -102,7 +102,7 @@ function Footer() {
             <ul className="space-y-1">
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/outdoor-service"
+                  // to="/outdoor-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Outdoor
@@ -110,7 +110,7 @@ function Footer() {
               </Typography>
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/airline-service"
+                  // to="/airline-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Airline
@@ -126,7 +126,7 @@ function Footer() {
               </Typography> */}
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/nontraditional-service"
+                  // to="/nontraditional-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Non-Traditional
@@ -144,7 +144,7 @@ function Footer() {
             <ul className="space-y-1">
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/cinema-service"
+                  // to="/cinema-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Cinema
@@ -152,7 +152,7 @@ function Footer() {
               </Typography>
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/influencer-service"
+                  // to="/influencer-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Influencer
@@ -160,7 +160,7 @@ function Footer() {
               </Typography>
               <Typography as="li" color="blue-gray" className="font-normal">
                 <Link
-                  to="/television-service"
+                  // to="/television-service"
                   className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                 >
                   Television

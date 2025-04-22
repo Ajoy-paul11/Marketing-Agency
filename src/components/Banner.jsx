@@ -68,7 +68,7 @@ function Banner() {
           {/* Image Container */}
           <div className="w-2/5 flex justify-center relative">
             {/* Background circle - hidden on mobile, visible on sm and up */}
-            <div className=' absolute top-0 md:top-[-68px] lg:top-0 xl:top-[-10px] left-[-20%] md:left-[-3%] lg:left-[12%] xl:left-[20%]'>
+            <div className=' absolute top-0 md:top-[-68px] lg:top-0 xl:top-[-10px] left-[-20%] md:left-[-3%] lg:left-[12%] xl:left-[20%] 2xl:left-[25%]'>
 //                 <div className=' w-[1px] h-[1px] m-[3em] p-[100%] border-circle'></div>
 //           </div>
             <img
